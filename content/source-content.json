@@ -1,0 +1,2607 @@
+[
+  {
+    "url": "https://www.academiegastronomiemaroc.ma/",
+    "title": "Académie Gastronomie Maroc",
+    "description": "L'Académie Marocaine de Gastronomie est une association à but non lucratif qui a pour mission de promouvoir la gastronomie marocaine.",
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Promouvoir l'Excellence"
+      },
+      {
+        "level": "h2",
+        "text": "Fondation Académie Marocaine de la Gastronomie"
+      },
+      {
+        "level": "h3",
+        "text": "Préserver"
+      },
+      {
+        "level": "h3",
+        "text": "Promouvoir"
+      },
+      {
+        "level": "h3",
+        "text": "Innover"
+      },
+      {
+        "level": "h2",
+        "text": "Nos Activités"
+      },
+      {
+        "level": "h3",
+        "text": "Compétition Culinaire"
+      },
+      {
+        "level": "h3",
+        "text": "L'Assemblée Générale"
+      },
+      {
+        "level": "h3",
+        "text": "Nouvel An Amazigh"
+      },
+      {
+        "level": "h2",
+        "text": "Actualités"
+      },
+      {
+        "level": "h3",
+        "text": "Grand dîner annuel de l'Académie Marocaine de Gastronomie"
+      },
+      {
+        "level": "h3",
+        "text": "Conférence sur l'avenir de la gastronomie marocaine"
+      },
+      {
+        "level": "h3",
+        "text": "Lancement du programme de documentation des recettes traditionnelles"
+      },
+      {
+        "level": "h3",
+        "text": "À la découverte du meilleur tajine lors d'un concours organisé à Tanger"
+      },
+      {
+        "level": "h2",
+        "text": "Nos Partenaires"
+      },
+      {
+        "level": "h2",
+        "text": "Contactez-nous"
+      },
+      {
+        "level": "h3",
+        "text": "Envoyez-nous un message"
+      },
+      {
+        "level": "h3",
+        "text": "Coordonnées"
+      },
+      {
+        "level": "h3",
+        "text": "Horaires d'ouverture"
+      },
+      {
+        "level": "h3",
+        "text": "Liens Rapides"
+      },
+      {
+        "level": "h3",
+        "text": "Contact"
+      },
+      {
+        "level": "h3",
+        "text": "Newsletter"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Moroccan Culinary Academy Emblem.png",
+        "alt": "Académie Gastronomie Maroc",
+        "width": "200",
+        "height": "60"
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Moroccan-Feast.png",
+        "alt": "Promouvoir l'Excellence",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/moroccan-feast.png",
+        "alt": "L'Art Culinaire Marocain",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/tagine-trio.png",
+        "alt": "Préserver Notre Patrimoine",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Team.jpeg",
+        "alt": "Académie Marocaine de Gastronomie",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/challenge.jpg",
+        "alt": "Compétition Culinaire",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/AssembleGeneral.jpg",
+        "alt": "L'Assemblée Générale",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/AmazighYear.png",
+        "alt": "Nouvel An Amazigh",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Moroccan-Food.jpg",
+        "alt": "Grand dîner annuel de l'Académie Marocaine de Gastronomie",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Conference.jpg",
+        "alt": "Conférence sur l'avenir de la gastronomie marocaine",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Couverture.jpeg",
+        "alt": "Lancement du programme de documentation des recettes traditionnelles",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/meilleurTajine.jpg",
+        "alt": "À la découverte du meilleur tajine lors d'un concours organisé à Tanger",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Part!.jpeg",
+        "alt": "",
+        "width": "150",
+        "height": "80"
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Part2.jpeg",
+        "alt": "",
+        "width": "150",
+        "height": "80"
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/part3.jpeg",
+        "alt": "",
+        "width": "150",
+        "height": "80"
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Part3.png",
+        "alt": "",
+        "width": "150",
+        "height": "80"
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Part5.jpeg",
+        "alt": "",
+        "width": "150",
+        "height": "80"
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Part6.jpeg",
+        "alt": "",
+        "width": "150",
+        "height": "80"
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Moroccan Culinary Academy Emblem.png",
+        "alt": "Académie Gastronomie Maroc",
+        "width": "200",
+        "height": "60"
+      }
+    ],
+    "lines": [
+      "Promouvoir l'Excellence",
+      "Célébrer la richesse de notre gastronomie",
+      "Nos événements",
+      "Fondation Académie Marocaine de la Gastronomie",
+      "Fondée en 2022, l'Académie Marocaine de Gastronomie est une association à but non lucratif qui a pour mission de promouvoir la gastronomie marocaine, de préserver son patrimoine culinaire et de contribuer à son rayonnement international.",
+      "Composée de personnalités passionnées par l'art culinaire marocain, l'Académie œuvre à la valorisation des produits du terroir, à la transmission des savoirs et à la reconnaissance de l'excellence gastronomique marocaine.",
+      "En savoir plus",
+      "Depuis 2022",
+      "Préserver",
+      "Sauvegarder le patrimoine culinaire marocain et ses traditions ancestrales.",
+      "Promouvoir",
+      "Faire rayonner la gastronomie marocaine à l'échelle nationale et internationale.",
+      "Innover",
+      "Encourager la créativité et l'innovation dans la cuisine marocaine contemporaine.",
+      "Nos Activités",
+      "Découvrez les différentes activités organisées par l'Académie Marocaine de Gastronomie pour promouvoir et valoriser notre patrimoine culinaire.",
+      "Compétition Culinaire",
+      "Organisation de compétitions culinaires palpitantes où des chefs passionnés s'affrontent pour créer des plats exceptionnels, célébrant l'art de la cuisine marocaine dans une ambiance dynamique et conviviale.",
+      "L'Assemblée Générale",
+      "Organisation de l'Assemblée Générale annuelle, un événement clé réunissant les membres pour faire le point sur les actions réalisées, discuter des projets à venir et prendre des décisions stratégiques pour l'avenir de l'organisation.",
+      "Nouvel An Amazigh",
+      "Célébration du Nouvel An Amazigh, une occasion de rendre hommage à la riche culture berbère à travers des traditions festives, des mets typiques et des activités culturelles, marquant le début d'une nouvelle année selon le calendrier Amazigh.",
+      "Toutes nos activités",
+      "Actualités",
+      "Restez informés des dernières actualités et événements de l'Académie Marocaine de Gastronomie.",
+      "Toutes les actualités",
+      "22 janvier 2023",
+      "Grand dîner annuel de l'Académie Marocaine de Gastronomie",
+      "L'Académie a organisé son dîner au Palais Zahia, à l'occasion du nouvel an Amazigh.",
+      "18 septembre 2023",
+      "Conférence sur l'avenir de la gastronomie marocaine",
+      "Une journée d'échanges et de débats sur les enjeux et perspectives de la gastronomie marocaine contemporaine.",
+      "15 mars 2023",
+      "Lancement du programme de documentation des recettes traditionnelles",
+      "L'Académie initie un vaste projet de collecte et de documentation des recettes traditionnelles en voie de disparition.",
+      "15 mars 2023",
+      "À la découverte du meilleur tajine lors d'un concours organisé à Tanger",
+      "A la découverte du meilleur tajine lors d'un concours organisé à Tanger : découverte de talents et enrichissement de la culture et des traditions culinaires marocaines.",
+      "Nos Partenaires",
+      "L'Académie Marocaine de Gastronomie collabore avec des institutions et organisations prestigieuses pour promouvoir la gastronomie marocaine.",
+      "Contactez-nous",
+      "Pour toute information complémentaire ou demande de collaboration, n'hésitez pas à nous contacter.",
+      "Envoyez-nous un message",
+      "Nom complet",
+      "Email",
+      "Sujet",
+      "Sélectionnez un sujet",
+      "Demande d'information",
+      "Proposition de partenariat",
+      "Organisation d'événement",
+      "Contact presse",
+      "Autre",
+      "Message",
+      "Envoyer le message",
+      "Coordonnées",
+      "Adresse",
+      "Tanger, Maroc",
+      "Téléphone",
+      "0661741576",
+      "Email",
+      "chakor52@gmail.com",
+      "Horaires d'ouverture",
+      "Lundi - Vendredi:",
+      "9h00 - 17h00",
+      "Samedi:",
+      "9h00 - 13h00",
+      "Dimanche:",
+      "Fermé"
+    ]
+  },
+  {
+    "url": "https://www.magazinemarocaindegastronomie.com/",
+    "title": "Gastronomy Site",
+    "description": "",
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Magazine Marocain de la Gastronomie"
+      },
+      {
+        "level": "h2",
+        "text": "Découvrez nos plats marocains"
+      },
+      {
+        "level": "h1",
+        "text": "Tajine de boulettes de kefta (viande hachée)"
+      },
+      {
+        "level": "h1",
+        "text": "Pastilla aux fruits de mer : une élégance culinaire marocaine"
+      },
+      {
+        "level": "h1",
+        "text": "Tajine de poulet"
+      },
+      {
+        "level": "h1",
+        "text": "L'histoire et l'authenticité"
+      },
+      {
+        "level": "h1",
+        "text": "L'Anthropologie de la gastronomie"
+      },
+      {
+        "level": "h1",
+        "text": "L'inventaire des plats"
+      },
+      {
+        "level": "h1",
+        "text": "La science de l'alimentation"
+      },
+      {
+        "level": "h1",
+        "text": "Tourisme et gastronomie"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/logo.png",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/qwe.jpg",
+        "alt": "Category 1",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/DSC06024.jpg",
+        "alt": "Category 2",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/featured-5.jpg",
+        "alt": "Category 3",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/DSC05932.jpg",
+        "alt": "Category 3",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/ho.jpg",
+        "alt": "Category 3",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/DSC06023.jpg",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/passt.jpg",
+        "alt": "The profile view of three majestic brown horses",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/DSC05982.jpg",
+        "alt": "The profile view of three majestic brown horses",
+        "width": "",
+        "height": ""
+      }
+    ],
+    "lines": [
+      "Magazine Marocain de la Gastronomie",
+      "Explorez des recettes, des traditions culinaires et bien plus encore",
+      "Bureau exécutif",
+      "Découvrez nos plats marocains",
+      "Tajine de boulettes de kefta (viande hachée)",
+      "January 24, 2024",
+      "by Palais Zahia",
+      "Les boulettes de viande hachée sont généralement cuites dans une sauce tomate parfumée aux épices comme le cumin, le paprika, le curcuma, et le gingembre. On peut également y ajouter des herbes fraîches comme le persil et la coriandre. Au centre, il semble y avoir un œuf poché ou cassé directement dans le tajine pour apporter une touche supplémentaire. Les rondelles de piment ou de poivron sur le dessus ajoutent une belle touche de décoration et de saveur..",
+      "Pastilla aux fruits de mer : une élégance culinaire marocaine",
+      "feburary 26, 2024",
+      "by Palais Zahia",
+      "Pastilla aux fruits de mer est un plat emblématique de la gastronomie marocaine, souvent réservé aux grandes occasions. Composée de feuilles croustillantes farcies d'un mélange raffiné de fruits de mer et de vermicelles parfumés aux épices, elle est décorée avec des crevettes pour une présentation majestueuse. Une véritable harmonie entre douceur et saveurs salées.",
+      "Tajine de poulet",
+      "aout 27, 2024",
+      "by Palais Zahia",
+      "Ce Tajine savoureux combine du poulet tendre, mijoté dans une sauce parfumée au citron confit, aux olives vertes, et aux épices typiques comme le gingembre et le curcuma. Garni de tranches de citron frais et de coriandre, ce plat offre une explosion de saveurs acidulées et épicées, parfait pour une expérience culinaire authentique.",
+      "Decembre 25, 2024",
+      "L'histoire et l'authenticité",
+      "Decembre 25, 2024",
+      "L'Anthropologie de la gastronomie",
+      "Decembre 25, 2024",
+      "L'inventaire des plats",
+      "Decembre 25, 2024",
+      "La science de l'alimentation",
+      "Decembre 25, 2024",
+      "Tourisme et gastronomie"
+    ]
+  },
+  {
+    "url": "https://www.academiegastronomiemaroc.ma/academie/qui-sommes-nous",
+    "title": "Académie Gastronomie Maroc",
+    "description": "L'Académie Marocaine de Gastronomie est une association à but non lucratif qui a pour mission de promouvoir la gastronomie marocaine.",
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Qui sommes-nous"
+      },
+      {
+        "level": "h2",
+        "text": "Notre Mission"
+      },
+      {
+        "level": "h2",
+        "text": "Nos Objectifs"
+      },
+      {
+        "level": "h2",
+        "text": "Notre Vision"
+      },
+      {
+        "level": "h2",
+        "text": "Notre Structure"
+      },
+      {
+        "level": "h3",
+        "text": "Liens Rapides"
+      },
+      {
+        "level": "h3",
+        "text": "Contact"
+      },
+      {
+        "level": "h3",
+        "text": "Newsletter"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Moroccan Culinary Academy Emblem.png",
+        "alt": "Académie Gastronomie Maroc",
+        "width": "200",
+        "height": "60"
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/QuiSommesNous.jpg",
+        "alt": "Qui sommes-nous",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/QuiSommes2.jpg",
+        "alt": "Membres de l'Académie",
+        "width": "800",
+        "height": "400"
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/moroccan-feast.png",
+        "alt": "Cuisine marocaine traditionnelle",
+        "width": "800",
+        "height": "400"
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Moroccan Culinary Academy Emblem.png",
+        "alt": "Académie Gastronomie Maroc",
+        "width": "200",
+        "height": "60"
+      }
+    ],
+    "lines": [
+      "Qui sommes-nous",
+      "Notre histoire",
+      "Activités",
+      "Actualités",
+      "Galerie",
+      "L'Académie",
+      "Activités",
+      "Galerie",
+      "Qui sommes-nous",
+      "Découvrez l'Académie Marocaine de Gastronomie et sa mission",
+      "Notre Mission",
+      "La FAM est constituée conformément aux dispositions du Dahir n° 1-58-376 du 3 Joumada I 1378 (15 novembre 1958) relatif au droit d’association, tel que modifié et complété par le Dahir portant loi n° 1-73-283 du 6 Rebia I 1393 (10 avril 1973). Elle bénéficie de la personnalité morale et de la pleine capacité juridique lui permettant de réaliser les objectifs pour lesquels elle a été créée.",
+      "Nous œuvrons à la reconnaissance de l'excellence gastronomique marocaine et à la transmission des savoirs et techniques culinaires traditionnels aux nouvelles générations.",
+      "Nos Objectifs",
+      "Préserver et valoriser le patrimoine culinaire marocain",
+      "Promouvoir la gastronomie marocaine à l'échelle nationale et internationale",
+      "Encourager la recherche et la documentation sur les traditions culinaires marocaines",
+      "Soutenir la formation et l'excellence dans les métiers de la gastronomie",
+      "Favoriser les échanges culturels autour de la gastronomie",
+      "Contribuer au développement du tourisme gastronomique au Maroc",
+      "Notre Vision",
+      "L'Académie Marocaine de Gastronomie aspire à faire de la gastronomie marocaine l'une des cuisines les plus reconnues et appréciées au monde. Nous croyons fermement que notre patrimoine culinaire, riche de ses influences berbères, arabes, andalouses, méditerranéennes et africaines, mérite d'être célébré et partagé avec le monde entier.",
+      "Nous envisageons un avenir où les techniques, les ingrédients et les traditions culinaires marocaines sont non seulement préservés, mais aussi réinterprétés de manière créative pour s'adapter aux goûts contemporains tout en respectant leur authenticité.",
+      "Notre Structure",
+      "L'Académie est dirigée par un conseil d'administration composé de personnalités reconnues dans le domaine de la gastronomie, de la culture et des arts culinaires. Nos membres comprennent des chefs renommés, des historiens de la gastronomie, des critiques culinaires, des producteurs de produits du terroir et des passionnés de la cuisine marocaine.",
+      "Nous travaillons en étroite collaboration avec des institutions nationales et internationales pour mener à bien notre mission et atteindre nos objectifs."
+    ]
+  },
+  {
+    "url": "https://www.academiegastronomiemaroc.ma/academie/notre-histoire",
+    "title": "Académie Gastronomie Maroc",
+    "description": "L'Académie Marocaine de Gastronomie est une association à but non lucratif qui a pour mission de promouvoir la gastronomie marocaine.",
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Notre Histoire"
+      },
+      {
+        "level": "h2",
+        "text": "Les Origines"
+      },
+      {
+        "level": "h2",
+        "text": "18 mars 2022"
+      },
+      {
+        "level": "h2",
+        "text": "2022–2023"
+      },
+      {
+        "level": "h2",
+        "text": "Objectifs et missions"
+      },
+      {
+        "level": "h2",
+        "text": "Projets en cours"
+      },
+      {
+        "level": "h3",
+        "text": "Liens Rapides"
+      },
+      {
+        "level": "h3",
+        "text": "Contact"
+      },
+      {
+        "level": "h3",
+        "text": "Newsletter"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Moroccan Culinary Academy Emblem.png",
+        "alt": "Académie Gastronomie Maroc",
+        "width": "200",
+        "height": "60"
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/rustic-moroccan-cooking.png",
+        "alt": "Notre Histoire",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/signature.jpeg",
+        "alt": "Fondateurs de l'Académie",
+        "width": "800",
+        "height": "400"
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/C5.jpeg",
+        "alt": "Publications de l'Académie",
+        "width": "800",
+        "height": "400"
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Photos signature 2.jpeg",
+        "alt": "Événements modernes de l'Académie",
+        "width": "800",
+        "height": "400"
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Moroccan Culinary Academy Emblem.png",
+        "alt": "Académie Gastronomie Maroc",
+        "width": "200",
+        "height": "60"
+      }
+    ],
+    "lines": [
+      "Notre Histoire",
+      "L'évolution de l'Académie Marocaine de Gastronomie depuis sa création",
+      "Les Origines",
+      "La Fondation de l'Académie Marocaine de Gastronomie (FAMG) a été officiellement fondée le 18 mars 2022 au Palais Zahia, situé dans la médina de Tanger. Cette initiative a été portée par Dr Salah Chakor, expert en gestion hôtelière et tourisme, qui en assure la présidence.",
+      "18 mars 2022",
+      "Lancement officiel de la FAMG à Tanger.",
+      "Dès sa création, l'Académie s'est fixé pour mission de documenter, préserver et promouvoir la richesse culinaire marocaine, tant au niveau national qu'international.",
+      "2022–2023",
+      "Début des travaux pour la création d’un catalogue national et d’un dictionnaire de la gastronomie marocaine, inspiré du Larousse gastronomique.",
+      "En 2024, Lancement de projets de traduction de terminologies culinaires et de publications de lexiques multilingues.",
+      "Objectifs et missions",
+      "Préserver et valoriser le patrimoine culinaire marocain dans toute sa diversité (amazigh, juif, arabo-musulman, andalou).",
+      "Créer une communauté gastronomique nationale, en vue d’une extension maghrébine.",
+      "Documenter et transmettre les recettes traditionnelles et les savoir-faire régionaux.",
+      "Projets en cours",
+      "La réalisation d’une encyclopédie culinaire dédiée à la cuisine marocaine",
+      "La traduction multilingue du vocabulaire gastronomique marocain.",
+      "La création d’une bibliothèque numérique regroupant des documents et ouvrages sur l’alimentation."
+    ]
+  },
+  {
+    "url": "https://www.academiegastronomiemaroc.ma/activites",
+    "title": "Académie Gastronomie Maroc",
+    "description": "L'Académie Marocaine de Gastronomie est une association à but non lucratif qui a pour mission de promouvoir la gastronomie marocaine.",
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Nos Activités"
+      },
+      {
+        "level": "h2",
+        "text": "Dîners Gastronomiques"
+      },
+      {
+        "level": "h2",
+        "text": "Conférences & Débats"
+      },
+      {
+        "level": "h2",
+        "text": "Publications"
+      },
+      {
+        "level": "h2",
+        "text": "Concours Culinaires"
+      },
+      {
+        "level": "h2",
+        "text": "Partenariats Internationaux"
+      },
+      {
+        "level": "h2",
+        "text": "Formation & Transmission"
+      },
+      {
+        "level": "h3",
+        "text": "Liens Rapides"
+      },
+      {
+        "level": "h3",
+        "text": "Contact"
+      },
+      {
+        "level": "h3",
+        "text": "Newsletter"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Moroccan Culinary Academy Emblem.png",
+        "alt": "Académie Gastronomie Maroc",
+        "width": "200",
+        "height": "60"
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Banner.png",
+        "alt": "Activités de l'Académie Marocaine de Gastronomie",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/DinnerMarocaine.png",
+        "alt": "Dîners Gastronomiques",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Conference.jpg",
+        "alt": "Conférences & Débats",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Publication.jpg",
+        "alt": "Publications",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Cooking.jpg",
+        "alt": "Concours Culinaires",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Patronariat.jpg",
+        "alt": "Partenariats Internationaux",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Formation.jpg",
+        "alt": "Formation & Transmission",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Moroccan Culinary Academy Emblem.png",
+        "alt": "Académie Gastronomie Maroc",
+        "width": "200",
+        "height": "60"
+      }
+    ],
+    "lines": [
+      "Nos Activités",
+      "Découvrez les différentes activités organisées par l'Académie Marocaine de Gastronomie",
+      "Dîners Gastronomiques",
+      "L'Académie organise régulièrement des dîners d'exception mettant en valeur la richesse de la gastronomie marocaine. Ces événements réunissent membres, invités et personnalités autour de menus élaborés par des chefs renommés.",
+      "Conférences & Débats",
+      "Des rencontres et échanges sont organisés autour de thématiques liées à la gastronomie et au patrimoine culinaire marocain. Ces conférences permettent d'approfondir la connaissance et la réflexion sur notre culture gastronomique.",
+      "Publications",
+      "L'Académie édite des ouvrages et guides valorisant la cuisine marocaine et ses traditions. Ces publications contribuent à la documentation et à la transmission des savoirs culinaires marocains.",
+      "Concours Culinaires",
+      "Pour encourager l'excellence et la créativité, l'Académie organise des concours culinaires destinés aux professionnels et aux jeunes talents. Ces compétitions mettent en valeur le savoir-faire et l'innovation dans la cuisine marocaine.",
+      "Partenariats Internationaux",
+      "L'Académie développe des collaborations avec des institutions internationales pour promouvoir la gastronomie marocaine à l'étranger et favoriser les échanges culturels culinaires.",
+      "Formation & Transmission",
+      "Des ateliers et masterclasses sont proposés pour transmettre les techniques et savoirs de la cuisine marocaine traditionnelle, contribuant ainsi à la préservation de ce patrimoine immatériel."
+    ]
+  },
+  {
+    "url": "https://www.academiegastronomiemaroc.ma/actualites",
+    "title": "Académie Gastronomie Maroc",
+    "description": "L'Académie Marocaine de Gastronomie est une association à but non lucratif qui a pour mission de promouvoir la gastronomie marocaine.",
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Actualités"
+      },
+      {
+        "level": "h2",
+        "text": "Grand dîner annuel de l'Académie Marocaine de Gastronomie"
+      },
+      {
+        "level": "h2",
+        "text": "Conférence sur l'avenir de la gastronomie marocaine"
+      },
+      {
+        "level": "h2",
+        "text": "Lancement du programme de documentation des recettes traditionnelles"
+      },
+      {
+        "level": "h3",
+        "text": "Rechercher"
+      },
+      {
+        "level": "h3",
+        "text": "Catégories"
+      },
+      {
+        "level": "h3",
+        "text": "Articles Récents"
+      },
+      {
+        "level": "h3",
+        "text": "Newsletter"
+      },
+      {
+        "level": "h3",
+        "text": "Liens Rapides"
+      },
+      {
+        "level": "h3",
+        "text": "Contact"
+      },
+      {
+        "level": "h3",
+        "text": "Newsletter"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Moroccan Culinary Academy Emblem.png",
+        "alt": "Académie Gastronomie Maroc",
+        "width": "200",
+        "height": "60"
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Banner.png",
+        "alt": "Actualités de l'Académie",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Restaurant palais zahia_96-1.JPG",
+        "alt": "Grand dîner annuel de l'Académie Marocaine de Gastronomie",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Conference.jpg",
+        "alt": "Conférence sur l'avenir de la gastronomie marocaine",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Couverture.jpeg",
+        "alt": "Lancement du programme de documentation des recettes traditionnelles",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Restaurant palais zahia_96-1.JPG",
+        "alt": "Grand dîner annuel de l'Académie Marocaine de Gastronomie",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Conference.jpg",
+        "alt": "Conférence sur l'avenir de la gastronomie marocaine",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Couverture.jpeg",
+        "alt": "Lancement du programme de documentation des recettes traditionnelles",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Moroccan Culinary Academy Emblem.png",
+        "alt": "Académie Gastronomie Maroc",
+        "width": "200",
+        "height": "60"
+      }
+    ],
+    "lines": [
+      "Actualités",
+      "Galerie",
+      "L'Académie",
+      "Activités",
+      "Galerie",
+      "Actualités",
+      "Restez informés des dernières actualités et événements de l'Académie Marocaine de Gastronomie",
+      "Événements",
+      "22 janvier 2023",
+      "Grand dîner annuel de l'Académie Marocaine de Gastronomie",
+      "L'Académie a organisé son dîner au Palais Zahia, à l'occasion du nouvel an Amazigh.",
+      "Événements",
+      "18 septembre 2023",
+      "Conférence sur l'avenir de la gastronomie marocaine",
+      "Une journée d'échanges et de débats sur les enjeux et perspectives de la gastronomie marocaine contemporaine.",
+      "Projets",
+      "15 mars 2023",
+      "Lancement du programme de documentation des recettes traditionnelles",
+      "L'Académie initie un vaste projet de collecte et de documentation des recettes traditionnelles en voie de disparition.",
+      "Précédent",
+      "1",
+      "2",
+      "3",
+      "Suivant",
+      "Rechercher",
+      "Événements",
+      "12",
+      "Publications",
+      "8",
+      "Projets",
+      "5",
+      "Partenariats",
+      "3",
+      "Actualités",
+      "7",
+      "Grand dîner annuel de l'Académie Marocaine de Gastronomie",
+      "22 janvier 2023",
+      "Conférence sur l'avenir de la gastronomie marocaine",
+      "18 septembre 2023",
+      "Lancement du programme de documentation des recettes traditionnelles",
+      "15 mars 2023",
+      "Inscrivez-vous pour recevoir nos actualités et ne manquer aucun événement."
+    ]
+  },
+  {
+    "url": "https://www.academiegastronomiemaroc.ma/mot-du-president",
+    "title": "Académie Gastronomie Maroc",
+    "description": "L'Académie Marocaine de Gastronomie est une association à but non lucratif qui a pour mission de promouvoir la gastronomie marocaine.",
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Mot du Président"
+      },
+      {
+        "level": "h3",
+        "text": "Dr. Salah Chakor"
+      },
+      {
+        "level": "h2",
+        "text": "Message du Président"
+      },
+      {
+        "level": "h3",
+        "text": "Liens Rapides"
+      },
+      {
+        "level": "h3",
+        "text": "Contact"
+      },
+      {
+        "level": "h3",
+        "text": "Newsletter"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Moroccan Culinary Academy Emblem.png",
+        "alt": "Académie Gastronomie Maroc",
+        "width": "200",
+        "height": "60"
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Banner.png",
+        "alt": "Académie Marocaine de la Gastronomie",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://i.ibb.co/qYdS63vq/Whats-App-Image-2025-04-19-at-20-54-27.jpg",
+        "alt": "Dr. Salah Chakor",
+        "width": "600",
+        "height": "800"
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Moroccan Culinary Academy Emblem.png",
+        "alt": "Académie Gastronomie Maroc",
+        "width": "200",
+        "height": "60"
+      }
+    ],
+    "lines": [
+      "Galerie",
+      "L'Académie",
+      "Activités",
+      "Galerie",
+      "Dr. Salah Chakor, Président de la Fondation Académie Marocaine de la Gastronomie",
+      "Dr. Salah Chakor",
+      "Président Fondateur",
+      "Fondation Académie Marocaine de la Gastronomie",
+      "Message du Président",
+      "Si le peintre cherche à plaire au public par la présentation de beaux tableaux parlants et attirants, le cuisinier, par ses préparations culinaires veut satisfaire la curiosité des fins gourmets au niveau de l'olfactif, l'odorat, le gustatif et nutritionnel. Une bonne cuisine faite avec doigté et avec goût est le moyen efficace pour relater la civilisation et les techniques des gens du pays et de la région dont elle est originaire.",
+      "Chaque région offre une variété de mets, selon les traditions, la culture, selon la civilisation de ses habitants et selon sa richesse en produits agricole, élevage, pêche…..etc. D'où le Royaume du Maroc est l'une des régions de la méditerranée qui se distinguent par leurs cuisines diététiques très riche et variées uniques au monde.",
+      "Ces variétés ont également le rapport avec ce qui est disponible dans cette région comme produits alimentaires (légumes, fruits, viandes, …..etc.), c'est pourquoi la cuisine marocaine est très riche dans des régions de haute agriculture telles que le Tafilalet (Ancienne Sijilmassa), Meknès, Fès, Marrakech, Doukkala, Haouz, le Gharb..Etc.",
+      "Et étant donné que la nourriture est un des champs de la cultures et du patrimoine d'une extrême importance, au même titre que la peinture, la musique, l'architecture, elle mérite alors bien d'être reconnue, mieux étudiée et développée. C'est ce qui va nous a amené à initier la création d'une Fondation de l'Académie Marocaine de la gastronomie en vue de créer un dialogue entre les chercheurs et les professionnels du secteur du tourisme et de l'hôtellerie pour donner à cet art culinaire la place qu'il lui revient. C'est ce qui est à même aussi de démontrer que la nourriture est un domaine qui nécessite une attention particulière en tant que science humaine.",
+      "Car la bonne nourriture est signe de convivialité, l'art culinaire est très significatif dans la vie humaine des individus, chose qui fait apparaître chez eux ce signe d'hospitalité. C'est grâce à cet aspect que la cuisine marocaine est festive et créatrice d'union entre les membres des familles, des voisins et des amis.",
+      "La cuisine est aussi ce moyen le plus efficace pour assurer une bonne santé aux adultes et la croissance des enfants, le développement de l'esprit, de l'intelligence. Ceci a tendance à confondre la médecine est la bonne cuisine qui favorise l''entretien et le maintien de l'organisme et sa réparation par un régime rigoureux.",
+      "Cuisiner n'est donc pas uniquement faire à manger, ou une fête, mais aussi et surtout répondre à un besoin déclenché par l'organisme en tant nature et prévenir des malaises qui risquent d'arriver, et assurer la croissance de l'organisme.",
+      "La cuisine marocaine, cette mosaïque d'art et de savoir-faire permet des réunions de famille à une même table, favorise des échanges et permet d'inculquer les règles de bonnes manières aux enfants. Le moment de la table est fort, c'est là où se traitent et se concluent les affaires se nouent des relations de tout genre. Aussi la gastronomie est un élément important pour faire la promotion du pays et créer la marque sa marque.",
+      "La cuisine permet également le développement de la diplomatie parallèle, C'est enfin l'occasion d'unir les individus, car comme on dit : la politique les sépare et la gastronomie les unit.",
+      "La Fondation Académie Marocaine de la Gastronomie, première en son genre au Royaume, aura le mérite le mérite d'être un laboratoire et un conservatoire pour la sauvegarde de ce patrimoine culinaire du terroir. Et en plus des plats du terroir, nous aurons à organiser des cours de cuisine pour ceux qui ont cette curiosité de découvrir la culture et la civilisation de l'autre..",
+      "DR. SALAH CHAKOR",
+      "Président Fondateur"
+    ]
+  },
+  {
+    "url": "https://www.academiegastronomiemaroc.ma/galerie",
+    "title": "Académie Gastronomie Maroc",
+    "description": "L'Académie Marocaine de Gastronomie est une association à but non lucratif qui a pour mission de promouvoir la gastronomie marocaine.",
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Galerie"
+      },
+      {
+        "level": "h3",
+        "text": "Dîner de Gala 2023"
+      },
+      {
+        "level": "h3",
+        "text": "Tagine Traditionnel"
+      },
+      {
+        "level": "h3",
+        "text": "Épices Marocaines"
+      },
+      {
+        "level": "h3",
+        "text": "Conférence Culinaire"
+      },
+      {
+        "level": "h3",
+        "text": "Couscous Royal"
+      },
+      {
+        "level": "h3",
+        "text": "Production d'Huile d'Argan"
+      },
+      {
+        "level": "h3",
+        "text": "Pâtisseries Marocaines"
+      },
+      {
+        "level": "h3",
+        "text": "Démonstration Culinaire"
+      },
+      {
+        "level": "h3",
+        "text": "Récolte du Safran"
+      },
+      {
+        "level": "h3",
+        "text": "Membres de l'Académie"
+      },
+      {
+        "level": "h3",
+        "text": "Pains Marocains"
+      },
+      {
+        "level": "h3",
+        "text": "Récolte d'Olives"
+      },
+      {
+        "level": "h3",
+        "text": "Remise de Prix"
+      },
+      {
+        "level": "h3",
+        "text": "Cours de Cuisine"
+      },
+      {
+        "level": "h3",
+        "text": "Variétés de Dattes"
+      },
+      {
+        "level": "h3",
+        "text": "Liens Rapides"
+      },
+      {
+        "level": "h3",
+        "text": "Contact"
+      },
+      {
+        "level": "h3",
+        "text": "Newsletter"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Moroccan Culinary Academy Emblem.png",
+        "alt": "Académie Gastronomie Maroc",
+        "width": "200",
+        "height": "60"
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Banner.png",
+        "alt": "Galerie de l'Académie",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/moroccan-feast.png",
+        "alt": "Dîner de Gala 2023",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/CookingClass.jpg",
+        "alt": "Tagine Traditionnel",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/CookingClass2.jpg",
+        "alt": "Épices Marocaines",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Formation.jpg",
+        "alt": "Conférence Culinaire",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Cooking.jpg",
+        "alt": "Couscous Royal",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/moroccan-feast.png",
+        "alt": "Production d'Huile d'Argan",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/C5.jpeg",
+        "alt": "Pâtisseries Marocaines",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/CookingClass3.jpg",
+        "alt": "Démonstration Culinaire",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/WhatsApp Image 2025-04-27 at 12.34.20.jpeg",
+        "alt": "Récolte du Safran",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/WhatsApp Image 2025-04-27 at 12.34.21 (1).jpeg",
+        "alt": "Membres de l'Académie",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/WhatsApp Image 2025-04-27 at 12.34.21.jpeg",
+        "alt": "Pains Marocains",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/WhatsApp Image 2025-04-27 at 12.34.22.jpeg",
+        "alt": "Récolte d'Olives",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/WhatsApp Image 2025-04-27 at 12.34.22 (1).jpeg",
+        "alt": "Remise de Prix",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/rustic-moroccan-cooking.png",
+        "alt": "Cours de Cuisine",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Publication.jpg",
+        "alt": "Variétés de Dattes",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Moroccan Culinary Academy Emblem.png",
+        "alt": "Académie Gastronomie Maroc",
+        "width": "200",
+        "height": "60"
+      }
+    ],
+    "lines": [
+      "Galerie",
+      "L'Académie",
+      "Activités",
+      "Galerie",
+      "Galerie",
+      "Découvrez en images les activités et le patrimoine culinaire marocain",
+      "Tous",
+      "Événements",
+      "Plats Traditionnels",
+      "Ingrédients",
+      "Personnalités",
+      "Dîner de Gala 2023",
+      "Événement",
+      "Tagine Traditionnel",
+      "Plat",
+      "Épices Marocaines",
+      "Ingrédient",
+      "Conférence Culinaire",
+      "Événement",
+      "Couscous Royal",
+      "Plat",
+      "Production d'Huile d'Argan",
+      "Ingrédient",
+      "Pâtisseries Marocaines",
+      "Plat",
+      "Démonstration Culinaire",
+      "Événement",
+      "Récolte du Safran",
+      "Ingrédient",
+      "Membres de l'Académie",
+      "Personnalité",
+      "Pains Marocains",
+      "Plat",
+      "Récolte d'Olives",
+      "Ingrédient",
+      "Remise de Prix",
+      "Personnalité",
+      "Cours de Cuisine",
+      "Événement",
+      "Variétés de Dattes",
+      "Ingrédient"
+    ]
+  },
+  {
+    "url": "https://www.academiegastronomiemaroc.ma/contact",
+    "title": "Académie Gastronomie Maroc",
+    "description": "L'Académie Marocaine de Gastronomie est une association à but non lucratif qui a pour mission de promouvoir la gastronomie marocaine.",
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Contactez-nous"
+      },
+      {
+        "level": "h3",
+        "text": "Adresse"
+      },
+      {
+        "level": "h3",
+        "text": "Téléphone"
+      },
+      {
+        "level": "h3",
+        "text": "Email"
+      },
+      {
+        "level": "h3",
+        "text": "Horaires d'ouverture"
+      },
+      {
+        "level": "h2",
+        "text": "Envoyez-nous un message"
+      },
+      {
+        "level": "h2",
+        "text": "Nous trouver"
+      },
+      {
+        "level": "h2",
+        "text": "Questions Fréquentes"
+      },
+      {
+        "level": "h3",
+        "text": "Comment devenir membre de l'Académie ?"
+      },
+      {
+        "level": "h3",
+        "text": "Peut-on assister aux événements de l'Académie ?"
+      },
+      {
+        "level": "h3",
+        "text": "Comment se procurer les publications de l'Académie ?"
+      },
+      {
+        "level": "h3",
+        "text": "L'Académie propose-t-elle des formations ou des cours ?"
+      },
+      {
+        "level": "h3",
+        "text": "Liens Rapides"
+      },
+      {
+        "level": "h3",
+        "text": "Contact"
+      },
+      {
+        "level": "h3",
+        "text": "Newsletter"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Moroccan Culinary Academy Emblem.png",
+        "alt": "Académie Gastronomie Maroc",
+        "width": "200",
+        "height": "60"
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Banner.png",
+        "alt": "Contactez-nous",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Moroccan Culinary Academy Emblem.png",
+        "alt": "Académie Gastronomie Maroc",
+        "width": "200",
+        "height": "60"
+      }
+    ],
+    "lines": [
+      "Contactez-nous",
+      "Pour toute information complémentaire ou demande de collaboration",
+      "Adresse",
+      "123 Tanger",
+      "Maroc",
+      "Téléphone",
+      "+212 661741576",
+      "Email",
+      "contact@academiegastronomiemaroc.ma",
+      "chakor52@gmail.com",
+      "Horaires d'ouverture",
+      "Lundi - Vendredi: 9h00 - 17h00",
+      "Samedi: 9h00 - 13h00",
+      "Envoyez-nous un message",
+      "Pour toute information complémentaire, demande de collaboration ou question concernant nos activités, n'hésitez pas à nous contacter via le formulaire ci-dessous.",
+      "Nom complet",
+      "Email",
+      "Sujet",
+      "Sélectionnez un sujet",
+      "Demande d'information",
+      "Proposition de partenariat",
+      "Organisation d'événement",
+      "Contact presse",
+      "Autre",
+      "Message",
+      "Envoyer le message",
+      "Nous trouver"
+    ]
+  },
+  {
+    "url": "https://www.academiegastronomiemaroc.ma/activites/evenements",
+    "title": "Académie Gastronomie Maroc",
+    "description": "L'Académie Marocaine de Gastronomie est une association à but non lucratif qui a pour mission de promouvoir la gastronomie marocaine.",
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Événements"
+      },
+      {
+        "level": "h2",
+        "text": "Nos Événements"
+      },
+      {
+        "level": "h2",
+        "text": "Événements à Venir"
+      },
+      {
+        "level": "h3",
+        "text": "Conférence sur les Épices Marocaines"
+      },
+      {
+        "level": "h3",
+        "text": "Symposium sur la Cuisine Berbère"
+      },
+      {
+        "level": "h3",
+        "text": "Forum International de la Gastronomie Marocaine"
+      },
+      {
+        "level": "h3",
+        "text": "Débat : Tradition et Innovation en Cuisine Marocaine"
+      },
+      {
+        "level": "h3",
+        "text": "Journée d'Étude sur les Pâtisseries Marocaines"
+      },
+      {
+        "level": "h3",
+        "text": "Conférence : Les Routes des Épices et la Cuisine Marocaine"
+      },
+      {
+        "level": "h2",
+        "text": "Événements Passés"
+      },
+      {
+        "level": "h3",
+        "text": "Conférence sur l'Avenir de la Gastronomie Marocaine"
+      },
+      {
+        "level": "h3",
+        "text": "Symposium sur les Traditions Culinaires du Ramadan"
+      },
+      {
+        "level": "h3",
+        "text": "Conférence : L'Huile d'Argan dans la Cuisine Marocaine"
+      },
+      {
+        "level": "h3",
+        "text": "Forum sur le Patrimoine Culinaire Marocain"
+      },
+      {
+        "level": "h3",
+        "text": "Liens Rapides"
+      },
+      {
+        "level": "h3",
+        "text": "Contact"
+      },
+      {
+        "level": "h3",
+        "text": "Newsletter"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Moroccan Culinary Academy Emblem.png",
+        "alt": "Académie Gastronomie Maroc",
+        "width": "200",
+        "height": "60"
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/placeholder.svg?height=500&width=1920&query=moroccan gastronomy conference with audience",
+        "alt": "Événements de l'Académie",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/placeholder.svg?height=400&width=600&query=moroccan spices display at conference",
+        "alt": "Conférence sur les Épices Marocaines",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/placeholder.svg?height=400&width=600&query=berber cuisine symposium with traditional dishes",
+        "alt": "Symposium sur la Cuisine Berbère",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/placeholder.svg?height=400&width=600&query=international moroccan gastronomy forum with chefs",
+        "alt": "Forum International de la Gastronomie Marocaine",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/placeholder.svg?height=400&width=600&query=moroccan chefs debate on traditional vs modern cuisine",
+        "alt": "Débat : Tradition et Innovation en Cuisine Marocaine",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/placeholder.svg?height=400&width=600&query=moroccan pastries study day with displays",
+        "alt": "Journée d'Étude sur les Pâtisseries Marocaines",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/placeholder.svg?height=400&width=600&query=spice routes conference with historical maps and moroccan food",
+        "alt": "Conférence : Les Routes des Épices et la Cuisine Marocaine",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.academiegastronomiemaroc.ma/Moroccan Culinary Academy Emblem.png",
+        "alt": "Académie Gastronomie Maroc",
+        "width": "200",
+        "height": "60"
+      }
+    ],
+    "lines": [
+      "Événements",
+      "Conférences, débats et rencontres organisés par l'Académie Marocaine de Gastronomie",
+      "Nos Événements",
+      "L'Académie Marocaine de Gastronomie organise régulièrement des conférences, débats et rencontres autour de la gastronomie marocaine et de son patrimoine culinaire.",
+      "Ces événements réunissent experts, professionnels et passionnés pour échanger, apprendre et célébrer la richesse de notre culture gastronomique.",
+      "Événements à Venir",
+      "Conférence sur les Épices Marocaines",
+      "15 juin 2024",
+      "Palais des Congrès, Marrakech",
+      "Une journée dédiée à la découverte des épices marocaines, leur histoire, leurs utilisations traditionnelles et leurs bienfaits pour la santé.",
+      "Plus de détails",
+      "Symposium sur la Cuisine Berbère",
+      "22-23 juillet 2024",
+      "Centre Culturel, Agadir",
+      "Deux jours d'échanges et de démonstrations autour des traditions culinaires berbères, avec la participation de chefs et d'historiens spécialisés.",
+      "Plus de détails",
+      "Forum International de la Gastronomie Marocaine",
+      "10-12 septembre 2024",
+      "Megarama, Casablanca",
+      "Le rendez-vous annuel des professionnels et passionnés de la gastronomie marocaine, avec conférences, ateliers et dégustations.",
+      "Plus de détails",
+      "Débat : Tradition et Innovation en Cuisine Marocaine",
+      "5 octobre 2024",
+      "Institut Français, Rabat",
+      "Une table ronde réunissant chefs traditionnels et innovants pour discuter de l'évolution de la cuisine marocaine contemporaine.",
+      "Plus de détails",
+      "Journée d'Étude sur les Pâtisseries Marocaines",
+      "18 novembre 2024",
+      "École Hôtelière, Fès",
+      "Une journée consacrée aux pâtisseries traditionnelles marocaines, leur histoire, leurs techniques et leurs variations régionales.",
+      "Plus de détails",
+      "Conférence : Les Routes des Épices et la Cuisine Marocaine",
+      "8 décembre 2024",
+      "Musée Mohammed VI, Rabat",
+      "Une exploration historique de l'influence des routes commerciales sur le développement de la cuisine marocaine à travers les siècles.",
+      "Plus de détails",
+      "Événements Passés",
+      "Conférence sur l'Avenir de la Gastronomie Marocaine",
+      "18 septembre 2023",
+      "•",
+      "Institut Français, Rabat",
+      "Une journée d'échanges et de débats sur les enjeux et perspectives de la gastronomie marocaine contemporaine.",
+      "Symposium sur les Traditions Culinaires du Ramadan",
+      "15 mars 2023",
+      "•",
+      "Palais des Congrès, Marrakech",
+      "Un événement dédié aux traditions culinaires spécifiques au mois sacré du Ramadan dans les différentes régions du Maroc.",
+      "Conférence : L'Huile d'Argan dans la Cuisine Marocaine",
+      "22 novembre 2022",
+      "•",
+      "Université Mohammed V, Rabat",
+      "Une exploration des utilisations traditionnelles et modernes de l'huile d'argan dans la gastronomie marocaine.",
+      "Forum sur le Patrimoine Culinaire Marocain",
+      "5-7 octobre 2022",
+      "•",
+      "Megarama, Casablanca",
+      "Trois jours de conférences et d'ateliers sur la préservation et la valorisation du patrimoine culinaire marocain.",
+      "Voir tous les événements passés"
+    ]
+  },
+  {
+    "url": "https://www.magazinemarocaindegastronomie.com/index.html",
+    "title": "Gastronomy Site",
+    "description": "",
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Magazine Marocain de la Gastronomie"
+      },
+      {
+        "level": "h2",
+        "text": "Découvrez nos plats marocains"
+      },
+      {
+        "level": "h1",
+        "text": "Tajine de boulettes de kefta (viande hachée)"
+      },
+      {
+        "level": "h1",
+        "text": "Pastilla aux fruits de mer : une élégance culinaire marocaine"
+      },
+      {
+        "level": "h1",
+        "text": "Tajine de poulet"
+      },
+      {
+        "level": "h1",
+        "text": "L'histoire et l'authenticité"
+      },
+      {
+        "level": "h1",
+        "text": "L'Anthropologie de la gastronomie"
+      },
+      {
+        "level": "h1",
+        "text": "L'inventaire des plats"
+      },
+      {
+        "level": "h1",
+        "text": "La science de l'alimentation"
+      },
+      {
+        "level": "h1",
+        "text": "Tourisme et gastronomie"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/logo.png",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/qwe.jpg",
+        "alt": "Category 1",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/DSC06024.jpg",
+        "alt": "Category 2",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/featured-5.jpg",
+        "alt": "Category 3",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/DSC05932.jpg",
+        "alt": "Category 3",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/ho.jpg",
+        "alt": "Category 3",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/DSC06023.jpg",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/passt.jpg",
+        "alt": "The profile view of three majestic brown horses",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/DSC05982.jpg",
+        "alt": "The profile view of three majestic brown horses",
+        "width": "",
+        "height": ""
+      }
+    ],
+    "lines": [
+      "Magazine Marocain de la Gastronomie",
+      "Explorez des recettes, des traditions culinaires et bien plus encore",
+      "Bureau exécutif",
+      "Découvrez nos plats marocains",
+      "Tajine de boulettes de kefta (viande hachée)",
+      "January 24, 2024",
+      "by Palais Zahia",
+      "Les boulettes de viande hachée sont généralement cuites dans une sauce tomate parfumée aux épices comme le cumin, le paprika, le curcuma, et le gingembre. On peut également y ajouter des herbes fraîches comme le persil et la coriandre. Au centre, il semble y avoir un œuf poché ou cassé directement dans le tajine pour apporter une touche supplémentaire. Les rondelles de piment ou de poivron sur le dessus ajoutent une belle touche de décoration et de saveur..",
+      "Pastilla aux fruits de mer : une élégance culinaire marocaine",
+      "feburary 26, 2024",
+      "by Palais Zahia",
+      "Pastilla aux fruits de mer est un plat emblématique de la gastronomie marocaine, souvent réservé aux grandes occasions. Composée de feuilles croustillantes farcies d'un mélange raffiné de fruits de mer et de vermicelles parfumés aux épices, elle est décorée avec des crevettes pour une présentation majestueuse. Une véritable harmonie entre douceur et saveurs salées.",
+      "Tajine de poulet",
+      "aout 27, 2024",
+      "by Palais Zahia",
+      "Ce Tajine savoureux combine du poulet tendre, mijoté dans une sauce parfumée au citron confit, aux olives vertes, et aux épices typiques comme le gingembre et le curcuma. Garni de tranches de citron frais et de coriandre, ce plat offre une explosion de saveurs acidulées et épicées, parfait pour une expérience culinaire authentique.",
+      "Decembre 25, 2024",
+      "L'histoire et l'authenticité",
+      "Decembre 25, 2024",
+      "L'Anthropologie de la gastronomie",
+      "Decembre 25, 2024",
+      "L'inventaire des plats",
+      "Decembre 25, 2024",
+      "La science de l'alimentation",
+      "Decembre 25, 2024",
+      "Tourisme et gastronomie"
+    ]
+  },
+  {
+    "url": "https://www.magazinemarocaindegastronomie.com/anthropologie.html",
+    "title": "Gastronomy Site",
+    "description": "",
+    "headings": [
+      {
+        "level": "h1",
+        "text": "L'hospitalité : acte naturel, social et universel et son rapport avec la gastronomie"
+      },
+      {
+        "level": "h2",
+        "text": "Hospitalité et accueil commercial"
+      },
+      {
+        "level": "h2",
+        "text": "Accueil et hospitalité"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/logo.png",
+        "alt": "",
+        "width": "",
+        "height": ""
+      }
+    ],
+    "lines": [
+      "L'hospitalité : acte naturel, social et universel et son rapport avec la gastronomie",
+      "Par Dr. SALAH CHAKOR, Expert et Consultant en Gestion Hôtelière et Tourisme et Conseiller culinaire",
+      "L'hospitalité est universelle, c'est sûr. C'est un acte qui a était à l'origine gratuit. C'est une qualité est une habitude familiale qui varie de pays en pays et de région en région, selon des traditions et des cultures. C'est un acte religieux à l'origine, puisque dans l'Islam, et dans d'autres religions, par exemple, on dit que l'hospitalité est de trois. Quand on reçoit quelqu'un venant de loin c'est pour trois jours normalement, à moins que l'hôte soit pressé.",
+      "Aussi jadis, à travers le monde et faute d'hôtel les gens offraient gratuitement le lit et la nourriture, aux soldats, aux pèlerins, aux émissaires, etc. Dans certaines contrées on dispose d'un lieu réservé aux hôtes que les habitants prennent en charge pendant leur séjour.",
+      "L'hospitalité relève également d'une simple convention sociale de générosité, de don, de solidarité. Et d'ouverture aux autres de manière volontaire.",
+      "Dans certaines tribus, dans les compagnes marocaines, les gens trouvent leur plaisir dans cet acte de générosité. Ils aiment servir et ce partage et cette générosité qui courent dans leur veines. Et donc l'hospitalité est remarquée comme concept dans le rapport des personnes aux autres, à l'étranger qui vient visiter, soit une famille, soit de passage.",
+      "Cette manière de vivre ensemble très appréciée par les marocains depuis l'aube de l'histoire, depuis les premiers habitants (juifs, Amazigh) a été renforcée par l'arrivée des arabes qui sont venus instaurer les vertus de l'Islam encore plus attaché à l'accueil convenable de l'autre selon les préceptes du prophètes Sedna Mohammed que le salut soit sur lui et sur ses compagnons.",
+      "Le Maroc se distingue alors des autres pays, par son hospitalité naturelle et naïve chez ses habitants qui ne trouvent leur plaisir que dans cet acte de générosité et d'union. Il est même classé troisième pays hospitalier au monde, sur 140 pays, derrière Nouvelle Zélande et Island selon une étude faite par the World Economic forum, d'après une enquête réalisée de 2011 à 2012 enquêtés, selon une interview publiée par le journal le matin du 02 mai 2013.",
+      "C'est pourquoi le Royaume est considéré comme terre de grande hospitalité naturelle inconditionnelle. Un accueil chaleureux est toujours réservé aux hôtes avec un cérémonial bien spécifique, avec lait et dattes ou du thé à la menthe et des gâteaux marocains.",
+      "L'invité est considéré comme un envoyé de Dieu (Hôte de Dieu) que l'on se de traiter avec beaucoup d'attention et de lui servir ce qu'on a de mieux, puisque notre Prophète Sedna Mohammed que le salut soit sur lui nous incite à bien traiter l'hôte et cela fait partie des vertus de l'Islam.",
+      "Dans certaines tribus, on continue toujours à sacrifier un mouton ou du moins des coqs beldi, pour ceux qui n'ont pas de brebis, quand on reçoit un hôte pour lui signifier la haute hospitalité. Cette tradition n'a de sens que de marquer cet aspect hospitalier qui fait la différence.",
+      "Les trois premiers jours, l'étranger qui reçoit l'hospitalité est invité à la table de la famille, évidement comme le stipule la tradition ancestrale, les hommes sont servis seuls et les femmes seules. Généralement on sert les hommes d'abord, s'il y a un invité.",
+      "Cet hôte est non seulement logé et nourris, mais il est également protégé et considéré comme membre de la famille. Au terme des trois jours d'accueil, l'étranger peut jouir d'une chambre d'hôtes et dans ce cas on lui envoie la nourriture et/ou les provisions et lors de son départ on lui des cadeaux.",
+      "Hospitalité et accueil commercial",
+      "A l'aube du 19éme siècle, avec le développement de l'industrie et l'avènement des congés payés, le nombre de personnes désirant voyager pour passer des vacances en dehors de leurs lieux de résidence, et que les familles ne pouvaient plus recevoir ce grand de personnes en quête d'abri, un passage a eu lieu vers l'hospitalité commerciale. Ce passage a donné naissance à l'hôtellerie, aux auberges, aux gites d'étapes et au logement chez l'habitant contre paiement.",
+      "Donner de l'hospitalité est donc résumée au départ à fournir le gîte et la nourriture, selon les moyens de chacun. L'hôtelier se concentrer sur les services à fournir à ses clients tout en essayant de rentabiliser son commerce. La notion d'hospitalité pour lui réside dans l'attention particulière qu'il va porter au séjour de son client. Ici intervient la notion de l'accueil.",
+      "Accueil et hospitalité",
+      "Il est clair qu'une bonne hospitalité qu'elle soit particulière ou commerciale, elle n'exclut pas un bon accueil.",
+      "Objectifs attendus :",
+      "Adapter son comportement et sa présentation à la situation.",
+      "Observer et pratiquer envers le client une écoute active",
+      "Aider à la décision ou à la situation- prendre congé du client.",
+      "S'adapter à la situation en optant pour une technique de communication précise.",
+      "Maitriser le processus des tâches à accomplir, de la réservation au départ du client,",
+      "Organiser rationnellement l'activité de l'accueil.",
+      "« On aura jamais une 2éme chance pour faire ou donner une bonne impression »",
+      "L'accueil est l'un des éléments indispensable au marketing intelligent. Quatre éléments clés sont à considérer pour donner une bonne image aux clients:",
+      "La qualité des hommes et des femmes chargés de la production et du service, maitrisant les techniques de la bonne communication,",
+      "La qualité des produits,",
+      "Le respect des engagements (délais, ..)",
+      "L'état des installations.",
+      "Une entreprise qui regroupe ces quatre éléments est une entreprise performante.",
+      "Nous devons souligner tout d'abord les réalités suivantes :",
+      "Le besoin de l'accueil est universel, car tout le monde à besoin de tout le monde. L'accueil donne toujours plus de valeur aux relations et aux rencontres entre Hommes, c'est l'acte qui marque un passage et le laisse ancré dans les mémoires.",
+      "L'hôte est à la fois fier et angoissé ; il a besoin d'être bien accueilli, honoré et rassuré.",
+      "Lebon accueil est l'action qui commence par la reconnaissance du nouveau venu comme celui que l'on désire recevoir.",
+      "Faire acte de l'hospitalité, c'est traiter celui que l'on reçoit comme étant un ami (personnaliser l'accueil).",
+      "Tout nouvel hôte doit être pris en charge, guidé et aidé à s'installer.",
+      "……..",
+      "Nous avons relevé dans la pratique professionnelle que dans l'esprit du public, l'hôtelier n'est pas uniquement un prestataire de service ou un commerçant, mais il est l'ambassadeur d'une longue tradition d'hospitalité et du bon savoir être. Ce qui lui confère cette qualité de diplomate universel doté d'une haute civilisation maitrisant l'éthique et l'étiquette exigées par cette noble profession.",
+      "La tradition hospitalière qui a été universellement un atout majeur des sociétés ancestrales, considérée comme étant une action sociétale privée et particulière est aujourd'hui, dans grand nombre de pays, est devenu de l'hospitalité commerciale.",
+      "L'hôtelier s'est, par la force des choses s'est constitué comme le continuateur de celui qui ouvrait sa maison au voyageur, sans lui demander ni qui il était, ni compensation parce que ce voyageur était un être humain qu'il fallait secourir ou parce qu'il voyait en lui un envoyé de Dieu.",
+      "Si de nos jours, on admet que les professionnels de l'hôtellerie, restauration fassent payer leurs prestations, on les a pas dispensé de leurs devoirs d'hospitalité ; et on n'admet pas qu'ils agissent comme des prestataires vulgaires, ce qui veut dire que seule la qualité matérielle de son acte n'est pas la seule prise en compte.",
+      "« On estime donc que le professionnel hôtelier et/ou restaurateur, est appelé à s'investir dans son action, et qu'au-delà de l'échange de services matériel, il doit accomplir un acte quasi-humain, surnaturel, un peu comme on voit dans la médecine le thaumaturge qui va sauver une vie ».",
+      "Par conséquent, les hôtes 'admettent plus que le professionnel de l'hôtellerie, restauration néglige sa mission d'hospitalité, et ils n'admettent pas non plus qu'ils soient mal reçus quand ils arrivent à la réception, et d'être traités comme des numéros. Pour le public, l'hôtelier qui accueille mal est un peu comme un juge corrompu ou un Imam vénal. L'hôtellerie est avant tout un métier humain, social, avant qu'il soit commercial.",
+      "Quand un jeune a choisi le métier d'hôtelier et/ou de restaurateur, il a accepté, par conséquent accepté les moments de joies, mais aussi tous les devoirs et obligations dont le devoir d'être hospitalier et accueillant. Les écoles ont cette tâche de mieux préparer les jeunes à accomplir cette action noble de l'accueil, sans quoi, le service n'aura pas sa valeur.",
+      "Il faut noter que la plus grandes des joies, n'est pas celle d'un service accompli, mais c'est surtout celle d'un client satisfait qui reviendra.",
+      "Notons également que l'industrie des loisirs n'est pas dissociée du bon accueil, mais c'est sa condition d'être, car nous parlons du tourisme, nous pensons au bon accueil, sans lequel il n'y a pas de touriste satisfait.",
+      "En conclusion : l'accueil est pour le tourisme ce que le marketing, la promotion, la commercialisation sont pour la vente d'un produit et pour un service et les hôteliers Doivent être des vrais professionnels de l'hospitalité et de l'accueil.",
+      "Enfin, pour mieux mesurer la qualité de l'accueil de son entreprise, l'hôtelier doit mieux gérer les réclamations de ces hôtes.",
+      "En conclusion nous pouvons dire qu'une bonne hospitalité n'excuse pas un mauvais accueil et vice versa.",
+      "Réf :",
+      "expérience personnelle",
+      "Guide des pratiques du CHR Accueil Hôtelier de Pierre Gouirand BPI 19",
+      "© 2025 - Articles sur la Gastronomie et l'Hospitalité"
+    ]
+  },
+  {
+    "url": "https://www.magazinemarocaindegastronomie.com/Art.html",
+    "title": "Gastronomy Site Arts et cultures au service d'un tourisme local durable",
+    "description": "",
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Arts et cultures au service d'un tourisme local durable (de niche)"
+      },
+      {
+        "level": "h2",
+        "text": "L'intérêt des chercheurs pour les traditions"
+      },
+      {
+        "level": "h2",
+        "text": "Le tourisme durable et le développement local"
+      },
+      {
+        "level": "h2",
+        "text": "Le tourisme de niche comme solution"
+      },
+      {
+        "level": "h2",
+        "text": "Les initiatives existantes"
+      },
+      {
+        "level": "h2",
+        "text": "L'importance de la formation"
+      },
+      {
+        "level": "h2",
+        "text": "Préserver les arts populaires"
+      },
+      {
+        "level": "h2",
+        "text": "Conclusion"
+      },
+      {
+        "level": "h3",
+        "text": "Projets de tourisme durable au Maroc"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/logo.png",
+        "alt": "",
+        "width": "",
+        "height": ""
+      }
+    ],
+    "lines": [
+      "Arts et cultures au service d'un tourisme local durable (de niche)",
+      "Par Salah Chakor",
+      "Etant attaché à sa terre, à ses habitudes, à ses croyances.., l'homme a, par le passé, favorisé, par la créativité, l'instauration d'une culture et d'un savoir faire artistique et artisanal qui marque aujourd'hui son histoire et son authenticité régionale et nationale.",
+      "Ces cultures, ces arts (artisanat, poterie, tapis, broderie, gastronomie ….) font que les habitants de ces régions ont pu agir en fonction de leurs moyens matériels et intellectuels pour marquer leur passage et témoigner de leur existence à une époque bien précise. Et c'est à travers ces traces que les historiens et les archéologues ont pu définir le degré de l'évolution civilisationnel chez les peuples ancestraux.",
+      "L'intérêt des chercheurs pour les traditions",
+      "Aujourd'hui, ces façons de faire traditionnelles sont sujet d'étude de nombreux chercheurs occidentaux et orientaux et qui veulent, par la comparaison des choses anciennes et nouvelles, arriver à instaurer des musées des savoirs des terroirs chez les, peuples qui sont, surtout passés du nomadisme au sédentarisation et aux grades civilisations, pour voir comment ce transfert a été possible, et quelle étaient les conséquences des changements.",
+      "C'est pourquoi aussi que les experts du tourisme culturel ont donc, par le biais de l'UNESCO, voulu restaurer un grand nombre de monuments historiques à, travers le monder et notamment dans le monde musulman et arabe qui en abrite une partie importante. C'est pour cette raison que l'Organisation Mondiale du tourisme encourage toutes les formes du tourisme, à caractère social et culturel de nature à créer un tourisme durable.",
+      "Le tourisme durable et le développement local",
+      "Le tourisme durable n'est donc possible que par la création des activités touristiques, dans les régions qui souffrent d'une insuffisance de ressources économiques et d'un sous-emploi, pour d'abord y stabiliser les citoyens et ensuite pour y construire des établissements pouvant améliorer leur vie par les offres d'emplois directs. Ceci est aussi le moyen pour mettre en valeur les cultures et les arts locaux (cuisine, tapis, poterie, artisanat, folklore…etc.) dont les auteurs auront accès à ces activités du tourisme pour le gain de leur vie.",
+      "Le tourisme de niche comme solution",
+      "Le développement de ce qu'on appelle, aujourd'hui, le tourisme de niche est le moyen le plus important pour sauvegarder ces savoir-faire locaux, spécifiques à chaque région et à chaque tribut. Ce qui permettrait à ces artisans locaux de mieux maintenir ces traditions artistiques et de mieux les développer, et aussi leur permettre de les écouler facilement, afin de les motiver à assurer une continuité. De cette façon aussi les visiteurs découvriront la civilisation et les habitudes de la contrée qu'ils auront visitée.",
+      "De ce fait, il est souhaitable, pour mieux structurer ces activités économiques locales, d'encadrer les citoyens, de les former et ou du moins les sensibiliser et les initier à la création de petits de projets du genre artisanat, fromagerie, poterie, tissage….",
+      "La création de petites unités touristiques, telles que les gites ruraux, les maisons d'hôtes et les auberges est à juste titre l'exemple le plus commode pour la réalisation de ces objectifs. Certaines associations et organismes régionaux et internationaux se sont penchés, avec beaucoup d'intérêt social, sur le problème ; car il est d'actualité et offre de grandes opportunités de développement socio-économique, surtout des régions rurales déshéritées.",
+      "Les initiatives existantes",
+      "Certaines organisations nationales et internationales, telles que la Fondation Mohammed V, l'Organisation Helen Keller Internationale, l'Association Tichka….etc, ont déjà entamé des projets dans ce sens en prévoyant la mise en place des projets pilotes, surtout dans le sud (Ouarzazate, Zagora ….). Ces unités constituant un tourisme de niche ont pour objectifs l'encouragement des habitants de ces sites à promouvoir les produits de leurs Douars et de leurs villages pour l'amélioration de leur niveau de vie.",
+      "L'importance de la formation",
+      "En parallèle avec ces opérations bien ciblées, il est important de donner des formations aux acteurs locaux et de les initier aux règles de service, d'hygiène et à la gestion de ces niches. Il est également vivement solliciter que des formations soient organisées au profit des femmes relevant des différentes associations, encadrées par des organisme spécialisés dans les métiers de tissage de tapis, de broderies, pâtisserie, cuisine …..Etc",
+      "Et donc, afin de concrétiser ces projets et les multiplier, la contribution de tout le monde est, vivement, sollicitée (Société civiles, institutions publiques et privées) en collaboration avec les associations des professionnels et des coopératives ; car c'est ce genre de collaboration qui peut qu'améliorer le sort des citoyens en particulier et développer les sites touristiques en général.",
+      "Préserver les arts populaires",
+      "Le maintien, la restructuration et la sauvegarde des arts populaires locaux, sous toutes leurs formes est aussi le moyens le plus efficace pour sédentariser les citoyens de ces petites régions. Alors, la motivation des artisans et des artistes, dotés de compétences exceptionnelles, s'impose pour assurer la continuité et permettre la formation des jeunes qui prendront la relève. Et si on s'occupe de cette population rurale l'économie locale, régionale et nationale connaîtra un décollage aussi exceptionnel.",
+      "Conclusion",
+      "Il est alors essentiel de se pencher sur la détermination des programmes sérieux et optimistes pouvant faire de ces gens des agents développeurs de leur Douar, de leur villages, car de ce fait, le Maroc rural aura répondu aux attentes de ses habitants et aura lancé des chantiers de grande envergure au niveau économique et au niveau social, compte tenu de la politique Royale qui ne cesse de mettre en place des mécanismes conséquents à ce sujet.",
+      "Projets de tourisme durable au Maroc",
+      "Gîtes ruraux dans les montagnes de l'Atlas",
+      "Maisons d'hôtes traditionnelles à Ouarzazate",
+      "Coopératives artisanales féminines à Zagora",
+      "Ateliers de poterie traditionnelle",
+      "Centres de formation aux métiers du tissage"
+    ]
+  },
+  {
+    "url": "https://www.magazinemarocaindegastronomie.com/familles.html",
+    "title": "Gastronomy Site",
+    "description": "",
+    "headings": [
+      {
+        "level": "h1",
+        "text": "La famille marocaine à table"
+      },
+      {
+        "level": "h2",
+        "text": "Introduction"
+      },
+      {
+        "level": "h2",
+        "text": "Les repas dans la famille marocaine"
+      },
+      {
+        "level": "h2",
+        "text": "Les différents repas de la journée"
+      },
+      {
+        "level": "h2",
+        "text": "Repas de cérémonies"
+      },
+      {
+        "level": "h2",
+        "text": "Variétés de Pain, Couscous et Tagines"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/logo.png",
+        "alt": "",
+        "width": "",
+        "height": ""
+      }
+    ],
+    "lines": [
+      "La famille marocaine à table",
+      "Par Salah CHAKOR, Par Salah CHAKOR,Expert en Gestion hôtelière et tourisme",
+      "Introduction",
+      "De tous temps, le raffinement de la cuisine a été lié au degré de l’évolution économique et de la civilisation des peuples ancestraux. Après les Mésopotamiens et les Egyptiens, les Grecs et les Romains ont apporté leurs connaissances et habitudes culinaires à la cuisine française qui perdureront jusqu’au moyen âge.",
+      "Au Maroc, la situation géographique et tous les événements qui se sont succédés durant son histoire ont provoqué l’évolution et la progression de sa culture culinaire. La cuisine régionale, celle du terroir, l’utilisation des épices et des herbes, des légumes sauvages, et d’autres produits agricoles, la cuisine juive, berbère, arabe, chrétienne, etc., ont toutes contribué à l’enrichissement de la cuisine nationale ; ce qui a aussi fait de la cuisine marocaine l’une des cuisines les plus variées et les plus renommées au monde.",
+      "Les repas dans la famille marocaine",
+      "L’art culinaire est également un témoignage historique incontestable de notre mode de vie et de l’évolution de nos mœurs. Dans les familles marocaines à moyen et à grand revenu et en particulier dans celles dites DIOR EL MAKHZEN, quand on se met à table l’on présente une mosaïque de plats crus et cuits, composés de salades de viandes, de légumes et de desserts. Le poulet bildi, le lapin, le pigeon, la dinde font également partie intégrante de cette cuisine riche. De même qu’une variété de semoules ; de pâtes, de riz préparés de diverses manières est aussi présente au menu marocain. Une grande planche de pain est aussi présentée et l’on trouve le pain de blé tendre, d’orge, de maïs, cette variété de pain est préparée selon différents modes tels que : au four, au kanoun, en tagine…etc.",
+      "Les différents repas de la journée",
+      "Le premiers repas de la journée est celui du 1er FTOUR matinal ( 1er petit déjeuner) servi après la prière du « SOBH », ce repas consiste au service d’une soupe de semoule à base d’orge, du blé ou du maïs, lié avec le lait frais (HSOUA) et du café noir au lait.",
+      "Le deuxième repas appelé FTOUR TANI ( 2éme petit déjeuner) est servis à 10h du matin surtout dans les villes anciennes telle que Marrakech, Fès, Mekhnès,…etc et dans les compagnes qui ont une stricte tradition culinaire. Cela consiste au service du thé à la menthe, du pain, l’huile d’olive et du miel ou Msemen, Baghrir, ou du beurre baldi et du miel. Les gens qui travaillent dans le commerce (épiciers, commerçants, artisans,…etc) vont dans leur lieu du travail tôt le matin, pour revenir à 10 h prendre ce deuxième FTOUR.",
+      "Comme troisième repas de la journée,",
+      "le déjeuner est généralement servi entre 13h et 15h et il est composé d’au moins trois plats, chez la majorité des familles, cette composition variée selon les saisons et selon les cérémonies et elle se présente comme suit :",
+      "- Variété de salades crues et cuites, des pâtes, du riz, viandes, poulet, ou tripes avec les légumes frais ou des légumineuses (lentille, pois chiches, …etc)",
+      "- Un dessert (fruits) pâtisserie",
+      "- Du thé à la menthe",
+      "A l’occasion des grandes fêtes, des cérémonies, ou au cas où on a des",
+      "Invités, les menus peuvent être riches et composés de quatre à cinq plats (salade, pastilla, poulet, viandes ou couscous, dessert) thé à la menthe.",
+      "Le couscous est généralement servi tous les vendredis, les poissons le samedi ou le dimanche.",
+      "Le quatrième repas est servi après la prière du AASER à 16h appelé Terdida, surtout servi dans les villes traditionnelles et dans les campagnes, en période de la moisson, ou quand la journée est longue. Ce repas est composé du thé, café, pain divers ou Mesemen, Baghrir, avec de l’huile d’olive, du miel, du smen…etc.",
+      "Comme cinquième repas, le dîner est servi après la prière d’ALAICHA. Ce service est le plus souvent léger, il est composé de pâtes alimentaires avec du lait ou en sauce, ou la Harira, ou encore une soupe aux légumes. Dans les familles où l’on sert seulement 3 repas ( petit déjeuner, déjeuner, dîner) le dîner est plus au moins copieux ; Il est composé d’un plat de viande et un dessert, ou d’une salade, soupe et d’un tajine maigre aux légumes.",
+      "Repas de cérémonies",
+      "Pendant les cérémonies officielles et avant les repas un cocktail d’accueil est servi aux invités. Ce dernier est composé de jus de fruits, boissons chaudes et de pâtisserie. De même qu’avant chaque repas servi aux invités on présente du thé à la menthe et des petits fours. Ce service du thé est symbole du bon accueil chez les familles de grandes noblesse, de même que le lait et les dattes. Le thé est préparé soit par une personne spécialisée soit par une personne âgée à laquelle on fait appel en guise de reconnaissance et de respect. Ce service se fait d’une manière cérémoniale en respectant toute une tradition. Dans certaines familles le thé est servi avant et après le repas.",
+      "Variétés de Pain, Couscous et Tagines",
+      "Les Pains: KHENFAR, TANOURT, MATLOUAA,KROUNE,MAHRACH...",
+      "Les Couscous: Couscous à base de blé tendre aux légumes , Semoule d’orge (IBRINE), Semoule de blé (SMIDA),...",
+      "Les Tagines: Tajine Makfoule, Tajine aux légumes...",
+      "Pain fourrés: Madfouna Filali (Rissani),Khoubz Douaz (Arfoud),- Pain fourré à la graisse de bœuf.",
+      "La Pastilla: Pastilla au poulet,, Pastilla aux pigeons , Pastilla aux fruits de mer..."
+    ]
+  },
+  {
+    "url": "https://www.magazinemarocaindegastronomie.com/cuisine.html",
+    "title": "Gastronomy Site LA CUISINE DE NOS ARRIERES GRANDS-MERES CONSTITUE L'ART CULINAIRE DU TERROIR",
+    "description": "",
+    "headings": [
+      {
+        "level": "h1",
+        "text": "LA CUISINE DE NOS ARRIERES GRANDS-MERES CONSTITUE L'ART CULINAIRE DU TERROIR"
+      },
+      {
+        "level": "h2",
+        "text": "L'évolution de l'art culinaire"
+      },
+      {
+        "level": "h2",
+        "text": "La richesse régionale marocaine"
+      },
+      {
+        "level": "h2",
+        "text": "Diversité des préparations"
+      },
+      {
+        "level": "h2",
+        "text": "Préserver notre patrimoine culinaire"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/logo.png",
+        "alt": "",
+        "width": "",
+        "height": ""
+      }
+    ],
+    "lines": [
+      "LA CUISINE DE NOS ARRIERES GRANDS-MERES CONSTITUE L'ART CULINAIRE DU TERROIR",
+      "LA CUISINE DE NOS ARRIERES GRANDS-MERES CONSTITUE L'ART CULINAIRE DU TERROIR",
+      "Par SALAH CHAKOR,Expert en Gestion hôtelière et tourisme",
+      "Jadis, au moment où la bonne cuisine était faite au feu du bois, dans les marmites en terre cuite, avec les matières premières entièrement naturelles, assaisonnées de condiments et d'épices aussi naturels, les goûts de ces préparations étaient meilleurs. Aussi faut-il dire que l'on pouvait déjà deviner, en passant devant une demeure, le nom du plat qui mijotait, rien qu'à base de l'odorat. Ces préparations étaient tellement fines que leur parfum voyageait si loin et pénétrait la sensation des amateurs des bons repas et les savants de la bonne table.",
+      "Cet art culinaire basé surtout sur la gustation et l'olfaction, est l'une des images qui montrent la qualité de la culture et son degré chez les peuples.",
+      "La cuisine, cette science du bon goût et du savoir s'alimenter revêt, chez les peuples ancestraux une importance capitale, car elle leur permettait d'utiliser leur produits agricoles de façon aussi variée et différentes que possible ; ce qui laisse également aux dames cuisinières, talentueuses, l'occasion de mettre en valeur leur savoir faire et leur inventions en la matière.",
+      "L'évolution de l'art culinaire",
+      "Ces variétés de préparations et de mise en valeur des aliments ont connu leur apogée surtout dans les pays et les régions de grandes agriculture et d'élevage. Les pays du bassin méditerranéen (Maroc, Italie, Espagne, France, etc.…) et certains pays asiatiques sont comptés parmi ces pays où l'art culinaire est développé, car le climat est favorable à une agriculture variée, ce qui a été propice au développement culinaire.",
+      "Le Maroc, pays méditerranéen et nord africain est considéré à ce titre, parmi les pays disposant d'une grande gastronomie aussi variable. Une cuisine fondée sur le savoir faire à la fois culturel, artistique et civilisationnel dans le sens et où les plats présentés vont du modeste au riche.",
+      "La richesse régionale marocaine",
+      "Dans chaque région du Royaume chérifien l'on rencontre une grande variété de plates typiques. La cuisine régionale classique, du nord au sud, est une mosaïque de tableau d'art qui parle du passé des peuples anciens de leur culture, de leur civilisation, et de leur façon de présenter les choses et de les organiser. La manière dont les plats ont été apprêtés à une époque lointaine, témoigne déjà de cet ancrage d'un savoir faire évolué qui fait du Maroc une région riche de l'Afrique du nord. Les villes anciennes et les villes impériales, telles que Marrakech, Fès, Mekhnès, Rabat, ainsi que les régions ayant abrité les Dynasties Alaouites et surtout celles ayant servi de relais entre le Maroc et le continent Africain, offrent une grande variété de cuisine qui résulte du brassage des civilisations.",
+      "C'est ainsi que l'on peut trouver des traditions culinaires très importantes à Tafilalet, par exemple, ancien Sijilmassa et ancienne capitale économique d'El Maghrib Al Aqsa » ; citons à ce titre d'exemple, de cette cuisine du terroir : Les pigeons farcis, Ouarguia, Madfouna…..etc. Egalement la cuisine de Marrakech, de Fès, de Rabat et de Mekhnès est reconnue comme étant une cuisine la plus raffinée, car elle est issue d'une grande civilisation et aussi parce qu'elle s'est développée dans un carrefour de culture complexe (Les Phéniciens, Les Alaouites, Les Almoravides, Les Almohades, Les Andalous, Les Chrétiens, Les Juifs, Les Berbères et Les Arabes Musulmans, etc.….).",
+      "Diversité des préparations",
+      "Entre le couscous berbère du Sous et celui de Fès, la différence est grande, car le premier est fait de semoule d'orge garni de navets frais avec leur feuilles, assaisonnés d'huile d'olive, et le deuxième est fait de semoule de blé garni avec sept légumes et de la viande. La typologie des ces préparations est à l'origine d'une richesse de la région en produits d'agriculture et la spécificité de ces produits. La cuisine de Safi faite de poissons est différente de celle de Marrakech qui, elle, est un mélange de cuisine berbère du haut Atlas, des Arabes du Haouz, faite de matières premières cultivées dans les champs de la région irrigués par les Khattarat (gombos, fèves, abricots,…etc.).",
+      "Les plats de cérémonies sont aussi différents d'une région à une autre et selon les traditions berbères, arabes, juives ou chrétienne ; c'est ainsi qu'on trouve les plats spécifiques au mariage, ceux spécifiques aux fêtes religieuses,…etc. Ces cuisines anciennes, considérées comme cuisines du terroir, qui se fonts de plus en plus rares et au risque d'être oubliées pour être remplacées par des préparations modernes cuites dans les cocottes minutes, méritent d'être conservées, car elles constituent, comme il a été dit tout au long de cet écrit, un patrimoine inégalé.",
+      "Préserver notre patrimoine culinaire",
+      "Un Conservatoire des arts culinaires et une Académie Nationale de gastronomie sont nécessaires pour la sauvegarde de cette culture de nos arrières Grand-mères car sans la conservation de ces traces d'un passé riche, le tourisme perdra son charme, sa valeur et son aspect culturel typique, surtout pour une clientèle qui cherche à découvrir et à connaître l'autre à travers sa culture, sa Civilisation, et son histoire.",
+      "Pour que la constitution de ce musée d'art culinaire soit possible, il est primordiale de penser déjà à la recherche, dans toutes les régions du Royaume, des recettes authentiques et de les enregistrer dans les livres et de les illustrer ; puis faire appel à des vieilles dames (Dadas) maîtresses de la bonne cuisine pour parler de cet art et pour dicter les recettes et les organiser par Types de préparations.",
+      "Aussi faut-il réunir tous les ustensiles pour la confection des ces plats et de les rassembler dans ce musée avec des fiches explicatives.",
+      "Voici donc, à notre sens, comment la sauvegarde de la cuisine du terroir de nos arrières grand-mères peut être conservée. Citons à titre d'exemple de ces préparations :",
+      "BAYFNOUZEN",
+      "BADDAZ",
+      "OUNJEMEN",
+      "IBRINE",
+      "TAHALLAOUT",
+      "FTATCHTBA",
+      "TRIDE",
+      "RAZA EL KADI",
+      "M'HALABI",
+      "RFISSA",
+      "SEFFA MDFOUNA"
+    ]
+  },
+  {
+    "url": "https://www.magazinemarocaindegastronomie.com/alimentation.html",
+    "title": "Gastronomy Site Le rôle de l'alimentation dans le psychisme de l'homme",
+    "description": "",
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Le rôle de l'alimentation dans le psychisme de l'homme"
+      },
+      {
+        "level": "h2",
+        "text": "Introduction"
+      },
+      {
+        "level": "h2",
+        "text": "Le besoin alimentaire et son impact psychique"
+      },
+      {
+        "level": "h2",
+        "text": "Les différentes sensations liées à l'alimentation"
+      },
+      {
+        "level": "h2",
+        "text": "L'impact émotionnel et psychologique de l'alimentation"
+      },
+      {
+        "level": "h2",
+        "text": "La sacralité du plaisir alimentaire"
+      },
+      {
+        "level": "h2",
+        "text": "L'impact des habitudes alimentaires sur l'identité humaine"
+      },
+      {
+        "level": "h2",
+        "text": "La nourriture et l’âme"
+      },
+      {
+        "level": "h2",
+        "text": "Conclusion"
+      },
+      {
+        "level": "h2",
+        "text": "Les habitudes alimentaires et la mémoire affective"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/logo.png",
+        "alt": "",
+        "width": "",
+        "height": ""
+      }
+    ],
+    "lines": [
+      "Le rôle de l'alimentation dans le psychisme de l'homme",
+      "Le rôle de l'alimentation dans le psychisme de l'homme",
+      "Par Salah CHAKOR,Expert en Gestion hôtelière et tourisme",
+      "Introduction",
+      "Le besoin est une exigence née de la nature ou de la vie sociale. Autrement dit, c’est une tendance à une régularisation déterminée qui se traduit par un comportement externe. L’animal qui a faim commence par mobiliser ses réserves, fait notamment appel à la fonction glycogénique de son foie pour rétablir la composition de son milieu intérieur appauvri en métabolites.",
+      "Le besoin alimentaire et son impact psychique",
+      "Le besoin alimentaire est une extériorisation des pulsions innées, orientées vers la consommation des substances nutritives que l’organisme choisit par plaisir. Car c’est le plaisir et la recherche des sensations agréables ou l’évitement des sensations pénibles qui guident notre mécanisme dans le choix des aliments.",
+      "Cette constatation nous pousse à admettre que l’acte de consommation alimentaire est un acte psychique de nature affective. Dans cette optique, l’aliment est non seulement la chose qui plaît, qu’on désire et qu’on aime.",
+      "Les différentes sensations liées à l'alimentation",
+      "Chez les animaux de laboratoire, tout comme chez l’homme, le sentiment de plaisir ou de déplaisir que la nature peut provoquer est de deux types différents, suivant sa localisation et suivant le moment de sa perception au cours de l’acte de consommation :",
+      "a",
+      "- La sensation de plaisir qu’on éprouve dans la bouche se déclenche au moment où la substance alimentaire contacte les récepteurs du complexe sensoriel de la muqueuse buccale et nasale.",
+      "b",
+      "- La sensation de plaisir (ou de déplaisir) ressentie par tout le corps se localise après l’absorption de la nourriture. Cette sensation possède une charge émotive perçue soit comme un sentiment de bien-être et d’aise, soit au contraire, comme un sentiment pénible de malaise.",
+      "L'impact émotionnel et psychologique de l'alimentation",
+      "Le plaisir éprouvé à l’intérieur du corps, en grande partie d’origine digestive, a un rôle majeur dans la sélection des aliments. Il suffit qu’un aliment ait été accusé de donner une fois un malaise digestif pour qu’il soit refusé. Par contre, les aliments qui procurent une sensation et un sentiment de bien-être sont les bienvenus.",
+      "Chez l’homme, comme chez l’animal évolué, le point de départ du psychisme alimentaire est le plaisir. L’aliment est une substance privilégiée, qui possède un contenu actif profond et intime. La bouche refuse le contact des substances sapides, sans odeur et sans saveur, mais dépourvues d’un certain tonus émotionnel et affectif; elle exige le plaisir.",
+      "La sacralité du plaisir alimentaire",
+      "C’est sans doute la sacralité du plaisir, qui est la plus répandue dans l’horizon de la pensée archaïque. La plupart des aliments considérés comme sacrés dans les sociétés traditionnelles doivent cette qualification à leur propriété. Ils sont sacrés parce qu’ils sont chauds à la bouche et au cœur, parce qu’ils sont ardemment désirés, parce qu’ils sont rares et chers. C’est le cas de la viande, de la graisse, des aliments sucrés,…",
+      "L'impact des habitudes alimentaires sur l'identité humaine",
+      "L’homme a toujours eu le sentiment, plus ou moins confus, qu’il est un peu la création de sa nourriture, qu’il soit fort ou faible, calme ou coléreux, bon ou cruel, suivant la « quantité » et surtout « la nature » des aliments qu’il consomme. L’homme est ce qu’il mange, nous sommes ici devant une idée archétypale universelle dont la formation paraît être la conclusion simple et logique d’une expérience humaine qui va depuis l’ingestion alimentaire jusqu’au sentiment qui révèle l’influence agréable ou désagréable de la nourriture sur notre être, conçu toujours comme une unité inséparable somatophylaque.",
+      "La nourriture et l’âme",
+      "Une autre chose est sûre dans la pensée « sauvage » libre des pressions intellectualistes, la nourriture nourrit non seulement la chair, mais aussi l’âme et l’esprit sain se trouve dans un corps sain. Il est donc évident qu’un corps ne peut être sain que s’il se nourrit d’une manière saine.",
+      "Conclusion",
+      "Pour se mettre à table, il faut être motivé psychiquement et psychologiquement, or ces deux types de motivation varient d’une personne à l’autre. Ceci-dit, le plaisir qu’on peut ressentir au niveau de la bouche en particulier et du corps en général, et au niveau du comportement alimentaire, varie suivant deux éléments :",
+      "- L’état de besoin qui retentit puissamment sur le plan de la palatabilité et sur celui de la sensibilité générale.",
+      "- Le tonus émotionnel de chaque aliment sur le plan de la palatabilité et sur celui de la sensibilité générale.",
+      "L’importance respective de ces deux facteurs varie suivant l’état de la « faim » et de « satiété » de l’organisme. L’homme de notre civilisation, qui est rarement vraiment affamé, et qui, par ses occupations professionnelles, a besoin d’un esprit clair, tend à abandonner les aliments lourds pour des aliments faciles à digérer, qui lui permettent de conserver sa vigilance pendant son travail.",
+      "Les habitudes alimentaires et la mémoire affective",
+      "Enfin, à la suite d’expériences heureuses précédentes, l’appétit est considéré pour les différents aliments comme un comportement acquis. Ce que l’homme ou l’animal de laboratoire désire devant la substance qu’il connaît et qu’il aime, est de renouveler un plaisir qu’il a déjà éprouvé. L’être humain a souvent tendance à faire confiance à sa mémoire affective dans ses traditions et habitudes alimentaires. C’est un sentiment psychique qui s’est développé à travers l’histoire de l’humanité. Autrement dit, entre l’homme et la nourriture, il subsiste une sorte de dimension identitaire cachée."
+    ]
+  },
+  {
+    "url": "https://www.magazinemarocaindegastronomie.com/Tourisme.html",
+    "title": "Gastronomy Site",
+    "description": "",
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Le patrimoine gastronomique marocain, levier du développement du tourisme culturel"
+      },
+      {
+        "level": "h2",
+        "text": "Avant propos dans deux langues : Français et Anglais"
+      },
+      {
+        "level": "h2",
+        "text": "La notion de patrimoine gastronomique marocain"
+      },
+      {
+        "level": "h2",
+        "text": "La cuisine est l'une des Composantes essentielles de l'offre touristique"
+      },
+      {
+        "level": "h2",
+        "text": "Le patrimoine gastronomique est une véritable ressource économique dans le cadre de la politique touristique que mène le pays"
+      },
+      {
+        "level": "h2",
+        "text": "L'offre de formation professionnelle (privée ou publique, initiale ou continue) destinée à ce secteur"
+      },
+      {
+        "level": "h2",
+        "text": "La Gastronomie marocaine : mosaïque de culture et d'art"
+      },
+      {
+        "level": "h2",
+        "text": "Opportunités de l'exportation de gastronomie en tant qu'art et culture"
+      },
+      {
+        "level": "h3",
+        "text": "Quelques remarques :"
+      },
+      {
+        "level": "h3",
+        "text": "Suggestions :"
+      },
+      {
+        "level": "h2",
+        "text": "Conclusion"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/logo.png",
+        "alt": "",
+        "width": "",
+        "height": ""
+      }
+    ],
+    "lines": [
+      "Le patrimoine gastronomique marocain, levier du développement du tourisme culturel",
+      "Par Salah Chakor, Expert et Consultant en Tourisme",
+      "Avant propos dans deux langues : Français et Anglais",
+      "Définition du terme : Gastronomie.",
+      "Gastronomie et science :",
+      "Y a-t-il un rapport entre l'économie et la cuisine ?",
+      "Il est bien évident, aujourd'hui, au moment où le gouvernement se préoccupe de l'activité touristique comme étant l'une des locomotives de son développement socioéconomique de s'intéresser à toutes les composantes des produits de cette industrie des loisirs, et notamment l'accueil, l'hébergement, la restauration dans toutes ses formes, l'animation…etc.",
+      "Et vu que l'élément nourriture occupe une place prépondérante dans la constitution de ces prestations de services aux touristes potentiels, il est alors essentiel d'accorder un grand intérêt à la gastronomie nationale, régionale, en mettant en valeurs des préparations originales à même de refléter un savoir faire ancestral, relatant la culture, la tradition, la civilisation…",
+      "La notion de patrimoine gastronomique marocain",
+      "Si le Royaume du Maroc offre une mosaïque de plats riches et savoureux, ce n'est pas un pur hasard, mais bien évidemment grâce à sa situation privilégiée, à la croisée des cultures et des civilisations, depuis la haute Antiquité.",
+      "Le Maroc est gourmand de son authenticité, de ses recettes qui sont à cent pour cent le reflet de la longue histoire riche en traditions, ainsi que des particularités régionales. Le Royaume recèle des secrets gourmands profonds issus d'un savoir-faire ancestral, miroir du patrimoine du terroir. La cuisine est l'art qui témoigne du degré de civilisation dans un pays, car les habitudes alimentaires d'un peuple sont toujours intimement liées à la géographie de sa localité. Une alternance d'austérité et de majesté, de rudesse et de douceur, de mesure et de démesure qu'offrent les montagnes, les plaines, les mers, et les lacs, se retrouve dans sa cuisine marocaine, tout à la fois rustique et opulent. C'est dire que le patrimoine culinaire marocain se défini comme étant le miroir d'un passé séculaire et ancestral riche. La gastronomie marocaine et le témoin d'un brassage de cultures et civilisations qu'a vécu cette terre, reconnue comme étant un carrefour de rencontres et de vie pacifique. Enfin cette gastronomie est le fruit d'un mixage de savoirs et de savoirs faire multiples, venus de plusieurs horizons.",
+      "La cuisine est l'une des Composantes essentielles de l'offre touristique",
+      "Et étant donné que l'on ne peut pas concevoir une hôtellerie, et en l'occurrence un tourisme sans une restauration, sans un hébergement, entre autres, nous considérons que le patrimoine culturel est l'une des composantes importantes et essentielles de cette industrie des loisirs. Dés lors il n'est pas concevable de s'en passer, car c'est le moyen le plus efficace pour divulguer un savoir faire des citoyens en la matière, ce qui participe à la promotion de la culturel locale ancestrale. La cuisine n'est pas seulement faire à manger, mais aussi et surtout faire appel à une culture à une cérémonie à des traditions, selon chaque région, chaque tribu. Le patrimoine marocain détient donc une grande place dans la promotion du tourisme et contribue, efficacement, s'elle est bien faite, au développement du secteur. Une bonne cuisine savoureuse, délicieuse, riche et variée, comme la marocaine, ne peut que rehausser la qualité du produit touristique. Par conséquent, il est de notre devoir tous de mieux l'enseigner, la sauvegarder …..",
+      "Le patrimoine gastronomique est une véritable ressource économique dans le cadre de la politique touristique que mène le pays",
+      "Au moment où le fast food a tenté de conquérir toute la planète, par l'implantation des entreprises de la restauration rapide et à l'emporter (drive in, drogue store, des Mac Donaldl's …etc.), et où les Etats Unis ont voulu imposer cette tradition alimentaire, l'on constate aujourd'hui, que les fin Gourmets ont une nostalgie de la bonne table. Les personnes de grandes traditions culinaires veulent alors retrouver les bonnes habitudes. C'est ce qui a donné naissance à ce qu'on appelle le Slow Food, né en Italie. Le slow food prône un retour aux plaisirs de la bonne chère. Ceci induit de prendre le temps d'apprécier un bon repas, de privilégier les produits du terroir et de saison et, si l'on va au restaurant, de choisir un établissement dont le chef de cuisine ces produits avec goût et passion.",
+      "Le slow food est un véritable mouvement lancé par une association qui porte son nom et qui comporte plus de quatre-vingt mille adhérents à travers le monde. Cette association encourage les gens à se réjouir des repas servis et de mieux savourer les préparations du terroir qu'un chef artiste présente avec doigté. Cette Association mène également des actions concrètes pour sauvegarder la diversité des gastronomies régionales, seul gage de notre identité et de notre culture.",
+      "A la lumière de ces mouvements, nous confirmons la cuisine traditionnelle comme étant une vraie ressource économique, moyen important pour la création des économies de niches dans les régions de grand tourisme, là où la cuisine a fait sa renommée, telle que Fès, Marrakech, Essaouira, …..Les touristes deviennent de plus en plus amateurs de la bonne cuisine, de la cuisine du terroir, une cuisine faite bio. Notre responsabilité est alors grande dans ce sens que nous devons encourager la création d'une restauration traditionnelle raffinée dans toutes les villes cibles d'un tourisme culturel, haut et de moyenne gamme. La gastronomie nationale marocaine est, au même titre que l'artisanat, le folklore, …..le gage de notre tourisme local de niche.",
+      "L'offre de formation professionnelle (privée ou publique, initiale ou continue) destinée à ce secteur",
+      "Jusqu'à aujourd'hui le volet formation destiné à ce créneau reste très insuffisant car seul un centre est chargé de dispenser ce savoir. Le Centre da Qualification Professionnelle Hôtelière et Touristique de Touarga, à Rabat forme des jeunes filles dans la cuisine traditionnelle marocaine, d'ailleurs efficace dans cette formation, mais cela reste insuffisant. Par contre dans le privé nous n'avons aucun établissement qui forme dans ce sens. Pour mener à bien ces formations et afin de sauvegarder ce patrimoine il est important de multiplier des centres et les écoles de formation, de même que la création des associations professionnelles.",
+      "Etant donné que le Maroc est un pays de grande cuisine, d'un patrimoine culinaire très varie et riche, la création d'une Académie Nationale de Gastronomie est nécessaire pour permettre la conservation et la mise en valeur de cette culture ancestrale.",
+      "Ce qui va permettre également la mise en place d'un laboratoire culinaire au niveau national favorisant le réajustement des recettes et leur équilibrage, selon les besoins des organismes, et selon les circonstances.",
+      "La collecte et la conservation des ustensiles, matériels traditionnels et des condiments et épices utilisés pour la confection des plats constituant la cuisine du terroir s'imposent également, ce qui va motiver la création d'un musée d'art culinaire dans les régions de grandes cuisines.",
+      "Ce conservatoire de la Gastronomie Nationale aura comme objectifs essentiels la revalorisation des cuisines et des produits en voie de disparition, de même que la sauvegarde et la promotion du caractère honnête et sincère des cuisines régionale et nationales. Ce qui va prévenir le fait de dénaturer cet art ou de le conduire à la médiocrité.",
+      "Une fois mise sur pied, cette Académie de Gastronomie Nationale, aura à entreprendre, comme tâche noble, une action permanente en faveur d'une cuisine de qualité élaborée à partir de produits naturels et authentiques, tant au plan gustatif que nutritif.",
+      "D'ailleurs, l'implantation du centre de qualification hôtelière et touristique, dans l'enceinte de Touarga, à Rabat exprime pleinement cette volonté d'assurer la pérennité de cette facette de la richesse culturelle marocaine. Ce centre a la tâche de participer à la sauvegarde du patrimoine civilisationnel, culturel et humain. L'art culinaire marocain traditionnel, inlassablement transmis de mère en fille, est aujourd'hui la noble mission assignée au centre de qualification de Touarga.",
+      "La préservation, la perpétuité du savoir- faire et l'authenticité de la culture marocaine, sous toutes ses formes, motivaient, à plus d'un égard, Feu Sa Majesté Hassan II, et son successeur, Sa Majesté Le Roi Mohamed VI, qui continue à en faire sa principale préoccupation, car conscient du fait que c'est le gage de notre identité nationale. L'art culinaire représente, dans tout cela, la facette la plus complète de la culture, parce qu'elle est mêlée à tous les savoirs de l'humanité, c'est un patrimoine complet, faisant appel à la science, à l'agriculture, à l'artisanat, à la médecine………",
+      "Enfin les actions, qui seront menées par l'académie de cuisine, seront des actions scientifiques capables de mettre en place une nutrition susceptible de prévenir les maladies et de permettre l'entretien de l'organisme. Ce qui fera appel à une étude conjointe, sur la dimension humaine et scientifique, de la science de l'alimentation et de l'art culinaire.",
+      "La Gastronomie marocaine : mosaïque de culture et d'art",
+      "Ayant comme origine le mélange des traditions culinaires berbères, juives, arabes et même andalouses, la cuisine marocaine traditionnelle est considérée, à juste titre, comme l'une des plus savoureuses et des plus fines d'Afrique du Nord en particulier et du monde en général. Cette cuisine a également subi l'influence de différentes civilisations qui ont conquis le pays par le passé et notamment, les Phéniciens, le Romains, les Espagnoles, les Français.etc. Ce brassage de cultures et de civilisations a fait du Maroc un carrefour des rencontres et de croisement des différents savoirs d'où la richesse de sa cuisine. Les cuisines arabes et juives de ce pays ont de nombreux points communs : la dénomination des mets, la façon de préparer les recettes et surtout, l'emploi d'épices et de condiments qui aromatisent et colorent agréablement les viandes, les poissons et les légumes.",
+      "Certes, du nord au sud du pays, l'on retrouve dans les recettes les grands \"classiques\" tels que le tajine, la pastilla, le couscous, qui ont fait sa réputation dans le monde entier. Mais la cuisine marocaine offre aussi d'autres mets tout aussi savoureux et fins dont sont riches les régions, chacune selon sa spécialité agricole. Il existe un grands nombre d'autres plats souvent connus des seuls Marocains mais tout aussi succulents et méritent une exploration car riches en savoirs et en traditions souvent thématiques.",
+      "Opportunités de l'exportation de gastronomie en tant qu'art et culture",
+      "Culture ancestrale, - mosaïque d'art, - savoir-faire, tableau d'art, témoin de civilisation…Ce savoir se transmet de mère en fille, comme il s'exporte à l'étranger, par le moyen de l'organisation des foires de festivals, et aussi par l'intermédiaire des touristes bien satisfaits qui en deviendront les ambassadeurs.",
+      "Quelques remarques :",
+      "Cuisine délaissée, Culture orale non écrite,",
+      "Pertes de traditions par la disparition des Dadas,",
+      "La relève non préparée,",
+      "Recours au fast food et aux sandwicheries,",
+      "Pertes des habitudes de la table, des réunions familiales, des rencontres festives……..",
+      "Suggestions :",
+      "Formation des jeunes (création de nouveaux centres de formation,",
+      "Perpétuer et développer le métier de l'art culinaire pour assurer sa pérennité et sa capitalisation,",
+      "Création d'Associations (des cellules de veille.)",
+      "Création d'une Académie",
+      "Création d'un musée …",
+      "Conclusion",
+      "« A notre sens, le tourisme n'est pas l'art de soutirer à l'étranger le maximum d'argent en un minimum de temps ». « C'est l'art de recevoir un hôte selon la tradition marocaine et nous veillons à ce qu'elle soit respectée, autant qu'il est possible à l'époque du tourisme de masse. » Extrait du livre « le défi du Feu SA MESTE LE ROI HASSAN II)",
+      "La cuisine est, à juste titre, un témoin d'un passé ancestral important chez les communautés marocaines.",
+      "Et puisque la gastronomie touche à tout, elle est un excellent effet de miroir des cultures de nos arrières grands parents.",
+      "Merci pour votre attention",
+      "Salah Chakor",
+      "www.salahchakor.com",
+      "© 2025 - Articles sur la Gastronomie et l'Hospitalité"
+    ]
+  },
+  {
+    "url": "https://www.magazinemarocaindegastronomie.com/epices.html",
+    "title": "Ras-El-Hanout - Épices Marocaines",
+    "description": "",
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Ras-El-Hanout"
+      },
+      {
+        "level": "h2",
+        "text": "Épices emblématiques et magiques de la gastronomie marocaine"
+      },
+      {
+        "level": "h2",
+        "text": "Composition de Ras-El-Hanout"
+      },
+      {
+        "level": "h2",
+        "text": "On peut ajouter à cette composition d’autres épices"
+      },
+      {
+        "level": "h1",
+        "text": "Artile Par Dr Salah Chakor"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/logo.png",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://i0.wp.com/tandysinclair.com/wp-content/uploads/2011/01/Ras-El-Hanout.jpg?ssl=1",
+        "alt": "Marché d'épices marocain",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://marrakech-herboristerie.com/wp-content/uploads/2020/06/Ras-el-hanout-m%C3%A9lange-de-35-%C3%A9pices.jpg",
+        "alt": "Cuisine marocaine traditionnelle",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://ileauxepices.com/blog/wp-content/uploads/2018/11/ras-el-hanout-maison-1.jpg",
+        "alt": "Mélange Ras-El-Hanout",
+        "width": "",
+        "height": ""
+      }
+    ],
+    "lines": [
+      "Ras-El-Hanout",
+      "Épices emblématiques et magiques de la gastronomie marocaine",
+      "Ras-El-Hanout, un nom plein de mystère, cache beaucoup de secrets des femmes artistes et de la gastronomie marocaine. C’est une composition magistrale magique, aux senteurs aromatiques chaudes et sensuelles, et aux saveurs sublimes avec une note légèrement sucrée. Ce mélange des meilleurs épices de la boutique, comme l’indique son nom (tête de la boutique), donne une finesse aux plats et une richesse de goût sans égal nulle part ailleurs. Ce condiment indispensable à la gastronomie marocaine du terroir est le catalyseur des multiples flaveurs de plats ancestraux, tels la M’rouzia, trid, tagine…",
+      "Ce mélange magique d’épices peut compter jusqu’à cinquante épices. Traditionnellement, il se compose d’une vingtaine, mais on peut composer un mélange simplifié d’une dizaine d’épices préparé par l’épicier spécialiste nommé Attar. Toutefois, la composition peut se faire selon la demande du client et selon le désir de la cuisinière ou du cuisinier et/ou du chef en général.",
+      "Les mélanges d’épices varient selon la demande et la fantaisie des Attar, épicier, le pouvoir d’achat des consommateurs et aussi selon l’utilisation en vue par la cuisinière ou le cuisinier. Mais certaines épices s’avèrent incontournables tels que le gingembre, la cardamome, la muscade, le poivre, le macis, le cubèbe, et le curcuma. Ras-El-Hanout peut également contenir des fleurs séchées, comme des boutons de rose, des variétés de poivres, du clou de girofle, ou du galanga. Les mélanges varient également selon les régions. Traditionnellement, les mélanges doivent contenir un ingrédient aphrodisiaque (gingembre, fruits de frêne ou cantharide).",
+      "Ras-El-Hanout est issu du génie des femmes et des dadas qui faisaient de la bonne cuisine et qui voulaient se démarquer par leur savoir-faire culinaire. C’est une invention des hautes civilisations, surtout des villes anciennes où il faisait bon vivre et où les familles des notables et des familles royales étaient jalouses de cet art culinaire et tenaient à ce que leurs cuisines soient meilleures, d’où parfois l’interdiction aux dadas de sortir ou de dévoiler les secrets de leur cuisine aux voisins. De même, les mamans tenaient à ce que leurs filles cuisinent mieux que celles des voisins. C’était une tradition qui a tendance à disparaître. Ces façons de faire existent chez certaines familles qui maintiennent toujours l’ancestralité de leurs traditions, surtout culinaires, telles que le Palais Royal, certains notables dans les villes anciennes et chez certaines tribus.",
+      "Il existe de nombreuses recettes de Ras-El-Hanout qui est une composition, avec des dosages précis d’épices, selon l’emploi désiré par les cuisiniers et les cuisinières spécialistes d’une gastronomie du terroir. Ces épices sont utilisées dans des préparations du terroir telles que Mrouzia, certains tajines salés sucrés, dans certains couscous doura de Larache, appelé ainsi parce qu’il donne le vertige. Ras-El-Hanout entre également dans certains plats d’hiver qui ont la propriété de réchauffer le corps comme il accommode toujours le gibier ; il parfume également certaines pâtisseries au Moyen-Orient. Ce mélange d’épices se marie bien avec le miel, les amandes et les dattes. Ce mélange d’épices parfume également le café dans certaine région du Maroc. En Europe l’engouement pour le Ras-El-Hanout grandit de jour en jour, en raison des ses vertus et ses arômes qui permettent de relever les goûts des préparation culinaires, agrémente les plats en sauce, relève le goût des poissons blancs et des coquillages, s’accommode avec les légumes sucrés comme les carottes, la courge le navet et parfume le riz.",
+      "Composition de Ras-El-Hanout",
+      "Nous essayerons de vous donner, ci-après un mélange que certains Attars, de Marrakech, Fès, Meknès, Casablanca, Tanger …proposent à leurs clients, dont les ingrédients sont choisis en suivant un dosage bien précis (références – Magazine cuisine Marocaine Saveurs et senteurs) :",
+      "•",
+      "20 gr de fruits de frêne (Lissane Tayr) importé d’Europe, considéré comme aphrodisiaque",
+      "•",
+      "30 gr de macis (Bsibissa), anile qui entoure l’amande de la noix de muscade en provenance de Java et de Sumatra",
+      "•",
+      "30 gr de cubèbe (Kebbaba) poivre gris parfumé, en provenance de l’Insulinde et Boméo",
+      "•",
+      "30 gr de cardamome (qaâqalla ou Habbat Hil) graine d’une zingibéracées en provenance de Sri Lanka ou de malabar",
+      "•",
+      "20 gr de poivre de la Jamaïque (Nouiouirat), piment de la Jamaïque (Antilles) très différent des piments malgré son nom",
+      "•",
+      "20 gr de curcuma (kharqoum) famille des gingembres et de cardamone. Le curcuma colore les aliments en jaune est conseillé pour remplacer les colorants artificiels ou le safran pur normalement originaire de l’Inde et d’autres pays tropicaux",
+      "•",
+      "20 gr de poivre blanc en provenance de Sumatra Indonésie",
+      "•",
+      "20 gr de gingembre (Skingber) cultivé en Indochine et au Japon",
+      "•",
+      "05 gr de safran naturel pur cultivé à Taliouine et à Ourika",
+      "•",
+      "20 gr de poivre long (Dhar El felfel) fruit de piper longum en provenance de l’Inde et de la Malaisie",
+      "•",
+      "2 gr de noix de muscade (Gouza) originaire de Sumatra et de Java",
+      "•",
+      "20 gr de bouton de rose (Oud aouard) issue des roses de damas importée de Perse par les arabes et cultivées dans les vallées de Dades et de Todra au Maroc",
+      "•",
+      "2 à 3 grains de cantharide (Doubaba Hindia). Ce produit est issu des régions méditerranéennes",
+      "•",
+      "20 gr d’anis, graines de fenouil et d’anis d’Espagne (Naffaâ, habbat Hlaoua)",
+      "•",
+      "1 gr de mastic (Masca Hora)",
+      "•",
+      "30 gr de graines de sésame (Janjlane)",
+      "•",
+      "20 gr de graine de coriandre sèches (Kozbor)",
+      "On peut ajouter à cette composition d’autres épices",
+      "•",
+      "Galanga (Khoudenja) rhizome d’une Zingibéracée sauvage cultivée en Extrême Orient",
+      "•",
+      "Maniguettes (Gouza Sahraouya) graine d’une Zingibéracée originaire de Côte d’Ivoire",
+      "•",
+      "Cannelle (Karfa) corse de Cannellier, un arbre de la famille de Lauracée cultivé en Inde et en Malaisie",
+      "•",
+      "Cypéracée (Tara Soudania) rhizome très colorant originaire du Soudan",
+      "•",
+      "Clou de Girofle (Oud Enouar - Kronferl) bouton fleurai du Giroflier Myrtacée de Zanzibar",
+      "•",
+      "Inis (Oud Lamber) rhizome de l’Iris Germanica originaire du Haut Atlas Marocain",
+      "•",
+      "Poivre Noir, fruit du Poivrier qui pousse en Asie",
+      "•",
+      "Lavande (Khzama), fleur de la Vandula Vera originaire du Maroc et la France",
+      "•",
+      "La Cannelle de Chine (Dahr El Cini), écorce d’un arbre de la famille de Lauracées, originaire de l’Asie Tropicale",
+      "•",
+      "Baie de Belladone (Zbibet et Laidor) baies desséchées récoltées à Chefchaouen",
+      "•",
+      "Nigelle (Babbat Saouda) graines cultivées au Maroc",
+      "•",
+      "Gingembre blanc (Skingber biad) plus fin que le classique originaire du Japon",
+      "•",
+      "Poivre des moines (Kheroua) baies de gattilier cultivé au Maroc",
+      "Artile Par Dr Salah Chakor"
+    ]
+  },
+  {
+    "url": "https://www.magazinemarocaindegastronomie.com/livres.html",
+    "title": "Gastronomy Site",
+    "description": "",
+    "headings": [
+      {
+        "level": "h2",
+        "text": "Book Library"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/logo.png",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/livres/IMG-20250313-WA0002.jpg",
+        "alt": "Book 1",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/livres/IMG-20250313-WA0003.jpg",
+        "alt": "Book 2",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/livres/IMG-20250313-WA0004.jpg",
+        "alt": "Book 2",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/livres/IMG-20250313-WA0005.jpg",
+        "alt": "Book 2",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/livres/IMG-20250313-WA0006.jpg",
+        "alt": "Book 2",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/livres/Capture 4.jpg",
+        "alt": "Book 2",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/livres/Capture 6.jpg",
+        "alt": "Book 2",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/livres/Capture 2.jpg",
+        "alt": "Book 2",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/livres/Capture 3.jpg",
+        "alt": "Book 2",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/livres/Capture 1.jpg",
+        "alt": "Book 2",
+        "width": "",
+        "height": ""
+      }
+    ],
+    "lines": [
+      "Book Library",
+      "Download",
+      "Download",
+      "Download",
+      "Download",
+      "Download",
+      "Download",
+      "Download",
+      "Download",
+      "Download",
+      "Download"
+    ]
+  },
+  {
+    "url": "https://www.magazinemarocaindegastronomie.com/gastronomie.html",
+    "title": "Ras-El-Hanout - Épices Marocaines",
+    "description": "",
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Le patrimoine gastronomique marocain, levier du développement du tourisme culturel"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/logo.png",
+        "alt": "",
+        "width": "",
+        "height": ""
+      }
+    ],
+    "lines": [
+      "Le patrimoine gastronomique marocain, levier du développement du tourisme culturel",
+      "Par Salah Chakor. Expert et Consultant en Tourisme",
+      "Email:",
+      "Chakor52@gmail.com",
+      "Site Web:",
+      "www.salahchakor.com",
+      "GSM: 061741576",
+      "Le patrimoine gastronomique marocain, levier du développement du tourisme culturel.",
+      "Par Salah Chakor. Expert et Consultant en Tourisme",
+      "Chakor52@gmail.com",
+      "www.salahchakor.com",
+      "GSM : 061741576.",
+      "Avant propos dans deux langues : Français et Anglais",
+      "Définition du terme : Gastronomie.",
+      "Gastronomie et science :",
+      "Y a-t-il un rapport entre l’économie et la cuisine ?",
+      "Il est bien évident, aujourd’hui, au moment où le gouvernement se préoccupe de l’activité touristique comme étant l’une des locomotives de son développement socioéconomique de s’intéresser à toutes les composantes des produits de cette industrie des loisirs, et notamment l’accueil, l’hébergement, la restauration dans toutes ses formes, l’animation…etc.",
+      "Et vu que l’élément nourriture occupe une place prépondérante dans la constitution de ces prestations de services aux touristes potentiels, il est alors essentiel d’accorder un grand intérêt à la gastronomie nationale, régionale, en mettant en valeurs des préparations originales à même de refléter un savoir faire ancestral, relatant la culture, la tradition, la civilisation…",
+      "La notion de patrimoine gastronomique marocain :",
+      "Si le Royaume du Maroc offre une mosaïque de plats riches et savoureux, ce n’est pas un pur hasard, mais bien évidemment grâce à sa situation privilégiée, à la croisée des cultures et des civilisations, depuis la haute Antiquité.",
+      "Le Maroc est gourmand de son authenticité, de ses recettes qui sont à cent pour cent le reflet de la longue histoire riche en traditions, ainsi que des particularités régionales. Le Royaume recèle des secrets gourmands profonds issus d’un savoir-faire ancestral, miroir du patrimoine du terroir. La cuisine est l’art qui témoigne du degré de civilisation dans un pays, car les habitudes alimentaires d’un peuple sont toujours intimement liées à la géographie de sa localité. Une alternance d’austérité et de majesté, de rudesse et de douceur, de mesure et de démesure qu’offrent les montagnes, les plaines, les mers, et les lacs, se retrouve dans sa cuisine marocaine, tout à la fois rustique et opulent. C’est dire que le patrimoine culinaire marocain se défini comme étant le miroir d’un passé séculaire et ancestral riche. La gastronomie marocaine et le témoin d’un brassage de cultures et civilisations qu’a vécu cette terre, reconnue comme étant un carrefour de rencontres et de vie pacifique. Enfin cette gastronomie est le fruit d’un mixage de savoirs et de savoirs faire multiples, venus de plusieurs horizons.",
+      "La cuisine est l’une des Composantes essentielles de l’offre touristique :",
+      "Et étant donné que l’on ne peut pas concevoir une hôtellerie, et en l’occurrence un tourisme sans une restauration, sans un hébergement, entre autres, nous considérons que le patrimoine culturel est l’une des composantes importantes et essentielles de cette industrie des loisirs. Dés lors il n’est pas concevable de s’en passer, car c’est le moyen le plus efficace pour divulguer un savoir faire des citoyens en la matière, ce qui participe à la promotion de la culturel locale ancestrale. La cuisine n’est pas seulement faire à manger, mais aussi et surtout faire appel à une culture à une cérémonie à des traditions, selon chaque région, chaque tribu. Le patrimoine marocain détient donc une grande place dans la promotion du tourisme et contribue, efficacement, s’elle est bien faite, au développement du secteur. Une bonne cuisine savoureuse, délicieuse, riche et variée, comme la marocaine, ne peut que rehausser la qualité du produit touristique. Par conséquent, il est de notre devoir tous de mieux l’enseigner, la sauvegarder …..",
+      "Le patrimoine gastronomique est une véritable ressource économique dans le cadre de la politique touristique que mène le pays",
+      "Au moment où le fast food a tenté de conquérir toute la planète, par l’implantation des entreprises de la restauration rapide et à l’emporter (drive in, drogue store, des Mac Donaldl’s …etc.), et où les Etats Unis ont voulu imposer cette tradition alimentaire, l’on constate aujourd’hui, que les fin Gourmets ont une nostalgie de la bonne table. Les personnes de grandes traditions culinaires veulent alors retrouver les bonnes habitudes. C’est ce qui a donné naissance à ce qu’on appelle le Slow Food, né en Italie. Le slow food prône un retour aux plaisirs de la bonne chère. Ceci induit de prendre le temps d’apprécier un bon repas, de privilégier les produits du terroir et de saison et, si l’on va au restaurant, de choisir un établissement dont le chef de cuisine ces produits avec goût et passion.",
+      "Le slow food est un véritable mouvement lancé par une association qui porte son nom et qui comporte plus de quatre-vingt mille adhérents à travers le monde. Cette association encourage les gens à se réjouir des repas servis et de mieux savourer les préparations du terroir qu’un chef artiste présente avec doigté. Cette Association mène également des actions concrètes pour sauvegarder la diversité des gastronomies régionales, seul gage de notre identité et de notre culture.",
+      "A la lumière de ces mouvements, nous confirmons la cuisine traditionnelle comme étant une vraie ressource économique, moyen important pour la création des économies de niches dans les régions de grand tourisme, là où la cuisine a fait sa renommée, telle que Fès, Marrakech, Essaouira, …..Les touristes deviennent de plus en plus amateurs de la bonne cuisine, de la cuisine du terroir, une cuisine faite bio. Notre responsabilité est alors grande dans ce sens que nous devons encourager la création d’une restauration traditionnelle raffinée dans toutes les villes cibles d’un tourisme culturel, haut et de moyenne gamme. La gastronomie nationale marocaine est, au même titre que l’artisanat, le folklore, …..le gage de notre tourisme local de niche.",
+      "L’offre de formation professionnelle (privée ou publique, initiale ou continue) destinée à ce secteur :",
+      "Jusqu’à aujourd’hui le volet formation destiné à ce créneau reste très insuffisant car seul un centre est chargé de dispenser ce savoir. Le Centre da Qualification Professionnelle Hôtelière et Touristique de Touarga, à Rabat forme des jeunes filles dans la cuisine traditionnelle marocaine, d’ailleurs efficace dans cette formation, mais cela reste insuffisant. Par contre dans le privé nous n’avons aucun établissement qui forme dans ce sens. Pour mener à bien ces formations et afin de sauvegarder ce patrimoine il est important de multiplier des centres et les écoles de formation, de même que la création des associations professionnelles.",
+      "Etant donné que le Maroc est un pays de grande cuisine, d’un patrimoine culinaire très varie et riche, la création d’une Académie Nationale de Gastronomie est nécessaire pour permettre la conservation et la mise en valeur de cette culture ancestrale.",
+      "Ce qui va permettre également la mise en place d’un laboratoire culinaire au niveau national favorisant le réajustement des recettes et leur équilibrage, selon les besoins des organismes, et selon les circonstances.",
+      "La collecte et la conservation des ustensiles, matériels traditionnels et des condiments et épices utilisés pour la confection des plats constituant la cuisine du terroir s’imposent également, ce qui va motiver la création d’un musée d’art culinaire dans les régions de grandes cuisines.",
+      "Ce conservatoire de la Gastronomie Nationale aura comme objectifs essentiels la revalorisation des cuisines et des produits en voie de disparition, de même que la sauvegarde et la promotion du caractère honnête et sincère des cuisines régionale et nationales. Ce qui va prévenir le fait de dénaturer cet art ou de le conduire à la médiocrité.",
+      "Une fois mise sur pied, cette Académie de Gastronomie Nationale, aura à entreprendre, comme tâche noble, une action permanente en faveur d’une cuisine de qualité élaborée à partir de produits naturels et authentiques, tant au plan gustatif que nutritif.",
+      "D’ailleurs, l’implantation du centre de qualification hôtelière et touristique, dans l’enceinte de Touarga, à Rabat exprime pleinement cette volonté d’assurer la pérennité de cette facette de la richesse culturelle marocaine. Ce centre a la tâche de participer à la sauvegarde du patrimoine civilisationnel, culturel et humain. L’art culinaire marocain traditionnel, inlassablement transmis de mère en fille, est aujourd’hui la noble mission assignée au centre de qualification de Touarga.",
+      "La préservation, la perpétuité du savoir- faire et l’authenticité de la culture marocaine, sous toutes ses formes, motivaient, à plus d’un égard, Feu Sa Majesté Hassan II, et son successeur, Sa Majesté Le Roi Mohamed VI, qui continue à en faire sa principale préoccupation, car conscient du fait que c’est le gage de notre identité nationale. L’art culinaire représente, dans tout cela, la facette la plus complète de la culture, parce qu’elle est mêlée à tous les savoirs de l’humanité, c’est un patrimoine complet, faisant appel à la science, à l’agriculture, à l’artisanat, à la médecine………",
+      "Enfin les actions, qui seront menées par l’académie de cuisine, seront des actions scientifiques capables de mettre en place une nutrition susceptible de prévenir les maladies et de permettre l’entretien de l’organisme. Ce qui fera appel à une étude conjointe, sur la dimension humaine et scientifique, de la science de l’alimentation et de l’art culinaire.",
+      "La Gastronomie marocaine : mosaïque de culture et d’art.",
+      "Ayant comme origine le mélange des traditions culinaires berbères, juives, arabes et même andalouses, la cuisine marocaine traditionnelle est considérée, à juste titre, comme l'une des plus savoureuses et des plus fines d'Afrique du Nord en particulier et du monde en général. Cette cuisine a également subi l’influence de différentes civilisations qui ont conquis le pays par le passé et notamment, les Phéniciens, le Romains, les Espagnoles, les Français.etc. Ce brassage de cultures et de civilisations a fait du Maroc un carrefour des rencontres et de croisement des différents savoirs d’où la richesse de sa cuisine. Les cuisines arabes et juives de ce pays ont de nombreux points communs : la dénomination des mets, la façon de préparer les recettes et surtout, l'emploi d'épices et de condiments qui aromatisent et colorent agréablement les viandes, les poissons et les légumes.",
+      "Certes, du nord au sud du pays, l'on retrouve dans les recettes les grands \"classiques\" tels que le tajine, la pastilla, le couscous, qui ont fait sa réputation dans le monde entier. Mais la cuisine marocaine offre aussi d'autres mets tout aussi savoureux et fins dont sont riches les régions, chacune selon sa spécialité agricole. Il existe un grands nombre d'autres plats souvent connus des seuls Marocains mais tout aussi succulents et méritent une exploration car riches en savoirs et en traditions souvent thématiques.",
+      "Opportunités de l’exportation de gastronomie en tant qu’art et culture : Culture ancestrale, - mosaïque d’art, - savoir-faire, tableau d’art, témoin de civilisation…Ce savoir se transmet de mère en fille, comme il s’exporte à l’étranger, par le moyen de l’organisation des foires de festivals, et aussi par l’intermédiaire des touristes bien satisfaits qui en deviendront les ambassadeurs.",
+      "Quelques remarques :",
+      "• Cuisine délaissée, Culture orale non écrite,",
+      "• Pertes de traditions par la disparition des Dadas,",
+      "• La relève non préparée,",
+      "• Recours au fast food et aux sandwicheries,",
+      "• Pertes des habitudes de la table, des réunions familiales, des rencontres festives…….",
+      "Suggestions :",
+      "• Formation des jeunes (création de nouveaux centres de formation,",
+      "• Perpétuer et développer le métier de l’art culinaire pour assurer sa pérennité et sa capitalisation,",
+      "• Création d’Associations (des cellules de veille.)",
+      "• Création d’une Académie",
+      "• Création d’un musée …",
+      "Conclusion :",
+      "« A notre sens, le tourisme n’est pas l’art de soutirer à l’étranger le maximum d’argent en un minimum de temps ». « C’est l’art de recevoir un hôte selon la tradition marocaine et nous veillons à ce qu’elle soit respectée, autant qu’il est possible à l’époque du tourisme de masse. » Extrait du livre « le défi du Feu SA MESTE LE ROI HASSAN II)",
+      "La cuisine est, à juste titre, un témoin d’un passé ancestral important chez les communautés marocaines.",
+      "Et puisque la gastronomie touche à tout, elle est un excellent effet de miroir des cultures de nos arrières grands parents.",
+      "Merci pour votre attention",
+      "Salah Chakor",
+      "www.salahchakor.com",
+      "© 2025 Tous droits réservés."
+    ]
+  },
+  {
+    "url": "https://www.magazinemarocaindegastronomie.com/president.html",
+    "title": "Gastronomy Site",
+    "description": "",
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Dr.SALAH CHAKOR"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/logo.png",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/photode.jpeg",
+        "alt": "Dr. Salah Chakor",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/logo.png",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/photo1.jpeg",
+        "alt": "Photo 1",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/photo2.jpeg",
+        "alt": "Photo 2",
+        "width": "",
+        "height": ""
+      }
+    ],
+    "lines": [
+      "Dr.SALAH CHAKOR",
+      "Si le peintre cherche à plaire au public par la présentation de beaux tableaux parlants et attirants, le cuisinier,",
+      "par ses préparations culinaires veut satisfaire la curiosité des fins gourmets au niveau de l’olfactif, l’odorat, le gustatif et nutritionnel.",
+      "Une bonne cuisine faite avec doigté et avec goût est le moyen efficace pour relater la civilisation et les techniques des gens du pays et de la région dont elle est originaire",
+      "Chaque région offre une variété de mets, selon les traditions, la culture, selon la civilisation de ses habitants et selon sa richesse en produits agricole,",
+      "élevage, pêche…..etc. D’où le Royaume du Maroc est",
+      "l’une des régions de la méditerranée qui se distinguent par leurs cuisines diététiques très riche et variées uniques au monde.",
+      "Ces variétés ont également le rapport avec ce qui est disponible dans cette région comme produits alimentaires (légumes, fruits, viandes, …..etc.),",
+      "c’est pourquoi la cuisine marocaine est très riche dans des régions de haute agriculture telles que le Tafilalet",
+      "(Ancienne Sijilmassa), Meknès, Fès, Marrakech, Doukkala, Haouz, le Gharb..Etc.",
+      "Et étant donné que la nourriture est un des champs de la cultures et du patrimoine d’une extrême importance, au même titre que la peinture, la musique,",
+      "l’architecture, elle mérite alors bien d’être reconnue, mieux étudiée et développée.",
+      "C’est ce qui va nous a amené à initier la création d’une Fondation de l’Académie Marocaine de la gastronomie en vue de créer un dialogue entre les chercheurs et les professionnels du secteur du tourisme et de l’hôtellerie pour donner à cet art culinaire la place qu’il lui revient.",
+      "C’est ce qui est à même aussi de démontrer que la nourriture est un domaine qui nécessite une attention particulière en tant que science humaine.",
+      "Car la bonne nourriture est signe de convivialité",
+      "l’art culinaire est très significatif dans la vie humaine des individus,",
+      "chose qui fait apparaître chez eux ce signe d’hospitalité.",
+      "C’est grâce à cet aspect que la cuisine marocaine est festive et",
+      "créatrice d’union entre les membres des familles, des voisins et des amis.",
+      "La cuisine est aussi ce moyen le plus efficace pour assurer une bonne santé aux adultes et la croissance des enfants,",
+      "le développement de l’esprit, de l’intelligence.",
+      "Ceci a tendance à confondre la médecine est la bonne cuisine qui favorise l’’entretien et le maintien de l’organisme et sa réparation par un régime rigoureux.",
+      "Cuisiner n’est donc pas uniquement faire à manger,",
+      "ou une fête, mais aussi et surtout répondre à un besoin déclenché par",
+      "l’organisme en tant nature et prévenir des malaises qui risquent d’arriver,",
+      "et assurer la croissance de l’organisme.",
+      "La cuisine marocaine, cette mosaïque d’art et de savoir-faire permet des réunions de famille à une même table,",
+      "favorise des échanges et permet d’inculquer les règles de bonnes manières aux enfants. Le moment de la table est fort,",
+      "c’est là où se traitent et se concluent les affaires se nouent des relations de tout genre. Aussi la gastronomie est un élément important pour faire la promotion du pays et créer la marque sa marque.",
+      "La cuisine permet également le développement de la diplomatie parallèle,",
+      "C’est enfin l’occasion d’unir les individus, car comme on dit :",
+      "la politique les sépare et la",
+      "la gastronomie les unit.",
+      "La Fondation Académie Marocaine de la Gastronomie,",
+      "première en son genre au Royaume,",
+      "aura le mérite le mérite d’être un laboratoire et un conservatoire pour la sauvegarde de ce patrimoine culinaire du terroir.",
+      "Et en plus des plats du terroir,",
+      "nous aurons à organiser des cours de cuisine pour ceux qui ont cette curiosité de découvrir la culture et la civilisation de l’autre.."
+    ]
+  },
+  {
+    "url": "https://www.magazinemarocaindegastronomie.com/contact.html",
+    "title": "Gastronomy Site",
+    "description": "",
+    "headings": [
+      {
+        "level": "h1",
+        "text": "DR SALAH CHAKOR"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/logo.png",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/salah-cover.jpeg",
+        "alt": "",
+        "width": "",
+        "height": ""
+      },
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/linkedin (1).png",
+        "alt": "",
+        "width": "",
+        "height": ""
+      }
+    ],
+    "lines": [
+      "Gastronomy Site",
+      "L'Anthropologie de la gastronomie",
+      "Arts et cultures au service d'un tourisme local durable",
+      "Les familles marocaines à table",
+      "la cuisine de nos arriers",
+      "La science de l'alimentation",
+      "Le rapport du tourisme",
+      "Le rôle des restaurants dans le promotion",
+      "Condiments et Épices",
+      "sucrées",
+      "DR",
+      "SALAH CHAKOR",
+      "President Fondateur de la Fondation Académie Marocaine de la cuisine",
+      "Conseiller culinaire, Président Fondateur de l’Association Marocaine des Experts et Scientifiques du Tourisme, Membre fondateur de plusieurs Associations…"
+    ]
+  },
+  {
+    "url": "https://www.magazinemarocaindegastronomie.com/cover.html",
+    "title": "Gastronomy Site",
+    "description": "",
+    "headings": [],
+    "images": [
+      {
+        "src": "https://www.magazinemarocaindegastronomie.com/logo.png",
+        "alt": "",
+        "width": "",
+        "height": ""
+      }
+    ],
+    "lines": [
+      "Gastronomy Site",
+      "L'Anthropologie de la gastronomie",
+      "Arts et cultures au service d'un tourisme local durable",
+      "Les familles marocaines à table",
+      "la cuisine de nos arriers",
+      "La science de l'alimentation",
+      "Le rapport du tourisme",
+      "Le rôle des restaurants dans le promotion",
+      "Importance",
+      "Condiments et Épices",
+      "sucrées"
+    ]
+  },
+  {
+    "url": "https://www.magazinemarocaindegastronomie.com/chart.html",
+    "title": "PDF Viewer",
+    "description": "",
+    "headings": [],
+    "images": [],
+    "lines": [
+      "PDF Viewer"
+    ]
+  }
+]
