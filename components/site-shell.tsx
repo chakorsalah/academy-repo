@@ -6,7 +6,7 @@ export function Header() {
   return (
     <header className="site-header">
       <Link href="/" className="brand" aria-label="Accueil">
-        <img src={images.logo} alt="Académie Gastronomie Maroc" />
+        <img src={images.logo} alt="Académie Gastronomie Maroc" width={62} height={62} decoding="async" />
         <span>
           <strong>Académie</strong>
           <small>Magazine Marocain de la Gastronomie</small>
@@ -30,17 +30,13 @@ export function Header() {
         ))}
       </nav>
 
-      <Link href="/contact" className="contact-link">
-        Contact
-      </Link>
-
       <details className="mobile-nav">
         <summary aria-label="Ouvrir la navigation">
           <span />
           <span />
           <span />
         </summary>
-        <div className="mobile-panel">
+        <nav className="mobile-panel" aria-label="Navigation mobile">
           {nav.map((item) => (
             <div key={item.label}>
               <Link href={item.href}>{item.label}</Link>
@@ -55,8 +51,7 @@ export function Header() {
               ) : null}
             </div>
           ))}
-          <Link href="/contact">Contact</Link>
-        </div>
+        </nav>
       </details>
     </header>
   );
@@ -67,7 +62,7 @@ export function Footer() {
     <footer className="footer">
       <div className="footer-main">
         <div className="footer-identity">
-          <img src={images.logo} alt="Académie Gastronomie Maroc" />
+          <img src={images.logo} alt="Académie Gastronomie Maroc" width={92} height={92} loading="lazy" decoding="async" />
           <p>
             Fondation Académie Marocaine de la Gastronomie et Magazine Marocain de la Gastronomie réunis
             dans une seule plateforme éditoriale.
@@ -101,16 +96,35 @@ export function Footer() {
 }
 
 export function Breadcrumbs({ items }: { items: { label: string; href?: string }[] }) {
+  const list = [{ label: "Accueil", href: "/" }, ...items].map((item, index) => ({
+    "@type": "ListItem",
+    position: index + 1,
+    name: item.label,
+    item: item.href ? `${site.url}${item.href === "/" ? "" : item.href}/` : undefined,
+  }));
+
   return (
-    <nav className="breadcrumbs" aria-label="Fil d'Ariane">
-      <Link href="/">Accueil</Link>
-      {items.map((item) => (
-        <span key={`${item.label}-${item.href ?? "current"}`}>
-          <span aria-hidden="true">/</span>
-          {item.href ? <Link href={item.href}>{item.label}</Link> : <strong>{item.label}</strong>}
-        </span>
-      ))}
-    </nav>
+    <>
+      <nav className="breadcrumbs" aria-label="Fil d'Ariane">
+        <Link href="/">Accueil</Link>
+        {items.map((item) => (
+          <span key={`${item.label}-${item.href ?? "current"}`}>
+            <span aria-hidden="true">/</span>
+            {item.href ? <Link href={item.href}>{item.label}</Link> : <strong>{item.label}</strong>}
+          </span>
+        ))}
+      </nav>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: list,
+          }).replace(/</g, "\\u003c"),
+        }}
+      />
+    </>
   );
 }
 
@@ -147,7 +161,7 @@ export function ImagePanel({
 }) {
   return (
     <figure className={`image-panel ${className}`}>
-      <img src={src} alt={alt} />
+      <img src={src} alt={alt} loading="lazy" decoding="async" />
       {label ? <figcaption>{label}</figcaption> : null}
     </figure>
   );

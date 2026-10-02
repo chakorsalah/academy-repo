@@ -22,14 +22,26 @@ export async function generateMetadata({ params }: DynamicParams): Promise<Metad
       description: site.description,
     };
   }
+  const image = page.image ?? page.article?.hero ?? page.dish?.image;
+  const canonical = `${page.path}/`;
   return {
     title: page.title,
     description: page.description,
+    alternates: {
+      canonical,
+    },
     openGraph: {
       title: `${page.title} · ${site.shortName}`,
       description: page.description,
+      url: canonical,
       type: page.type === "article" ? "article" : "website",
-      images: page.image ? [{ url: page.image }] : undefined,
+      images: image ? [{ url: image, alt: page.title }] : undefined,
+    },
+    twitter: {
+      card: image ? "summary_large_image" : "summary",
+      title: `${page.title} · ${site.shortName}`,
+      description: page.description,
+      images: image ? [image] : undefined,
     },
   };
 }

@@ -76,7 +76,7 @@ export const site = {
   shortName: "Gastronomie Maroc",
   description:
     "Plateforme unifiée de la Fondation Académie Marocaine de la Gastronomie et du Magazine Marocain de la Gastronomie.",
-  url: "https://www.academiegastronomiemaroc.ma",
+  url: "https://academie-magazine-gastronomie-maroc.saidjabouri002.chatgpt.site",
   contact: {
     city: "Tanger, Maroc",
     phone: "0661741576",
@@ -91,34 +91,34 @@ export function imageFor(remoteUrl: string, fallback = "/assets/source/Moroccan-
 
 export const images = {
   logo: imageFor("https://www.academiegastronomiemaroc.ma/Moroccan Culinary Academy Emblem.png"),
-  hero: imageFor("https://www.academiegastronomiemaroc.ma/Moroccan-Feast.png"),
+  hero: "/assets/optimized/Moroccan-Feast.jpg",
   heroAlt: imageFor("https://www.academiegastronomiemaroc.ma/moroccan-feast.png"),
-  tagines: imageFor("https://www.academiegastronomiemaroc.ma/tagine-trio.png"),
+  tagines: "/assets/optimized/tagine-trio.jpg",
   academy: imageFor("https://www.academiegastronomiemaroc.ma/Team.jpeg"),
   about: imageFor("https://www.academiegastronomiemaroc.ma/QuiSommesNous.jpg"),
-  aboutTwo: imageFor("https://www.academiegastronomiemaroc.ma/QuiSommes2.jpg"),
-  history: imageFor("https://www.academiegastronomiemaroc.ma/rustic-moroccan-cooking.png"),
+  aboutTwo: "/assets/optimized/QuiSommes2.jpg",
+  history: "/assets/optimized/rustic-moroccan-cooking.jpg",
   signature: imageFor("https://www.academiegastronomiemaroc.ma/signature.jpeg"),
   president: imageFor("https://i.ibb.co/qYdS63vq/Whats-App-Image-2025-04-19-at-20-54-27.jpg"),
   activity: imageFor("https://www.academiegastronomiemaroc.ma/challenge.jpg"),
   assembly: imageFor("https://www.academiegastronomiemaroc.ma/AssembleGeneral.jpg"),
-  amazigh: imageFor("https://www.academiegastronomiemaroc.ma/AmazighYear.png"),
+  amazigh: "/assets/optimized/AmazighYear.jpg",
   dinner: imageFor("https://www.academiegastronomiemaroc.ma/Moroccan-Food.jpg"),
-  conference: imageFor("https://www.academiegastronomiemaroc.ma/Conference.jpg"),
+  conference: "/assets/optimized/Conference.jpg",
   coverage: imageFor("https://www.academiegastronomiemaroc.ma/Couverture.jpeg"),
   tajineContest: imageFor("https://www.academiegastronomiemaroc.ma/meilleurTajine.jpg"),
   banner: imageFor("https://www.academiegastronomiemaroc.ma/Banner.png"),
-  dining: imageFor("https://www.academiegastronomiemaroc.ma/DinnerMarocaine.png"),
+  dining: "/assets/optimized/DinnerMarocaine.jpg",
   publication: imageFor("https://www.academiegastronomiemaroc.ma/Publication.jpg"),
   cooking: imageFor("https://www.academiegastronomiemaroc.ma/Cooking.jpg"),
   partnership: imageFor("https://www.academiegastronomiemaroc.ma/Patronariat.jpg"),
   formation: imageFor("https://www.academiegastronomiemaroc.ma/Formation.jpg"),
   dishKefta: imageFor("https://www.magazinemarocaindegastronomie.com/qwe.jpg"),
-  dishPastilla: imageFor("https://www.magazinemarocaindegastronomie.com/DSC06024.jpg"),
+  dishPastilla: "/assets/optimized/DSC06024.jpg",
   dishPoulet: imageFor("https://www.magazinemarocaindegastronomie.com/featured-5.jpg"),
-  magazineOne: imageFor("https://www.magazinemarocaindegastronomie.com/DSC05932.jpg"),
+  magazineOne: "/assets/optimized/DSC05932.jpg",
   magazineTwo: imageFor("https://www.magazinemarocaindegastronomie.com/ho.jpg"),
-  magazineThree: imageFor("https://www.magazinemarocaindegastronomie.com/DSC06023.jpg"),
+  magazineThree: "/assets/optimized/DSC06023.jpg",
   rasElHanout: imageFor("https://i0.wp.com/tandysinclair.com/wp-content/uploads/2011/01/Ras-El-Hanout.jpg?ssl=1"),
 };
 
@@ -619,6 +619,7 @@ export const nav = [
   { label: "Activités", href: "/activites" },
   { label: "Actualités", href: "/actualites" },
   { label: "Galerie", href: "/galerie" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export const footerColumns = [

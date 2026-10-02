@@ -25,10 +25,14 @@ function excerpt(text: string, max = 180) {
   return `${text.slice(0, max).replace(/\s+\S*$/, "")}...`;
 }
 
+function assetUrl(src: string) {
+  return src.startsWith("http") ? src : `${site.url}${src}`;
+}
+
 function ArticleCard({ article, large = false }: { article: Article; large?: boolean }) {
   return (
     <Link href={article.path} className={`article-card ${large ? "large" : ""}`}>
-      <img src={article.hero} alt="" />
+      <img src={article.hero} alt={article.title} loading="lazy" decoding="async" />
       <div>
         <p className="meta">{article.magazineCategory}</p>
         <h3>{article.title}</h3>
@@ -41,7 +45,7 @@ function ArticleCard({ article, large = false }: { article: Article; large?: boo
 function DishCard({ dish, large = false }: { dish: (typeof dishes)[number]; large?: boolean }) {
   return (
     <Link href={dish.path} className={`dish-card ${large ? "large" : ""}`}>
-      <img src={dish.image} alt={dish.title} />
+      <img src={dish.image} alt={dish.title} loading="lazy" decoding="async" />
       <div>
         <p className="meta">
           {dish.date} · {dish.author}
@@ -57,7 +61,7 @@ function Hero() {
   return (
     <section className="home-hero">
       <div className="hero-slide">
-        <img src={images.hero} alt="Table de gastronomie marocaine" />
+        <img src={images.hero} alt="Table de gastronomie marocaine" fetchPriority="high" decoding="async" />
       </div>
       <div className="hero-rail" aria-hidden="true">
         Fondation · Magazine · Patrimoine
@@ -142,7 +146,7 @@ export function HomePage() {
           <div>
             {gastronomyIndex.slice(3, 7).map((item) => (
               <Link href={item.path} className="story-row" key={item.path}>
-                <img src={item.image} alt="" />
+                <img src={item.image} alt={item.title} loading="lazy" decoding="async" />
                 <span>
                   <small>Gastronomie</small>
                   <strong>{item.title}</strong>
@@ -189,7 +193,7 @@ export function HomePage() {
         <div className="activity-mosaic">
           {activities.slice(0, 3).map((activity) => (
             <article key={activity.title}>
-              <img src={activity.image} alt={activity.title} />
+              <img src={activity.image} alt={activity.title} loading="lazy" decoding="async" />
               <div>
                 <h3>{activity.title}</h3>
                 <p>{activity.text}</p>
@@ -205,7 +209,7 @@ export function HomePage() {
           {news.map((item) => (
             <article key={item.title}>
               <time>{item.date}</time>
-              <img src={item.image} alt="" />
+              <img src={item.image} alt={item.title} loading="lazy" decoding="async" />
               <div>
                 <p className="meta">{item.category}</p>
                 <h3>{item.title}</h3>
@@ -220,7 +224,7 @@ export function HomePage() {
       </section>
 
       <section className="magazine-transition">
-        <img src={images.magazineThree} alt="" />
+        <img src={images.magazineThree} alt="" loading="lazy" decoding="async" />
         <div>
           <p className="kicker">Le Magazine</p>
           <h2>Magazine Marocain de la Gastronomie</h2>
@@ -236,7 +240,7 @@ export function HomePage() {
         <div className="masonry">
           {gallery.slice(0, 8).map((item) => (
             <figure key={item.title}>
-              <img src={item.image} alt={item.title} />
+              <img src={item.image} alt={item.title} loading="lazy" decoding="async" />
               <figcaption>
                 <span>{item.category}</span>
                 {item.title}
@@ -338,7 +342,7 @@ export function PresidentPage() {
       />
       <section className="president-layout">
         <aside>
-          <img src={images.president} alt="Dr. Salah Chakor" />
+          <img src={images.president} alt="Dr. Salah Chakor" loading="lazy" decoding="async" />
           <h2>Dr. Salah Chakor</h2>
           <p>Président Fondateur</p>
         </aside>
@@ -418,7 +422,7 @@ export function GastronomyPage() {
       <section className="index-grid">
         {gastronomyIndex.map((item, index) => (
           <Link href={item.path} className={index === 0 ? "index-card wide" : "index-card"} key={item.path}>
-            <img src={item.image} alt="" />
+            <img src={item.image} alt={item.title} loading="lazy" decoding="async" />
             <div>
               <p className="meta">Gastronomie Marocaine</p>
               <h2>{item.title}</h2>
@@ -437,6 +441,9 @@ export function CategoryPage({ page }: { page: PageEntry }) {
   return (
     <main>
       <InteriorHero title={page.title} kicker="Rubrique" text={page.description} image={page.image ?? images.tagines} />
+      <section className="breadcrumb-band">
+        <Breadcrumbs items={[{ label: "Gastronomie Marocaine", href: "/gastronomie-marocaine" }, { label: page.title }]} />
+      </section>
       <section className="index-grid compact">
         {related.map((article) => (
           <ArticleCard article={article} key={article.path} />
@@ -479,7 +486,7 @@ export function ArticlePageView({ article }: { article: Article }) {
           <span>Magazine Marocain de la Gastronomie</span>
         </div>
         <figure>
-          <img src={article.hero} alt="" />
+          <img src={article.hero} alt={article.title} fetchPriority="high" decoding="async" />
           <figcaption>{article.magazineCategory} · contenu migré depuis le Magazine Marocain de la Gastronomie</figcaption>
         </figure>
       </section>
@@ -510,8 +517,18 @@ export function ArticlePageView({ article }: { article: Article }) {
           "@context": "https://schema.org",
           "@type": "Article",
           headline: article.title,
+          description: article.summary,
+          mainEntityOfPage: `${site.url}${article.path}/`,
           author: article.author ? { "@type": "Person", name: article.author } : undefined,
-          image: article.hero,
+          publisher: {
+            "@type": "Organization",
+            name: "Fondation Académie Marocaine de la Gastronomie",
+            logo: {
+              "@type": "ImageObject",
+              url: `${site.url}${images.logo}`,
+            },
+          },
+          image: assetUrl(article.hero),
           articleSection: article.magazineCategory,
         }}
       />
@@ -559,7 +576,7 @@ function ArticleLines({ lines, headings, title, image }: { lines: string[]; head
         insertedImage = true;
         nodes.push(
           <figure className="article-inline-image" key={`image-${index}`}>
-            <img src={image} alt="" />
+            <img src={image} alt="" loading="lazy" decoding="async" />
           </figure>,
         );
       }
@@ -608,7 +625,7 @@ export function DishPage({ dish }: { dish: (typeof dishes)[number] }) {
           </p>
           <SourceLine url={dish.sourceUrl} />
         </div>
-        <img src={dish.image} alt={dish.title} />
+        <img src={dish.image} alt={dish.title} fetchPriority="high" decoding="async" />
       </section>
     </main>
   );
@@ -646,7 +663,7 @@ export function MagazinePage() {
         <SectionIntro kicker="Bibliothèque" title="Livres et couvertures migrés" text="Les visuels de la page Livres sont conservés comme archive éditoriale." />
         <div>
           {bookImages.map((image, index) => (
-            <img src={image} alt={`Livre ${index + 1}`} key={image} />
+            <img src={image} alt={`Livre ${index + 1}`} loading="lazy" decoding="async" key={image} />
           ))}
         </div>
       </section>
@@ -659,7 +676,7 @@ export function ActivitiesPage({ compact = false }: { compact?: boolean }) {
     <section className="activity-archive">
       {activities.map((activity, index) => (
         <article key={activity.title} className={index % 2 ? "reverse" : ""}>
-          <img src={activity.image} alt={activity.title} />
+          <img src={activity.image} alt={activity.title} loading="lazy" decoding="async" />
           <div>
             <p className="meta">Académie</p>
             <h2>{activity.title}</h2>
@@ -693,7 +710,7 @@ export function NewsPage() {
         {news.map((item) => (
           <article key={item.title}>
             <time>{item.date}</time>
-            <img src={item.image} alt="" />
+            <img src={item.image} alt={item.title} loading="lazy" decoding="async" />
             <div>
               <p className="meta">{item.category}</p>
               <h2>{item.title}</h2>
@@ -718,7 +735,7 @@ export function GalleryPage() {
       <section className="masonry full">
         {gallery.map((item) => (
           <figure key={item.title}>
-            <img src={item.image} alt={item.title} />
+            <img src={item.image} alt={item.title} loading="lazy" decoding="async" />
             <figcaption>
               <span>{item.category}</span>
               {item.title}
@@ -745,7 +762,7 @@ function PartnersBand() {
       <SectionIntro kicker="Partenaires" title="Nos Partenaires" text="L'Académie collabore avec des institutions et organisations pour promouvoir la gastronomie marocaine." align="center" />
       <div>
         {partners.map((partner, index) => (
-          <img src={partner} alt={`Partenaire ${index + 1}`} key={partner} />
+          <img src={partner} alt={`Partenaire ${index + 1}`} loading="lazy" decoding="async" key={partner} />
         ))}
       </div>
     </section>
@@ -798,7 +815,7 @@ function ContactBand({ detailed = false }: { detailed?: boolean }) {
 function InteriorHero({ title, kicker, text, image }: { title: string; kicker: string; text: string; image: string }) {
   return (
     <section className="interior-hero">
-      <img src={image} alt="" />
+      <img src={image} alt="" fetchPriority="high" decoding="async" />
       <span className="interior-mark" aria-hidden="true">
         ◆
       </span>
