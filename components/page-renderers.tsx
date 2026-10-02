@@ -69,8 +69,7 @@ function Hero() {
       <div className="hero-content reveal">
         <p className="kicker">Promouvoir l'Excellence</p>
         <h1>
-          <span>L'Art</span>
-          <span>Culinaire</span>
+          <span>L'Art Culinaire</span>
           <span>Marocain</span>
         </h1>
         <p>
