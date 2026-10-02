@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import { footerColumns, images, nav, site } from "@/lib/content";
 

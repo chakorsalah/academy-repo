@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities, @next/next/no-img-element */
 import Link from "next/link";
 import {
   academyObjectives,
@@ -16,7 +17,6 @@ import {
   pillars,
   relatedArticles,
   site,
-  sourceOnlyEntries,
 } from "@/lib/content";
 import { Breadcrumbs, ImagePanel, SectionIntro, SourceLine } from "@/components/site-shell";
 
@@ -59,9 +59,16 @@ function Hero() {
       <div className="hero-slide">
         <img src={images.hero} alt="Table de gastronomie marocaine" />
       </div>
+      <div className="hero-rail" aria-hidden="true">
+        Fondation · Magazine · Patrimoine
+      </div>
       <div className="hero-content reveal">
         <p className="kicker">Promouvoir l'Excellence</p>
-        <h1>L'Art Culinaire Marocain</h1>
+        <h1>
+          <span>L'Art</span>
+          <span>Culinaire</span>
+          <span>Marocain</span>
+        </h1>
         <p>
           Fondation, patrimoine, recettes et magazine réunis dans une seule plateforme dédiée à la
           gastronomie marocaine.
@@ -75,7 +82,10 @@ function Hero() {
           </Link>
         </div>
       </div>
-      <div className="hero-caption">Préserver Notre Patrimoine</div>
+      <div className="hero-edition">
+        <span>Depuis 2022</span>
+        <strong>Préserver Notre Patrimoine</strong>
+      </div>
     </section>
   );
 }
@@ -84,6 +94,11 @@ export function HomePage() {
   return (
     <main>
       <Hero />
+
+      <section className="academy-bridge" aria-label="Transition vers l'Académie">
+        <p>Depuis 2022</p>
+        <h2>Une institution pour préserver, promouvoir et transmettre la culture gastronomique marocaine.</h2>
+      </section>
 
       <section className="split-section">
         <div className="split-copy reveal">
@@ -109,7 +124,7 @@ export function HomePage() {
       <section className="pillar-band">
         {pillars.map((pillar) => (
           <article key={pillar.title}>
-            <span>{pillar.title.slice(0, 1)}</span>
+            <span aria-hidden="true">{pillar.title.slice(0, 1)}</span>
             <h3>{pillar.title}</h3>
             <p>{pillar.text}</p>
           </article>
@@ -131,6 +146,7 @@ export function HomePage() {
                 <span>
                   <small>Gastronomie</small>
                   <strong>{item.title}</strong>
+                  <em>Lire l'article</em>
                 </span>
               </Link>
             ))}
@@ -204,6 +220,7 @@ export function HomePage() {
       </section>
 
       <section className="magazine-transition">
+        <img src={images.magazineThree} alt="" />
         <div>
           <p className="kicker">Le Magazine</p>
           <h2>Magazine Marocain de la Gastronomie</h2>
@@ -394,6 +411,10 @@ export function GastronomyPage() {
         text="Histoire, patrimoine, cuisine familiale, anthropologie, alimentation, tourisme et épices dans une architecture unique."
         image={images.tagines}
       />
+      <section className="folio-intro">
+        <p>Index</p>
+        <h2>Des textes de fond, des plats et des traditions organisés comme un vrai sommaire éditorial.</h2>
+      </section>
       <section className="index-grid">
         {gastronomyIndex.map((item, index) => (
           <Link href={item.path} className={index === 0 ? "index-card wide" : "index-card"} key={item.path}>
@@ -438,6 +459,9 @@ export function CategoryPage({ page }: { page: PageEntry }) {
 
 export function ArticlePageView({ article }: { article: Article }) {
   const headings = getSource(article.sourceUrl)?.headings.map((heading) => heading.text) ?? [];
+  const articleIndex = articles.findIndex((item) => item.path === article.path);
+  const previous = articles[(articleIndex - 1 + articles.length) % articles.length];
+  const next = articles[(articleIndex + 1) % articles.length];
   return (
     <main>
       <section className="article-hero">
@@ -454,11 +478,24 @@ export function ArticlePageView({ article }: { article: Article }) {
           {article.author ? <span>{article.author}</span> : null}
           <span>Magazine Marocain de la Gastronomie</span>
         </div>
-        <img src={article.hero} alt="" />
+        <figure>
+          <img src={article.hero} alt="" />
+          <figcaption>{article.magazineCategory} · contenu migré depuis le Magazine Marocain de la Gastronomie</figcaption>
+        </figure>
       </section>
       <section className="article-body">
-        <ArticleLines lines={article.lines} headings={headings} title={article.title} />
+        <ArticleLines lines={article.lines} headings={headings} title={article.title} image={article.hero} />
         <SourceLine url={article.sourceUrl} />
+      </section>
+      <section className="article-nav">
+        <Link href={previous.path}>
+          <span>Article précédent</span>
+          <strong>{previous.title}</strong>
+        </Link>
+        <Link href={next.path}>
+          <span>Article suivant</span>
+          <strong>{next.title}</strong>
+        </Link>
       </section>
       <section className="related-section">
         <SectionIntro kicker="À lire aussi" title="Articles associés" />
@@ -482,8 +519,11 @@ export function ArticlePageView({ article }: { article: Article }) {
   );
 }
 
-function ArticleLines({ lines, headings, title }: { lines: string[]; headings: string[]; title: string }) {
+function ArticleLines({ lines, headings, title, image }: { lines: string[]; headings: string[]; title: string; image: string }) {
   const nodes = [];
+  let paragraphCount = 0;
+  let insertedPullQuote = false;
+  let insertedImage = false;
   for (let index = 0; index < lines.length; index += 1) {
     const line = lines[index];
     if (!line || line === title || line.toLowerCase() === title.toLowerCase()) continue;
@@ -506,6 +546,23 @@ function ArticleLines({ lines, headings, title }: { lines: string[]; headings: s
     if (isLikelyHeading(line, headings)) {
       nodes.push(<h2 key={`${line}-${index}`}>{line}</h2>);
     } else {
+      paragraphCount += 1;
+      if (!insertedPullQuote && paragraphCount === 3) {
+        insertedPullQuote = true;
+        nodes.push(
+          <p className="article-pull" key={`pull-${index}`}>
+            {excerpt(line, 210)}
+          </p>,
+        );
+      }
+      if (!insertedImage && paragraphCount === 6) {
+        insertedImage = true;
+        nodes.push(
+          <figure className="article-inline-image" key={`image-${index}`}>
+            <img src={image} alt="" />
+          </figure>,
+        );
+      }
       nodes.push(<p key={`${line}-${index}`}>{line}</p>);
     }
   }
@@ -571,6 +628,10 @@ export function MagazinePage() {
         {categories.map((category) => (
           <span key={category}>{category}</span>
         ))}
+      </section>
+      <section className="magazine-lede">
+        <p>Sommaire</p>
+        <h2>Articles longs, rubriques et plats marocains réunis dans une lecture plus dynamique que l'ancien index.</h2>
       </section>
       <section className="magazine-grid">
         <ArticleCard article={articles[0]} large />
@@ -738,6 +799,9 @@ function InteriorHero({ title, kicker, text, image }: { title: string; kicker: s
   return (
     <section className="interior-hero">
       <img src={image} alt="" />
+      <span className="interior-mark" aria-hidden="true">
+        ◆
+      </span>
       <div>
         <p className="kicker">{kicker}</p>
         <h1>{title}</h1>
