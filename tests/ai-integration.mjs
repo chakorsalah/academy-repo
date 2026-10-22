@@ -1,0 +1,50 @@
+import assert from 'node:assert/strict';
+export async function runAIIntegration({request,admin,editor}){
+ let count=0;const check=(condition,label)=>{assert.ok(condition,label);count++;console.log(`PASS ${label}`)};
+ let r=await request('/api/editor-ai/');check(r.status===401,'AI API denies anonymous reads');
+ r=await request('/api/editor-ai/',{token:editor});check(r.status===200&&Array.isArray(r.data.targets),'AI target picker respects authenticated access');
+ const enabled=r.data.enabled;
+ r=await request('/admin/assistant/',{cookie:`payload-token=${admin}`});check(r.status===200&&r.text.includes('Votre site, avec vos mots.'),'general assistant view renders');
+ const publicPages=await request('/api/pages/');const pageCount=publicPages.data.totalDocs;check(pageCount>15,'all existing public pages migrated into CMS');
+ const home=publicPages.data.docs.find(d=>d.originalPath==='/')||(await request('/api/pages/?limit=100')).data.docs.find(d=>d.originalPath==='/');
+ assert.ok(home);r=await request(`/admin/collections/pages/${home.id}/`,{cookie:`payload-token=${admin}`});check(r.status===200&&r.text.includes('Modifier avec l’IA'),'page editor includes contextual assistant');
+ const target={collection:'pages',id:home.id};
+ if(!enabled){r=await request('/api/editor-ai/',{token:admin,method:'POST',body:{action:'propose',prompt:'Améliore le titre',targets:[target]}});check(r.status===503&&r.data.code==='ai_not_configured','missing key produces explicit configuration status');return count;}
+ const propose=(targets,prompt='Améliore le titre')=>request('/api/editor-ai/',{token:admin,method:'POST',body:{action:'propose',prompt,targets}});
+ const apply=token=>request('/api/editor-ai/',{token:admin,method:'POST',body:{action:'apply',token}});
+ r=await propose([target]);assert.equal(r.status,200,r.text);let proposal=r.data;check(Boolean(proposal.token)&&proposal.proposal.edits.length===1,'provider response produces reviewable signed proposal');
+ let current=await request(`/api/pages/${home.id}/`);check(current.data.title===home.title,'proposing has no write side effects');
+ r=await request('/api/editor-ai/',{token:editor,method:'POST',body:{action:'apply',token:proposal.token}});check(r.status===403,'another user cannot apply a proposal');
+ r=await apply(proposal.token+'x');check(r.status===403,'tampered proposal rejected');
+ r=await apply(proposal.token);assert.equal(r.status,200,r.text);check(r.data.documents[0].preview.includes(`/preview/pages/${home.id}`),'approved changes saved as previewable draft');
+ current=await request(`/api/pages/${home.id}/`);check(current.data.title===home.title,'AI application preserves public published version');
+ current=await request(`/api/pages/${home.id}/?draft=true`,{token:admin});check(current.data.title.includes('version IA'),'AI draft is present for authenticated editor');
+ r=await apply(proposal.token);check(r.status===409,'same proposal cannot be replayed');
+ r=await propose([target]);assert.equal(r.status,200,r.text);proposal=r.data;
+ await request(`/api/pages/${home.id}/?draft=true`,{token:admin,method:'PATCH',body:{summary:'Une modification manuelle après la proposition.'}});
+ r=await apply(proposal.token);check(r.status===409&&r.data.code==='stale_proposal','concurrent manual changes reject stale proposals');
+ r=await propose([target],'forbidden-field');check(r.status===400,'provider cannot publish through protected field');
+ r=await propose([target],'cross-target');check(r.status===502,'provider cannot target an unselected document');
+ r=await propose([target],'invalid-json');check(r.status===502,'malformed provider output rejected');
+ r=await propose([target],'provider-error');check(r.status===502,'provider failure does not become fabricated success');
+ r=await propose([target],'incomplete');check(r.status===502,'incomplete provider response rejected');
+ // Editor has a separate per-user quota; exercise multi-document and structure editing there.
+ const forEditor=(targets,prompt='Améliore le titre')=>request('/api/editor-ai/',{token:editor,method:'POST',body:{action:'propose',prompt,targets}});
+ const editorApply=token=>request('/api/editor-ai/',{token:editor,method:'POST',body:{action:'apply',token}});
+ const second=(await request('/api/pages/?limit=100')).data.docs.find(p=>p.originalPath==='/academie');const pair=[target,{collection:'pages',id:second.id}];
+ r=await forEditor(pair);assert.equal(r.status,200,r.text);const batch=r.data;
+ await request(`/api/pages/${second.id}/?draft=true`,{token:admin,method:'PATCH',body:{summary:'Révision concurrente pour le test atomique.'}});
+ const before=(await request(`/api/pages/${home.id}/?draft=true`,{token:admin})).data.title;
+ r=await editorApply(batch.token);check(r.status===409,'batch rejects a stale document');
+ current=await request(`/api/pages/${home.id}/?draft=true`,{token:admin});check(current.data.title===before,'failed batch leaves other documents unchanged');
+ r=await forEditor(pair);assert.equal(r.status,200,r.text);r=await editorApply(r.data.token);assert.equal(r.status,200,r.text);check(r.data.documents.length===2,'multi-document proposal applies in one transaction');
+ const oldSections=(await request(`/api/pages/${home.id}/?draft=true`,{token:admin})).data.sections;
+ r=await forEditor([target],'reorder-sections');assert.equal(r.status,200,r.text);r=await editorApply(r.data.token);assert.equal(r.status,200,r.text);
+ const updated=(await request(`/api/pages/${home.id}/?draft=true`,{token:admin})).data.sections;check(updated[0].kind===oldSections.at(-1).kind,'assistant can reorder page sections in a draft');
+ r=await request('/api/globals/site-settings/',{token:editor,method:'POST',body:{brandName:'Forbidden'}});check(r.status===403,'editors cannot alter global site settings');
+ const setting=await request('/api/globals/site-settings/');const prior=setting.data.brandName;
+ r=await request('/api/globals/site-settings/?draft=true',{token:admin,method:'POST',body:{brandName:'PRIVATE SETTINGS DRAFT'}});assert.equal(r.status,200,r.text);
+ r=await request('/api/globals/site-settings/?draft=true');check(r.status===200&&!r.text.includes('PRIVATE SETTINGS DRAFT'),'anonymous global draft access does not leak settings revision');
+ r=await request('/');check(r.status===200&&!r.text.includes('PRIVATE SETTINGS DRAFT'),'public layout uses published settings');
+ return count;
+}

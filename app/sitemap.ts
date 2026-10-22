@@ -1,23 +1,5 @@
-import type { MetadataRoute } from "next";
-import { pages, site } from "@/lib/content";
-
-export const dynamic = "force-static";
-
-export default function sitemap(): MetadataRoute.Sitemap {
-  const routes = [
-    {
-      url: site.url,
-      lastModified: new Date(),
-      changeFrequency: "weekly" as const,
-      priority: 1,
-    },
-    ...pages.map((page) => ({
-      url: `${site.url}${page.path}/`,
-      lastModified: new Date(),
-      changeFrequency: page.type === "article" ? ("monthly" as const) : ("weekly" as const),
-      priority: page.type === "article" ? 0.7 : 0.8,
-    })),
-  ];
-
-  return routes;
-}
+import type { MetadataRoute } from 'next';
+import { site } from '@/lib/content';
+import { publishedArticles,publishedReports,publishedPages,pagePath } from '@/lib/cms';
+export const dynamic='force-dynamic';
+export default async function sitemap():Promise<MetadataRoute.Sitemap>{const [articles,reports,pages]=await Promise.all([publishedArticles(),publishedReports(),publishedPages()]);const paths=new Set([...pages.map(pagePath),...articles.map(a=>a.path),...reports.map(r=>`/rapports/${r.slug}`)]);return [...paths].map(path=>({url:`${site.url}${path==='/'?'':path}/`,changeFrequency:'weekly',priority:path==='/'?1:0.7}));}

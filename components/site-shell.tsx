@@ -1,99 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
-import Link from "next/link";
-import { footerColumns, images, nav, site } from "@/lib/content";
-
-export function Header() {
-  return (
-    <header className="site-header">
-      <Link href="/" className="brand" aria-label="Accueil">
-        <img src={images.logo} alt="Académie Gastronomie Maroc" width={62} height={62} decoding="async" />
-        <span>
-          <strong>Académie</strong>
-          <small>Magazine Marocain de la Gastronomie</small>
-        </span>
-      </Link>
-
-      <nav className="desktop-nav" aria-label="Navigation principale">
-        {nav.map((item) => (
-          <div className="nav-item" key={item.label}>
-            <Link href={item.href}>{item.label}</Link>
-            {"items" in item && item.items ? (
-              <div className="mega-menu">
-                {item.items.map((child) => (
-                  <Link href={child.href} key={child.href}>
-                    {child.label}
-                  </Link>
-                ))}
-              </div>
-            ) : null}
-          </div>
-        ))}
-      </nav>
-
-      <details className="mobile-nav">
-        <summary aria-label="Ouvrir la navigation">
-          <span />
-          <span />
-          <span />
-        </summary>
-        <nav className="mobile-panel" aria-label="Navigation mobile">
-          {nav.map((item) => (
-            <div key={item.label}>
-              <Link href={item.href}>{item.label}</Link>
-              {"items" in item && item.items ? (
-                <div>
-                  {item.items.slice(0, 8).map((child) => (
-                    <Link href={child.href} key={child.href}>
-                      {child.label}
-                    </Link>
-                  ))}
-                </div>
-              ) : null}
-            </div>
-          ))}
-        </nav>
-      </details>
-    </header>
-  );
+import Link from 'next/link';
+import { publishedArticles,publishedPages,pagePath,publishedSettings,mediaURL } from '@/lib/cms';
+import { images,site } from '@/lib/content';
+export async function Header(){
+ const [settings,articles,pages]=await Promise.all([publishedSettings(),publishedArticles(),publishedPages()]);
+ const available=new Set([...pages.map(pagePath),...articles.map(a=>a.path)]);
+ const visible=(href:string)=>!href.startsWith('/')||available.has(href.split(/[?#]/)[0].replace(/\/$/,'')||'/');
+ const nav=(settings.navigation||[]).filter(n=>visible(n.href)).map(n=>({...n,items:n.href==='/academie'?[...(n.items||[]).filter(i=>visible(i.href)),...pages.filter(p=>p.showInNavigation&&!n.items?.some(i=>i.href===pagePath(p))).map(p=>({label:p.title,href:pagePath(p)}))]:(n.items||[]).filter(i=>visible(i.href))}));
+ return <header className="site-header"><Link href="/" className="brand" aria-label="Accueil"><img src={mediaURL(settings.logo)||images.logo} alt={settings.brandName} width={62} height={62}/><span><strong>{settings.brandName}</strong><small>{settings.tagline}</small></span></Link><nav className="desktop-nav" aria-label="Navigation principale">{nav.map((item,i)=><div className="nav-item" key={item.id||i}><Link href={item.href}>{item.label}</Link>{!!item.items.length&&<div className="mega-menu">{item.items.map((child,j)=><Link href={child.href} key={j}>{child.label}</Link>)}</div>}</div>)}</nav><details className="mobile-nav"><summary aria-label="Ouvrir la navigation"><span/><span/><span/></summary><nav className="mobile-panel" aria-label="Navigation mobile">{nav.map((item,i)=><div key={item.id||i}><Link href={item.href}>{item.label}</Link>{item.items.map((child,j)=><Link href={child.href} key={j}>{child.label}</Link>)}</div>)}</nav></details></header>;
 }
-
-export function Footer() {
-  return (
-    <footer className="footer">
-      <div className="footer-main">
-        <div className="footer-identity">
-          <img src={images.logo} alt="Académie Gastronomie Maroc" width={92} height={92} loading="lazy" decoding="async" />
-          <p>
-            Fondation Académie Marocaine de la Gastronomie et Magazine Marocain de la Gastronomie réunis
-            dans une seule plateforme éditoriale.
-          </p>
-          <address>
-            {site.contact.city}
-            <br />
-            {site.contact.phone}
-            <br />
-            <a href={`mailto:${site.contact.email}`}>{site.contact.email}</a>
-          </address>
-        </div>
-
-        {footerColumns.map((column) => (
-          <div className="footer-column" key={column.title}>
-            <h2>{column.title}</h2>
-            {column.links.map((link) => (
-              <Link href={link.href} key={link.href}>
-                {link.label}
-              </Link>
-            ))}
-          </div>
-        ))}
-      </div>
-      <div className="footer-bottom">
-        <span>© 2026 Fondation Académie Marocaine de la Gastronomie.</span>
-        <span>Contenus migrés depuis les sites sources indiqués.</span>
-      </div>
-    </footer>
-  );
-}
+export async function Footer(){const [settings,pages,articles]=await Promise.all([publishedSettings(),publishedPages(),publishedArticles()]);const available=new Set([...pages.map(pagePath),...articles.map(a=>a.path)]);return <footer className="footer"><div className="footer-main"><div className="footer-identity"><img src={mediaURL(settings.logo)||images.logo} alt={settings.brandName} width={92} height={92} loading="lazy"/><p>{settings.footerText}</p><address>{settings.city}<br/>{settings.phone}<br/><a href={`mailto:${settings.email}`}>{settings.email}</a></address>{settings.socials?.map((link,i)=><p key={i}><a href={link.href} target="_blank" rel="noreferrer">{link.label} ↗</a></p>)}</div>{settings.footerColumns?.map((column,i)=><div className="footer-column" key={column.id||i}><h2>{column.title}</h2>{column.links?.filter(link=>!link.href.startsWith('/')||available.has(link.href.split(/[?#]/)[0].replace(/\/$/,'')||'/')).map((link,j)=><Link href={link.href} key={j}>{link.label}</Link>)}</div>)}</div><div className="footer-bottom"><span>© {new Date().getFullYear()} {settings.copyright}</span><span><a href="/admin">Espace éditorial ↗</a></span></div></footer>;}
 
 export function Breadcrumbs({ items }: { items: { label: string; href?: string }[] }) {
   const list = [{ label: "Accueil", href: "/" }, ...items].map((item, index) => ({

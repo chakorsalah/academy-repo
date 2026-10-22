@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { Header, Footer } from "@/components/site-shell";
 import { site } from "@/lib/content";
+import { publishedSettings, mediaURL } from "@/lib/cms";
 import "./globals.css";
 
-export const metadata: Metadata = {
+const baseMetadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
     default: site.name,
@@ -33,18 +34,24 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export async function generateMetadata(): Promise<Metadata> {
+  const settings = await publishedSettings();
+  return { ...baseMetadata, title: { default: settings.brandName, template: `%s · ${settings.brandName}` }, description: settings.tagline };
+}
+export default async function RootLayout({ children }: LayoutProps<"/">) {
+  const settings = await publishedSettings();
+  const logo = mediaURL(settings.logo) || '/assets/source/Moroccan-Culinary-Academy-Emblem.png';
   const organization = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Fondation Académie Marocaine de la Gastronomie",
+    name: settings.brandName,
     url: site.url,
-    logo: `${site.url}/assets/source/Moroccan-Culinary-Academy-Emblem.png`,
-    email: site.contact.email,
-    telephone: site.contact.phone,
+    logo: logo.startsWith("http") ? logo : `${site.url}${logo}`,
+    email: settings.email,
+    telephone: settings.phone,
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Tanger",
+      addressLocality: settings.city,
       addressCountry: "MA",
     },
   };

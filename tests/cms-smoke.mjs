@@ -1,0 +1,68 @@
+import assert from 'node:assert/strict';
+import { randomBytes } from 'node:crypto';
+import { readFile } from 'node:fs/promises';
+const base = process.env.CMS_TEST_URL || 'http://localhost:3002';
+assert.equal(new URL(base).port, '3002', 'Run this only against the isolated QA server on port 3002.');
+let passed=0;
+const check=(condition,label)=>{assert.ok(condition,label);passed++;console.log(`PASS ${label}`)};
+async function request(path, {token, body, method='GET', cookie, ...other}={}) {
+  const target = new URL(path, base);
+  assert.equal(target.origin, new URL(base).origin);
+  const response=await fetch(target,{method,headers:{Origin:base,...(body && !(body instanceof FormData)?{'Content-Type':'application/json'}:{}),...(token?{Authorization:`JWT ${token}`} : {}),...(cookie?{Cookie:cookie}:{}),...other.headers}, body:body instanceof FormData?body:body?JSON.stringify(body):undefined,redirect:other.redirect || 'manual'});
+  const text=await response.text();let data;try{data=JSON.parse(text)}catch{}return {status:response.status,headers:response.headers,text,data};
+}
+const rich=text=>({root:{type:'root',format:'',indent:0,version:1,direction:'ltr',children:[{type:'paragraph',format:'',indent:0,version:1,direction:'ltr',children:[{type:'text',text,format:0,detail:0,mode:'normal',style:'',version:1}]}]}});
+const tag=randomBytes(4).toString('hex');
+const password=randomBytes(24).toString('hex');
+let response=await request('/');check(response.status===200,'public home renders');
+response=await request('/admin/');check([200,307,308].includes(response.status),'admin route responds');
+response=await request('/api/articles/');check(response.status===200 && response.data.totalDocs===7,'seven legacy articles imported once');
+response=await request('/api/users/first-register/',{method:'POST',body:{email:`admin-${tag}@example.test`,password,name:'QA Admin'}});
+assert.equal(response.status,200,response.text.slice(0,1000));let admin=response.data.token;const adminID=response.data.user.id;
+check(response.data.user.role==='admin','first account receives administrator role');
+response=await request('/api/users/first-register/',{method:'POST',body:{email:`intruder-${tag}@example.test`,password,name:'Intruder'}});check(response.status===403,'first-user registration closes after setup');
+response=await request('/api/users/login/',{method:'POST',body:{email:`admin-${tag}@example.test`,password}});check(response.status===200 && Boolean(response.data.token),'password login succeeds');admin=response.data.token;
+response=await request('/admin/',{cookie:`payload-token=${admin}`});check(response.status===200 && response.text.includes('Bonjour,') && response.text.includes('Derniers articles'),'authenticated branded dashboard renders');
+const draft={title:`QA Article ${tag}`,slug:`qa-article-${tag}`,summary:'Résumé du test de publication.',content:rich(`PRIVATE-DRAFT-${tag}`),category:'Gastronomie',_status:'draft'};
+response=await request('/api/articles/',{method:'POST',body:draft});check([401,403].includes(response.status),'anonymous article creation denied');
+response=await request('/api/articles/',{method:'POST',token:admin,body:draft});assert.equal(response.status,201,response.text);const id=response.data.doc.id;
+response=await request(`/api/articles/${id}/`);check([403,404].includes(response.status),'draft inaccessible through anonymous API');
+response=await request(`/gastronomie-marocaine/${draft.slug}/`);check(response.status===404 && !response.text.includes(`PRIVATE-DRAFT-${tag}`),'draft public page returns 404');
+response=await request(`/preview/articles/${id}/`);check(response.status===307 && response.headers.get('location').includes('/admin/login'),'preview requires login');
+response=await request(`/preview/articles/${id}/`,{cookie:`payload-token=${admin}`});check(response.status===200 && response.text.includes(`PRIVATE-DRAFT-${tag}`),'authenticated preview renders draft');
+response=await request(`/api/articles/${id}/`,{method:'PATCH',token:admin,body:{_status:'published',content:rich(`PUBLIC-CONTENT-${tag}`)}});check(response.status===200,'article publishes');
+response=await request(`/gastronomie-marocaine/${draft.slug}/`);check(response.status===200 && response.text.includes(`PUBLIC-CONTENT-${tag}`),'published content appears on website');
+response=await request('/magazine/');check(response.status===200 && response.text.includes(draft.title),'published article appears in magazine');
+response=await request(`/api/articles/${id}/?draft=true`,{method:'PATCH',token:admin,body:{content:rich(`REVISION-PRIVATE-${tag}`)}});check(response.status===200,'published article accepts draft revision');
+response=await request(`/gastronomie-marocaine/${draft.slug}/`);check(response.text.includes(`PUBLIC-CONTENT-${tag}`) && !response.text.includes(`REVISION-PRIVATE-${tag}`),'draft revision does not leak over published version');
+response=await request(`/api/articles/${id}/`,{method:'PATCH',token:admin,body:{_status:'draft'}});check(response.status===200,'article unpublishes');
+response=await request(`/gastronomie-marocaine/${draft.slug}/`);check(response.status===404,'unpublished article disappears');
+response=await request('/api/users/',{method:'POST',token:admin,body:{email:`editor-${tag}@example.test`,password,name:'QA Editor',role:'editor'}});assert.equal(response.status,201,response.text);const editorID=response.data.doc.id;
+response=await request('/api/users/login/',{method:'POST',body:{email:`editor-${tag}@example.test`,password}});const editor=response.data.token;check(Boolean(editor),'editor can sign in');
+response=await request(`/api/users/${editorID}/`,{method:'PATCH',token:editor,body:{role:'admin'}});check(response.status===200 && response.data.doc.role==='editor','editor cannot promote own role');
+response=await request('/api/users/',{method:'POST',token:editor,body:{email:`blocked-${tag}@example.test`,password,name:'Blocked',role:'admin'}});check(response.status===403,'editor cannot create accounts');
+response=await request(`/api/articles/${id}/`,{method:'DELETE',token:editor});check(response.status===403,'editor cannot delete content');
+response=await request(`/api/users/${adminID}/`,{token:editor});check([403,404].includes(response.status),'editor cannot read administrator profile');
+function validPDF() {
+ const stream='BT /F1 12 Tf 50 780 Td (Rapport QA) Tj ET';
+ const objects=['<< /Type /Catalog /Pages 2 0 R >>','<< /Type /Pages /Kids [3 0 R] /Count 1 >>','<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 5 0 R >> >> /Contents 4 0 R >>',`<< /Length ${Buffer.byteLength(stream)} >>\nstream\n${stream}\nendstream`,'<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>'];
+ let pdf='%PDF-1.4\n';const offsets=[0];for(let i=0;i<objects.length;i++){offsets.push(Buffer.byteLength(pdf));pdf+=`${i+1} 0 obj\n${objects[i]}\nendobj\n`;}
+ const xref=Buffer.byteLength(pdf);pdf+=`xref\n0 6\n0000000000 65535 f \n${offsets.slice(1).map(o=>String(o).padStart(10,'0')+' 00000 n ').join('\n')}\ntrailer\n<< /Size 6 /Root 1 0 R >>\nstartxref\n${xref}\n%%EOF\n`;return pdf;
+}
+const file=new FormData();file.set('_payload',JSON.stringify({alt:'Rapport PDF de vérification'}));file.set('file',new Blob([validPDF()],{type:'application/pdf'}),'rapport-qa.pdf');
+response=await request('/api/media/',{method:'POST',token:editor,body:file});assert.equal(response.status,201,response.text);const media=response.data.doc;
+check(media.mimeType==='application/pdf','PDF upload persists in media library');
+response=await request(media.url,{redirect:'follow'});check(response.status===200 && response.text.startsWith('%PDF'),'uploaded PDF is downloadable');
+response=await request('/api/reports/',{method:'POST',token:editor,body:{title:`Rapport QA ${tag}`,slug:`rapport-qa-${tag}`,summary:'Bilan de vérification du CMS.',content:rich('Un rapport avec un PDF.'),document:media.id,year:2026,_status:'published'}});assert.equal(response.status,201,response.text);const report=response.data.doc;
+response=await request(`/rapports/${report.slug}/`);check(response.status===200 && response.text.includes('Télécharger le rapport PDF'),'published report displays PDF download');
+response=await request('/rapports/');check(response.status===200 && response.text.includes(report.title),'report appears in public archive');
+response=await request('/api/pages/',{method:'POST',token:editor,body:{title:`Page QA ${tag}`,slug:`page-qa-${tag}`,summary:'Page de vérification.',content:rich('Une page modifiable.'),_status:'published'}});assert.equal(response.status,201,response.text);const page=response.data.doc;
+response=await request(`/pages/${page.slug}/`);check(response.status===200 && response.text.includes('Une page modifiable.'),'custom content page publishes');
+response=await request('/sitemap.xml');check(response.status===200 && response.text.includes(`/rapports/${report.slug}/`) && !response.text.includes(draft.slug),'sitemap lists published content and excludes drafts');
+const imageForm=new FormData();imageForm.set('_payload',JSON.stringify({alt:'Table marocaine'}));imageForm.set('file',new Blob([await readFile('public/assets/optimized/Moroccan-Feast.jpg')],{type:'image/jpeg'}),'couverture-qa.jpg');
+response=await request('/api/media/',{method:'POST',token:editor,body:imageForm});check(response.status===201 && response.data.doc.mimeType==='image/jpeg','image upload works');
+response=await request(`/api/articles/${id}/`,{method:'DELETE',token:admin});check(response.status===200,'administrator can delete article');
+response=await request('/api/articles/');check(response.data.totalDocs===7,'test deletion leaves original imported articles intact');
+const {runAIIntegration}=await import('./ai-integration.mjs');
+passed+=await runAIIntegration({request,admin,editor});
+console.log(`\n${passed} CMS integration checks passed. Isolated QA database only.`);

@@ -1,3 +1,4 @@
+import type { Article as CMSArticle } from "@/payload-types";
 import assetMap from "@/content/asset-map.json";
 import sourcePages from "@/content/source-content.json";
 
@@ -29,6 +30,9 @@ export type Article = {
   summary: string;
   lines: string[];
   sourceNote?: string;
+  seoTitle?: string;
+  seoDescription?: string;
+  body?: CMSArticle["content"];
 };
 
 export type Dish = {
@@ -76,7 +80,7 @@ export const site = {
   shortName: "Gastronomie Maroc",
   description:
     "Plateforme unifiée de la Fondation Académie Marocaine de la Gastronomie et du Magazine Marocain de la Gastronomie.",
-  url: "https://academie-magazine-gastronomie-maroc.saidjabouri002.chatgpt.site",
+  url: process.env.NEXT_PUBLIC_SERVER_URL || "https://academie-magazine-gastronomie-maroc.saidjabouri002.chatgpt.site",
   contact: {
     city: "Tanger, Maroc",
     phone: "0661741576",
@@ -616,6 +620,7 @@ export const nav = [
     items: dishes.map((dish) => ({ label: dish.title.replace(" (viande hachée)", ""), href: dish.path })),
   },
   { label: "Magazine", href: "/magazine" },
+  { label: "Rapports", href: "/rapports" },
   { label: "Activités", href: "/activites" },
   { label: "Actualités", href: "/actualites" },
   { label: "Galerie", href: "/galerie" },

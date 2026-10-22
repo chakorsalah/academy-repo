@@ -1,10 +1,11 @@
 /* eslint-disable react/no-unescaped-entities, @next/next/no-img-element */
 import Link from "next/link";
+import { RichText } from "@payloadcms/richtext-lexical/react";
+import { publishedArticles } from "@/lib/cms";
 import {
   academyObjectives,
   activities,
   Article,
-  articles,
   bookImages,
   dishes,
   gallery,
@@ -15,7 +16,6 @@ import {
   PageEntry,
   partners,
   pillars,
-  relatedArticles,
   site,
 } from "@/lib/content";
 import { Breadcrumbs, ImagePanel, SectionIntro, SourceLine } from "@/components/site-shell";
@@ -93,7 +93,8 @@ function Hero() {
   );
 }
 
-export function HomePage() {
+export async function HomePage() {
+  const articles = await publishedArticles();
   return (
     <main>
       <Hero />
@@ -141,11 +142,11 @@ export function HomePage() {
           text="Un index éditorial des textes de fond issus du Magazine, réorganisés pour la lecture et la navigation."
         />
         <div className="feature-grid">
-          <ArticleCard article={articles[0]} large />
+          {articles[0] ? <ArticleCard article={articles[0]} large /> : <p>De nouvelles histoires arrivent bientôt.</p>}
           <div>
-            {gastronomyIndex.slice(3, 7).map((item) => (
+            {articles.slice(1, 5).map((item) => (
               <Link href={item.path} className="story-row" key={item.path}>
-                <img src={item.image} alt={item.title} loading="lazy" decoding="async" />
+                <img src={item.hero} alt={item.title} loading="lazy" decoding="async" />
                 <span>
                   <small>Gastronomie</small>
                   <strong>{item.title}</strong>
@@ -181,7 +182,7 @@ export function HomePage() {
           title="Lire la cuisine comme un patrimoine vivant"
         />
         <div className="culture-list">
-          {[articles[0], articles[2], articles[1], articles[3], articles[5]].map((article) => (
+          {articles.slice(0, 5).map((article) => (
             <ArticleCard article={article} key={article.path} />
           ))}
         </div>
@@ -405,7 +406,9 @@ export function PartnersPage() {
   );
 }
 
-export function GastronomyPage() {
+export async function GastronomyPage() {
+  const articles = await publishedArticles();
+  const index = [...gastronomyIndex.filter(item => !item.path.startsWith("/gastronomie-marocaine/") || !["patrimoine-gastronomique", "cuisine-arrieres-grands-meres", "famille-marocaine-table", "anthropologie", "science-alimentation", "ras-el-hanout"].includes(item.path.split("/").pop()!)), ...articles.map(a => ({ path: a.path, title: a.title, description: a.summary, image: a.hero }))];
   return (
     <main>
       <InteriorHero
@@ -419,7 +422,7 @@ export function GastronomyPage() {
         <h2>Des textes de fond, des plats et des traditions organisés comme un vrai sommaire éditorial.</h2>
       </section>
       <section className="index-grid">
-        {gastronomyIndex.map((item, index) => (
+        {index.map((item, index) => (
           <Link href={item.path} className={index === 0 ? "index-card wide" : "index-card"} key={item.path}>
             <img src={item.image} alt={item.title} loading="lazy" decoding="async" />
             <div>
@@ -435,7 +438,8 @@ export function GastronomyPage() {
   );
 }
 
-export function CategoryPage({ page }: { page: PageEntry }) {
+export async function CategoryPage({ page }: { page: PageEntry }) {
+  const articles = await publishedArticles();
   const related = page.categoryKey === "tourisme" ? articles.filter((article) => article.magazineCategory === "Tourisme") : articles.slice(0, 3);
   return (
     <main>
@@ -463,11 +467,13 @@ export function CategoryPage({ page }: { page: PageEntry }) {
   );
 }
 
-export function ArticlePageView({ article }: { article: Article }) {
+export async function ArticlePageView({ article }: { article: Article }) {
+  const articles = await publishedArticles();
   const headings = getSource(article.sourceUrl)?.headings.map((heading) => heading.text) ?? [];
   const articleIndex = articles.findIndex((item) => item.path === article.path);
   const previous = articles[(articleIndex - 1 + articles.length) % articles.length];
   const next = articles[(articleIndex + 1) % articles.length];
+  const related = articles.filter(item => item.path !== article.path).sort((a, b) => Number(b.magazineCategory === article.magazineCategory) - Number(a.magazineCategory === article.magazineCategory)).slice(0, 3);
   return (
     <main>
       <section className="article-hero">
@@ -486,14 +492,14 @@ export function ArticlePageView({ article }: { article: Article }) {
         </div>
         <figure>
           <img src={article.hero} alt={article.title} fetchPriority="high" decoding="async" />
-          <figcaption>{article.magazineCategory} · contenu migré depuis le Magazine Marocain de la Gastronomie</figcaption>
+          <figcaption>{article.magazineCategory} · Magazine Marocain de la Gastronomie</figcaption>
         </figure>
       </section>
       <section className="article-body">
-        <ArticleLines lines={article.lines} headings={headings} title={article.title} image={article.hero} />
+        {article.body ? <RichText data={article.body} /> : <ArticleLines lines={article.lines} headings={headings} title={article.title} image={article.hero} />}
         <SourceLine url={article.sourceUrl} />
       </section>
-      <section className="article-nav">
+      {previous && next && articles.length > 1 ? <section className="article-nav">
         <Link href={previous.path}>
           <span>Article précédent</span>
           <strong>{previous.title}</strong>
@@ -502,11 +508,11 @@ export function ArticlePageView({ article }: { article: Article }) {
           <span>Article suivant</span>
           <strong>{next.title}</strong>
         </Link>
-      </section>
+      </section> : null}
       <section className="related-section">
         <SectionIntro kicker="À lire aussi" title="Articles associés" />
         <div className="culture-list">
-          {relatedArticles(article).map((item) => (
+          {related.map((item) => (
             <ArticleCard article={item} key={item.path} />
           ))}
         </div>
@@ -630,7 +636,8 @@ export function DishPage({ dish }: { dish: (typeof dishes)[number] }) {
   );
 }
 
-export function MagazinePage() {
+export async function MagazinePage() {
+  const articles = await publishedArticles();
   const categories = ["Tous", "Gastronomie", "Histoire & authenticité", "Anthropologie", "Cuisine traditionnelle", "Alimentation", "Tourisme", "Épices", "Plats marocains"];
   return (
     <main>
@@ -650,7 +657,7 @@ export function MagazinePage() {
         <h2>Articles longs, rubriques et plats marocains réunis dans une lecture plus dynamique que l'ancien index.</h2>
       </section>
       <section className="magazine-grid">
-        <ArticleCard article={articles[0]} large />
+        {articles[0] ? <ArticleCard article={articles[0]} large /> : <p>De nouvelles histoires arrivent bientôt.</p>}
         {articles.slice(1).map((article) => (
           <ArticleCard article={article} key={article.path} />
         ))}

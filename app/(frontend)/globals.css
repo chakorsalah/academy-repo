@@ -2979,3 +2979,43 @@ textarea:focus-visible {
     font-size: clamp(1.35rem, 7vw, 1.85rem);
   }
 }
+
+/* Editorial CMS additions */
+.cms-report-grid { max-width:1200px; margin:0 auto 80px; padding:0 30px; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px; }
+.cms-report-grid > a,.cms-public-empty { padding:38px; border:1px solid var(--line); background:var(--paper); }
+.cms-report-grid h2 { font:32px/1.2 var(--serif); color:var(--green); }
+.cms-public-empty { grid-column:1/-1; text-align:center; padding:60px 30px; }
+.cms-preview-banner { position:sticky; top:0; z-index:100; padding:14px 24px; background:#173f34; color:#fff4d8; font-size:13px; text-align:center; }
+.cms-preview-banner a { text-decoration:underline; margin-left:20px; }
+.article-body .payload-richtext img { max-width:100%; height:auto; }
+.article-body .payload-richtext a { text-decoration:underline; color:var(--green); }
+@media(max-width:700px) { .cms-report-grid { grid-template-columns:1fr; padding:0 18px; } .cms-preview-banner a { display:block; margin:8px 0 0; } }
+
+/* Structured page sections */
+.managed-card-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;margin:30px 0}
+.managed-cards-section,.managed-gallery-section,.managed-section-title{max-width:1320px;margin:0 auto;padding:65px 36px}
+.managed-card{display:block;background:var(--paper);border:1px solid var(--line);height:100%;overflow:hidden}
+.managed-card>img{width:100%;height:250px;object-fit:cover}
+.managed-card-copy{padding:27px}.managed-card h3{font:28px/1.2 var(--serif);margin:6px 0 18px;color:var(--green)}
+.managed-heading{font:40px/1.2 var(--serif);color:var(--green)}.managed-split-image{width:100%;height:540px;object-fit:cover}
+@media(max-width:1000px){.managed-card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.managed-card-grid{grid-template-columns:1fr}.managed-cards-section,.managed-gallery-section,.managed-section-title{padding:38px 22px}.managed-split-image{height:350px}}
+
+/* Library */
+.book-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin:30px 0}
+.book-card{display:grid;grid-template-columns:140px minmax(0,1fr);gap:24px;padding:24px;border:1px solid var(--line);background:var(--paper)}
+.book-cover{aspect-ratio:3/4;background:#f1e8d6;display:grid;place-items:center;overflow:hidden}
+.book-cover img{width:100%;height:100%;object-fit:cover}
+.book-cover span{font:600 22px/1 var(--serif);color:var(--gold);letter-spacing:.12em}
+.book-copy{display:flex;flex-direction:column;gap:8px;min-width:0}
+.book-copy h3{font:24px/1.25 var(--serif);color:var(--green);margin:0;overflow-wrap:anywhere}
+.book-copy .book-author{font-weight:600}
+.book-copy .button{margin-top:auto;align-self:flex-start}
+@media(max-width:900px){.book-grid{grid-template-columns:1fr}}
+@media(max-width:480px){.book-card{grid-template-columns:96px minmax(0,1fr);gap:16px;padding:16px}.book-copy h3{font-size:19px}}
+
+/* Mobile menu: group title, then indented links */
+@media(max-width:1180px){
+  .mobile-panel > div > a:first-child{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+  .mobile-panel > div > a:not(:first-child){padding-left:16px;font-weight:500}
+}
