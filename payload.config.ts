@@ -44,7 +44,8 @@ export default buildConfig({
   db: usePostgres
     ? postgresAdapter({ pool: { connectionString: databaseURL }, migrationDir: path.resolve(process.cwd(), 'migrations-postgres') })
     : sqliteAdapter({ transactionOptions: { behavior: 'immediate' }, client: { url: databaseURL } }),
-  plugins: [vercelBlobStorage({ enabled: Boolean(process.env.BLOB_READ_WRITE_TOKEN), token: process.env.BLOB_READ_WRITE_TOKEN,
+  // alwaysInsertFields keeps the plugin's `prefix` column in the schema locally too, so migrations match Vercel.
+  plugins: [vercelBlobStorage({ enabled: Boolean(process.env.BLOB_READ_WRITE_TOKEN), token: process.env.BLOB_READ_WRITE_TOKEN, alwaysInsertFields: true,
     collections: { media: true }, clientUploads: true })],
   typescript: { outputFile: path.resolve(process.cwd(), 'payload-types.ts') },
   upload: { limits: { fileSize: 100 * 1024 * 1024 } },
