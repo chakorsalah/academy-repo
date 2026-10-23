@@ -491,7 +491,7 @@ export const pages: PageEntry[] = [
     description: "Message de Dr. Salah Chakor, Président Fondateur.",
     type: "president",
     sourceUrl: "https://www.academiegastronomiemaroc.ma/mot-du-president",
-    image: images.president,
+    image: images.hero,
   },
   {
     path: "/academie/membres-du-bureau",
@@ -579,7 +579,7 @@ export const pages: PageEntry[] = [
     description: "Ancienne adresse conservée pour le message de Dr. Salah Chakor.",
     type: "president",
     sourceUrl: "https://www.academiegastronomiemaroc.ma/mot-du-president",
-    image: images.president,
+    image: images.hero,
   },
 ];
 

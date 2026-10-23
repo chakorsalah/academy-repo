@@ -6,6 +6,7 @@ import type { Page } from '@/payload-types';
 import { Breadcrumbs, SectionIntro } from './site-shell';
 import { ReportCards, BookCards } from './cms-public';
 import { ContactForm } from './contact-form';
+import { images } from '@/lib/content';
 type Section=NonNullable<Page['sections']>[number];
 function Paragraphs({text}:{text?:string|null}) {return text?.split(/\n\s*\n/).map((line,i)=><p key={i} style={{whiteSpace:'pre-line'}}>{line}</p>);}
 function Action({label,href,secondary=false}:{label?:string|null;href?:string|null;secondary?:boolean}) {return label&&href?<Link href={href} className={`button ${secondary?'secondary':'outline'}`}>{label} ↗</Link>:null;}
@@ -27,7 +28,8 @@ async function PageSection({section:s}:{section:Section}) {
  return <section className="managed-cards-section"><SectionIntro title={s.title||''} kicker={s.kicker||undefined} text={s.text||undefined}/><div className="managed-card-grid">{s.items?.map((item,i)=>{const src=mediaURL(item.image)||item.legacyImage;const card=<>{src&&<img src={src} alt={item.title||''} loading="lazy"/>}<div className="managed-card-copy"><p className="meta">{item.label}</p><h3>{item.title}</h3><Paragraphs text={item.text}/>{item.href&&<span className="text-link">Découvrir ↗</span>}</div></>;return item.href?<Link className="managed-card" href={item.href} key={item.id||i}>{card}</Link>:<article className="managed-card" key={item.id||i}>{card}</article>;})}</div><Action label={s.buttonLabel} href={s.buttonHref}/></section>;
 }
 export async function ManagedPage({doc}:{doc:Page}) {
- const image=mediaURL(doc.cover)||doc.legacyImage;
+ const legacy=doc.legacyImage===images.president?images.hero:doc.legacyImage; // President page header uses the Magazine header photo; the portrait stays in the page body
+ const image=mediaURL(doc.cover)||legacy;
  return <main>{doc.pageKind==='home'?<section className="home-hero"><div className="hero-slide">{image&&<img src={image} alt="" fetchPriority="high"/>}</div><div className="hero-rail" aria-hidden="true">Fondation · Magazine · Patrimoine</div><div className="hero-content"><p className="kicker">{doc.kicker}</p><h1>{doc.title}</h1><p>{doc.summary}</p><div className="hero-actions">{doc.buttonLabel&&doc.buttonHref&&<Link href={doc.buttonHref} className="button primary">{doc.buttonLabel}</Link>}{doc.secondaryLabel&&doc.secondaryHref&&<Link href={doc.secondaryHref} className="button secondary">{doc.secondaryLabel}</Link>}</div></div><div className="hero-edition"><strong>{doc.edition}</strong></div></section>:<section className="interior-hero">{image&&<img src={image} alt="" fetchPriority="high"/>}<span className="interior-mark" aria-hidden="true">◆</span><div><p className="kicker">{doc.kicker||'L’Académie'}</p><h1>{doc.title}</h1><p>{doc.summary}</p></div></section>}
  {doc.pageKind!=='home'&&<div className="breadcrumb-band"><Breadcrumbs items={[{label:doc.title}]}/></div>}
  {doc.content?.root.children.length?<section className="article-body"><RichText data={doc.content}/></section>:null}
