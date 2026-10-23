@@ -3,6 +3,7 @@ import { seedSite } from './seed-site';
 import { seedLibrary } from './seed-library';
 import { seedExtras } from './seed-extras';
 import { seedMenu } from './seed-menu';
+import { seedSourceTexts } from './seed-source-texts';
 import { articles, pages, getSource } from '../lib/content';
 
 export function importedPageLines(page: { sourceUrl?: string; type: string }) {
@@ -23,7 +24,7 @@ export function textDocument(lines: string[]) {
 export async function seedContent(payload: Payload) {
   // A durable marker prevents deleted/unpublished content from being restored on restart.
   const marker = await payload.findGlobal({ slug: 'cms-state' });
-  if (marker.imported) { await seedSite(payload); await seedLibrary(payload); await seedExtras(payload); await seedMenu(payload); return; }
+  if (marker.imported) { await seedSite(payload); await seedLibrary(payload); await seedExtras(payload); await seedMenu(payload); await seedSourceTexts(payload); return; }
   for (const article of articles) {
     const slug = article.path.split('/').pop()!;
     const exists = await payload.find({ collection: 'articles', where: { slug: { equals: slug } }, limit: 1 });
@@ -47,5 +48,5 @@ export async function seedContent(payload: Payload) {
   await seedSite(payload);
   await seedLibrary(payload);
   await seedExtras(payload);
-  await seedMenu(payload);
+  await seedMenu(payload); await seedSourceTexts(payload);
 }
