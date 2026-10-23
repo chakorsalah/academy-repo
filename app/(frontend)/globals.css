@@ -3071,3 +3071,33 @@ textarea:focus-visible {
   width: 17px;
   height: 17px;
 }
+
+/* Calmer heading sizes on tablet/desktop (phone sizes unchanged) */
+@media (min-width: 901px) {
+  .hero-content h1 {
+    font-size: clamp(3.4rem, 6.4vw, 7.4rem);
+  }
+
+  .interior-hero h1 {
+    font-size: clamp(2.8rem, 5vw, 5rem);
+  }
+
+  .article-hero h1,
+  .dish-detail h1 {
+    font-size: clamp(2.6rem, 4.6vw, 4.8rem);
+  }
+
+  .academy-bridge h2,
+  .folio-intro h2,
+  .magazine-lede h2,
+  .split-copy h2,
+  .section-intro h2,
+  .magazine-transition h2,
+  .contact-band h2 {
+    font-size: clamp(2.1rem, 3.8vw, 4rem);
+  }
+
+  .not-found-page h1 {
+    font-size: clamp(2.6rem, 5vw, 5rem);
+  }
+}
