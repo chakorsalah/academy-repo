@@ -3019,3 +3019,55 @@ textarea:focus-visible {
   .mobile-panel > div > a:first-child{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
   .mobile-panel > div > a:not(:first-child){padding-left:16px;font-weight:500}
 }
+
+/* Phone fixes: stack split sections; keep blur off the header so the mobile menu isn't clipped on iOS Safari */
+@media (max-width: 900px) {
+  .split-section {
+    grid-template-columns: 1fr;
+  }
+}
+
+.site-header {
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+
+.site-header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  -webkit-backdrop-filter: blur(18px);
+  backdrop-filter: blur(18px);
+  pointer-events: none;
+}
+
+/* Footer social icons */
+.footer-socials {
+  display: flex;
+  gap: 10px;
+  margin: 18px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-socials a {
+  display: inline-grid;
+  place-items: center;
+  min-width: 40px;
+  height: 40px;
+  border: 1px solid rgba(255, 250, 241, 0.36);
+  border-radius: 50%;
+  color: rgba(255, 250, 241, 0.72);
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.footer-socials a:hover {
+  color: #f2c36b;
+  border-color: #f2c36b;
+}
+
+.footer-socials svg {
+  width: 17px;
+  height: 17px;
+}

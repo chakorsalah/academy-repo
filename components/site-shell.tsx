@@ -2,6 +2,17 @@
 import Link from 'next/link';
 import { publishedArticles,publishedPages,pagePath,publishedSettings,mediaURL } from '@/lib/cms';
 import { images,site } from '@/lib/content';
+import { FaFacebookF,FaInstagram,FaLinkedinIn } from 'react-icons/fa6';
+const defaultSocials=[
+ {label:'Facebook',href:'https://www.facebook.com/academiegastronomiemaroc/'},
+ {label:'LinkedIn',href:'https://www.linkedin.com/in/dr-salah-chakor-b7a83313/'},
+ {label:'Instagram',href:'https://www.instagram.com/chakor52/'},
+];
+function socialIcon(href:string){if(/facebook\.com/i.test(href))return <FaFacebookF aria-hidden/>;if(/linkedin\.com/i.test(href))return <FaLinkedinIn aria-hidden/>;if(/instagram\.com/i.test(href))return <FaInstagram aria-hidden/>;return null;}
+function SocialLinks({links}:{links?:{label:string;href:string}[]|null}){
+ const list=links&&links.length?links:defaultSocials;
+ return <ul className="footer-socials">{list.map((link,i)=>{const icon=socialIcon(link.href);return <li key={i}><a href={link.href} target="_blank" rel="noreferrer" aria-label={link.label} title={link.label}>{icon||<>{link.label} ↗</>}</a></li>;})}</ul>;
+}
 export async function Header(){
  const [settings,articles,pages]=await Promise.all([publishedSettings(),publishedArticles(),publishedPages()]);
  const available=new Set([...pages.map(pagePath),...articles.map(a=>a.path)]);
@@ -9,7 +20,7 @@ export async function Header(){
  const nav=(settings.navigation||[]).filter(n=>visible(n.href)).map(n=>({...n,items:n.href==='/academie'?[...(n.items||[]).filter(i=>visible(i.href)),...pages.filter(p=>p.showInNavigation&&!n.items?.some(i=>i.href===pagePath(p))).map(p=>({label:p.title,href:pagePath(p)}))]:(n.items||[]).filter(i=>visible(i.href))}));
  return <header className="site-header"><Link href="/" className="brand" aria-label="Accueil"><img src={mediaURL(settings.logo)||images.logo} alt={settings.brandName} width={62} height={62}/><span><strong>{settings.brandName}</strong><small>{settings.tagline}</small></span></Link><nav className="desktop-nav" aria-label="Navigation principale">{nav.map((item,i)=><div className="nav-item" key={item.id||i}><Link href={item.href}>{item.label}</Link>{!!item.items.length&&<div className="mega-menu">{item.items.map((child,j)=><Link href={child.href} key={j}>{child.label}</Link>)}</div>}</div>)}</nav><details className="mobile-nav"><summary aria-label="Ouvrir la navigation"><span/><span/><span/></summary><nav className="mobile-panel" aria-label="Navigation mobile">{nav.map((item,i)=><div key={item.id||i}><Link href={item.href}>{item.label}</Link>{item.items.map((child,j)=><Link href={child.href} key={j}>{child.label}</Link>)}</div>)}</nav></details></header>;
 }
-export async function Footer(){const [settings,pages,articles]=await Promise.all([publishedSettings(),publishedPages(),publishedArticles()]);const available=new Set([...pages.map(pagePath),...articles.map(a=>a.path)]);return <footer className="footer"><div className="footer-main"><div className="footer-identity"><img src={mediaURL(settings.logo)||images.logo} alt={settings.brandName} width={92} height={92} loading="lazy"/><p>{settings.footerText}</p><address>{settings.city}<br/>{settings.phone}<br/><a href={`mailto:${settings.email}`}>{settings.email}</a></address>{settings.socials?.map((link,i)=><p key={i}><a href={link.href} target="_blank" rel="noreferrer">{link.label} ↗</a></p>)}</div>{settings.footerColumns?.map((column,i)=><div className="footer-column" key={column.id||i}><h2>{column.title}</h2>{column.links?.filter(link=>!link.href.startsWith('/')||available.has(link.href.split(/[?#]/)[0].replace(/\/$/,'')||'/')).map((link,j)=><Link href={link.href} key={j}>{link.label}</Link>)}</div>)}</div><div className="footer-bottom"><span>© {new Date().getFullYear()} {settings.copyright}</span><span><a href="/admin">Espace éditorial ↗</a></span></div></footer>;}
+export async function Footer(){const [settings,pages,articles]=await Promise.all([publishedSettings(),publishedPages(),publishedArticles()]);const available=new Set([...pages.map(pagePath),...articles.map(a=>a.path)]);return <footer className="footer"><div className="footer-main"><div className="footer-identity"><img src={mediaURL(settings.logo)||images.logo} alt={settings.brandName} width={92} height={92} loading="lazy"/><p>{settings.footerText}</p><address>{settings.city}<br/>{settings.phone}<br/><a href={`mailto:${settings.email}`}>{settings.email}</a></address><SocialLinks links={settings.socials}/></div>{settings.footerColumns?.map((column,i)=><div className="footer-column" key={column.id||i}><h2>{column.title}</h2>{column.links?.filter(link=>!link.href.startsWith('/')||available.has(link.href.split(/[?#]/)[0].replace(/\/$/,'')||'/')).map((link,j)=><Link href={link.href} key={j}>{link.label}</Link>)}</div>)}</div><div className="footer-bottom"><span>© {new Date().getFullYear()} {settings.copyright}</span><span><a href="/admin">Espace éditorial ↗</a></span></div></footer>;}
 
 export function Breadcrumbs({ items }: { items: { label: string; href?: string }[] }) {
   const list = [{ label: "Accueil", href: "/" }, ...items].map((item, index) => ({
